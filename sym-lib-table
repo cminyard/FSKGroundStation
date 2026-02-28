@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Local ICs")(type "KiCad")(uri "${KIPRJMOD}/symbols/ICs.kicad_sym")(options "")(descr ""))
+  (lib (name "Local Connectors")(type "KiCad")(uri "${KIPRJMOD}/symbols/Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "Local Passives")(type "KiCad")(uri "${KIPRJMOD}/symbols/Passives.kicad_sym")(options "")(descr ""))
+)
