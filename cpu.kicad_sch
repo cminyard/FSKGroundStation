@@ -2451,10 +2451,6 @@
 		(uuid "1c95183d-efa5-46c8-9f84-5892df245892")
 	)
 	(no_connect
-		(at 78.74 95.25)
-		(uuid "1e067d34-7fad-49ee-9f8a-96faa24b7f10")
-	)
-	(no_connect
 		(at 78.74 118.11)
 		(uuid "2c57282d-46f8-4aa1-8cd8-4e0ca6e44806")
 	)
@@ -2477,10 +2473,6 @@
 	(no_connect
 		(at 78.74 113.03)
 		(uuid "514e93a9-a61e-47ff-a680-107783aac63b")
-	)
-	(no_connect
-		(at 78.74 97.79)
-		(uuid "76bb4dd3-7d50-4f48-97b0-34b0aef163ee")
 	)
 	(no_connect
 		(at 78.74 110.49)
@@ -2732,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 123.19) (xy 78.74 123.19)
+			(xy 62.23 123.19) (xy 78.74 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3402,6 +3394,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 97.79) (xy 78.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0349092-de5c-4492-8025-72f38b65d631")
+	)
+	(wire
+		(pts
 			(xy 57.15 153.67) (xy 62.23 153.67)
 		)
 		(stroke
@@ -3539,6 +3541,16 @@
 			(type default)
 		)
 		(uuid "f2b341b3-5745-4552-bfdd-926fb9005a98")
+	)
+	(wire
+		(pts
+			(xy 59.69 95.25) (xy 78.74 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e452b6-8ad6-4153-974c-edc9933a4d8a")
 	)
 	(wire
 		(pts
@@ -3802,6 +3814,28 @@
 			)
 		)
 	)
+	(global_label "144MHz_TX_ENABLE"
+		(shape input)
+		(at 59.69 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bc54c23-197d-45f2-bf35-776011a95f3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1388 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "144MHz_RF_P"
 		(shape input)
 		(at 147.32 92.71 0)
@@ -4002,7 +4036,7 @@
 	)
 	(global_label "RADIO2_TCXO_POW"
 		(shape input)
-		(at 63.5 123.19 180)
+		(at 62.23 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4012,7 +4046,7 @@
 		)
 		(uuid "8b04b35b-24e0-46f9-a1ed-b29918e7a04c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.9767 123.19 0)
+			(at 41.7067 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,6 +4069,28 @@
 		(uuid "9c947409-8940-4e0c-a394-c790186f342c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.8882 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "440MHz_TX_ENABLE"
+		(shape input)
+		(at 59.69 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a787e737-e738-4408-8c2f-a579a0148200")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1388 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +5637,7 @@
 		(dnp no)
 		(uuid "e5ce8fb1-fee6-48cf-b8cd-ecf9d4063b4e")
 		(property "Reference" "C8"
-			(at 150.876 131.826 90)
+			(at 153.416 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +5646,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 160.02 132.08 90)
+			(at 154.432 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
