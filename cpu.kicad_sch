@@ -4760,6 +4760,14 @@
 		(pin "1"
 			(uuid "7aebcd9b-ab4c-4b32-af45-bb9c5774cbd8")
 		)
+		(instances
+			(project ""
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/f1de8cbf-f219-47ea-9542-15169289ddba"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")

@@ -1,4 +1,4 @@
-31899961264598
+33674122001861
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104146,12 +104146,19 @@ HTSW-102-07-G-S
 2
 2
 footprints
+CONN1_CONUFL_TEC
+
+CONUFL001-SMD-T 
+0
+3
+3
+footprints
 CONN_BWSMA-KWE-Z001_BAT
 
 BWSMA-KWE-Z001 
 0
-4
-4
+5
+5
 footprints
 CX90B1-24P_HIR
 
@@ -104221,14 +104228,14 @@ RDX0007A-MFG
 TPSM861253RDXR 
 0
 19
-19
+7
 footprints
 RGZ0048A
 
 CC1312R1F3RGZR 
 0
-70
-70
+49
+49
 footprints
 RGZ0048A_NV
 
@@ -104241,8 +104248,8 @@ RHB32_3P45X3P45_TEX
 
 CC1125RHBR 
 0
-49
-34
+33
+33
 footprints
 SMD8_SKYA21002_SKY
 

@@ -1592,6 +1592,26 @@
 					)
 				)
 			)
+			(symbol "CY7C65215-32LTXI_1_1"
+				(pin power_in line
+					(at 81.28 -40.64 180)
+					(length 7.62)
+					(name "GND/PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "Local ICs:TPD4E004DRYR"
@@ -2132,6 +2152,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c11c98c-110d-4167-8ee4-5f807b68371c")
+	)
+	(junction
+		(at 46.99 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c7b95bf-198d-4826-a059-1a44196b42f0")
 	)
 	(junction
 		(at 46.99 115.57)
@@ -2688,6 +2714,26 @@
 			(type default)
 		)
 		(uuid "61c656c4-d8de-4506-aed9-ee14a5863442")
+	)
+	(wire
+		(pts
+			(xy 55.88 95.25) (xy 46.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64047d68-7dee-4c9c-be03-2a9ad2f30a09")
+	)
+	(wire
+		(pts
+			(xy 46.99 95.25) (xy 46.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6891f9a5-bc9d-4fc4-ac4c-cd4270f46b63")
 	)
 	(wire
 		(pts
@@ -3779,6 +3825,9 @@
 		)
 		(pin "11"
 			(uuid "8c19382f-f634-4840-9459-7800e36f889b")
+		)
+		(pin "33"
+			(uuid "3c63aad8-ade7-4904-910b-f3efa97f5c68")
 		)
 		(instances
 			(project ""

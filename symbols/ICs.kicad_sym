@@ -2422,6 +2422,26 @@
 				)
 			)
 		)
+		(symbol "CY7C65215-32LTXI_1_1"
+			(pin power_in line
+				(at 81.28 -40.64 180)
+				(length 7.62)
+				(name "GND/PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "GRF5604"
