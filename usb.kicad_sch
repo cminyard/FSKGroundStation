@@ -839,7 +839,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 40.64 0 180)
 					(length 7.62)
 					(name "GND"
@@ -1249,7 +1249,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -33.02 0)
 					(length 7.62)
 					(name "USBDP"
@@ -1267,7 +1267,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -35.56 0)
 					(length 7.62)
 					(name "USBDM"
@@ -1285,7 +1285,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -38.1 0)
 					(length 7.62)
 					(name "VCCD"
@@ -2298,7 +2298,7 @@
 		(uuid "e5e479f0-bdf8-4ae4-8d1e-9f1779f490d3")
 	)
 	(no_connect
-		(at 55.88 116.84)
+		(at 55.88 118.11)
 		(uuid "ed495a60-7473-4672-b3df-a6ce0352d5c7")
 	)
 	(no_connect
@@ -3779,6 +3779,14 @@
 		)
 		(pin "11"
 			(uuid "8c19382f-f634-4840-9459-7800e36f889b")
+		)
+		(instances
+			(project ""
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol

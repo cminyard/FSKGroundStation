@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "footprints:RHB32_3P45X3P45_TEX"
-			(at 0 0 0)
+			(at 1.524 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/cc1125"
-			(at 0 0 0)
+			(at 0.254 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +211,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -12.7 0)
 				(length 7.62)
 				(name "DCPL"
@@ -355,24 +355,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -33.02 0)
-				(length 7.62)
-				(name "RBIAS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 -35.56 0)
 				(length 7.62)
@@ -409,24 +391,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 66.04 0 180)
-				(length 7.62)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 66.04 -2.54 180)
 				(length 7.62)
@@ -438,60 +402,6 @@
 					)
 				)
 				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 66.04 -5.08 180)
-				(length 7.62)
-				(name "XOSC_Q2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 66.04 -7.62 180)
-				(length 7.62)
-				(name "XOSC_Q1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 66.04 -10.16 180)
-				(length 7.62)
-				(name "DCPL_XOSC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -536,24 +446,6 @@
 				)
 			)
 			(pin power_in line
-				(at 66.04 -17.78 180)
-				(length 7.62)
-				(name "DCPL_PFD_CHP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 66.04 -20.32 180)
 				(length 7.62)
 				(name "AVDD_PFD_CHP"
@@ -564,42 +456,6 @@
 					)
 				)
 				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 66.04 -22.86 180)
-				(length 7.62)
-				(name "LPF1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 66.04 -25.4 180)
-				(length 7.62)
-				(name "LPF0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -625,7 +481,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 66.04 -30.48 180)
 				(length 7.62)
 				(name "DCPL_VCO"
@@ -643,7 +499,153 @@
 					)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "CC1125RHBR_1_1"
+			(pin input line
+				(at 0 -33.02 0)
+				(length 7.62)
+				(name "RBIAS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 66.04 0 180)
+				(length 7.62)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 66.04 -5.08 180)
+				(length 7.62)
+				(name "XOSC_Q2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 66.04 -7.62 180)
+				(length 7.62)
+				(name "XOSC_Q1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 66.04 -10.16 180)
+				(length 7.62)
+				(name "DCPL_XOSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 66.04 -17.78 180)
+				(length 7.62)
+				(name "DCPL_PFD_CHP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 66.04 -22.86 180)
+				(length 7.62)
+				(name "LPF1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 66.04 -25.4 180)
+				(length 7.62)
+				(name "LPF0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at 66.04 -33.02 180)
 				(length 7.62)
 				(name "LNA_N"
@@ -661,7 +663,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 66.04 -35.56 180)
 				(length 7.62)
 				(name "LNA_P"
@@ -679,7 +681,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 66.04 -38.1 180)
 				(length 7.62)
 				(name "TRX_SW"
@@ -697,7 +699,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 66.04 -40.64 180)
 				(length 7.62)
 				(name "PA"
@@ -1341,24 +1343,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -30.48 -25.4 0)
-				(length 5.08)
-				(name "DIO_29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_out line
 				(at -30.48 -27.94 0)
 				(length 5.08)
@@ -1685,6 +1669,24 @@
 			)
 		)
 		(symbol "CC1312R1F3RGZR_1_1"
+			(pin power_out line
+				(at -30.48 -25.4 0)
+				(length 5.08)
+				(name "DIO_29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 30.48 27.94 180)
 				(length 5.08)
@@ -2077,7 +2079,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -33.02 0)
 				(length 7.62)
 				(name "USBDP"
@@ -2095,7 +2097,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -35.56 0)
 				(length 7.62)
 				(name "USBDM"
@@ -2113,7 +2115,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -38.1 0)
 				(length 7.62)
 				(name "VCCD"
@@ -3220,7 +3222,7 @@
 					(type none)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 0 0)
 				(length 7.62)
 				(name "GND"
@@ -3256,7 +3258,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "GND"
@@ -3274,7 +3276,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "GND"
@@ -3310,7 +3312,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -12.7 0)
 				(length 7.62)
 				(name "GND"
@@ -3328,7 +3330,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 40.64 0 180)
 				(length 7.62)
 				(name "GND"
@@ -3346,7 +3348,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 40.64 -2.54 180)
 				(length 7.62)
 				(name "GND"
@@ -3382,7 +3384,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 40.64 -7.62 180)
 				(length 7.62)
 				(name "GND"
@@ -3418,7 +3420,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 40.64 -12.7 180)
 				(length 7.62)
 				(name "ENABLE"
@@ -3436,7 +3438,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 40.64 -15.24 180)
 				(length 7.62)
 				(name "CTRL"

@@ -519,7 +519,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 0 -8.89 0)
 				(length 5.08)
 				(name "5"
@@ -1469,7 +1469,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 40.64 0 180)
 				(length 7.62)
 				(name "GND"
