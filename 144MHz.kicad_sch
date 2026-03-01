@@ -9495,7 +9495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 234.95 78.74 0)
 			(effects
 				(font
