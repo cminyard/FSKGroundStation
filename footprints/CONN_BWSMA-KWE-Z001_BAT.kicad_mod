@@ -293,6 +293,17 @@
 		(drill 1.1938)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "bf0fba0a-b576-464b-b26d-e9de8985a904")
 	)
 	(pad "2" thru_hole circle
