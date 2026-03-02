@@ -178,7 +178,7 @@ value_to_partnum_xlats_2 = {
     ('14pF 1%',		'0402'): ('GJM1555C1H140FB01D', 'Murata'),
     ('15pF 1%',		'0402'): ('GRM1555C1H150FA01D', 'Murata'),
     ('18pF 1%',         '0402'): ('GRM1555C1H180FA01D', 'Murata'),
-    ('28pF 1%',		'0402'): ('GQM2195C2E280FB12D', 'Murata'),
+    ('27pF 1%',		'0402'): ('GJM1555C1H270FB01D', 'Murata'),
     ('33pF 1%',		'0402'): ('GRT1555C1H330FA02D', 'Murata'),
     ('39pF 1%',		'0402'): ('GCM1555C1H390FA16D', 'Murata'),
     ('47pF 1%',         '0402'): ('GJM1555C1H470FB01D', 'Murata'),
