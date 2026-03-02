@@ -62449,7 +62449,7 @@
 		(net 26)
 		(net_name "Net-(J15-In)")
 		(layer "B.Cu")
-		(uuid "bcf3c7f3-c06f-4579-b861-3e29efb3c37a")
+		(uuid "152838a9-0fda-4572-b9d0-3a4591ae248e")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
 		(priority 30000)
