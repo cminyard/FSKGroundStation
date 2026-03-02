@@ -5370,7 +5370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1pF"
+		(property "Value" "5.1pF 1%"
 			(at 85.344 150.876 90)
 			(effects
 				(font
@@ -5640,7 +5640,7 @@
 				)
 			)
 		)
-		(property "Value" "43nH"
+		(property "Value" "43nH 2%"
 			(at 68.834 80.772 90)
 			(effects
 				(font
@@ -5850,8 +5850,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "28pF"
-			(at 249.936 84.328 90)
+		(property "Value" "28pF 1%"
+			(at 249.936 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +6229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "33pF 1%"
 			(at 227.076 84.328 90)
 			(effects
 				(font
@@ -6788,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Value" "10nH"
+		(property "Value" "10nH 2%"
 			(at 129.032 87.376 90)
 			(effects
 				(font
@@ -6856,7 +6856,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "15pF 1%"
 			(at 61.976 83.566 90)
 			(effects
 				(font
@@ -7128,7 +7128,7 @@
 				)
 			)
 		)
-		(property "Value" "27nH"
+		(property "Value" "27nH 2%"
 			(at 64.262 157.226 90)
 			(effects
 				(font
@@ -7263,7 +7263,7 @@
 				)
 			)
 		)
-		(property "Value" "15nH"
+		(property "Value" "15nH 2%"
 			(at 47.244 80.772 90)
 			(effects
 				(font
@@ -7675,7 +7675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "12pF 1%"
 			(at 96.266 84.328 90)
 			(effects
 				(font
@@ -8287,7 +8287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8pF"
+		(property "Value" "1.8pF 1%"
 			(at 260.096 84.328 90)
 			(effects
 				(font
@@ -8356,8 +8356,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2pF"
-			(at 49.784 73.406 90)
+		(property "Value" "2.2pF 1%"
+			(at 51.816 73.406 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,8 +8692,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2pF"
-			(at 79.756 84.328 90)
+		(property "Value" "2.2pF 1%"
+			(at 79.502 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "10pF 1%"
 			(at 120.904 82.296 90)
 			(effects
 				(font
@@ -8961,7 +8961,7 @@
 				)
 			)
 		)
-		(property "Value" "27nH"
+		(property "Value" "27nH 2%"
 			(at 82.804 130.302 90)
 			(effects
 				(font
@@ -9644,7 +9644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1pF"
+		(property "Value" "5.1pF 1%"
 			(at 75.946 154.686 90)
 			(effects
 				(font
@@ -9713,8 +9713,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2pF"
-			(at 237.236 84.328 90)
+		(property "Value" "2pF 1%"
+			(at 237.236 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +9781,7 @@
 				)
 			)
 		)
-		(property "Value" "22nH"
+		(property "Value" "22nH 2%"
 			(at 85.344 80.772 90)
 			(effects
 				(font
@@ -10094,7 +10094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "33pF 1%"
 			(at 138.684 82.296 90)
 			(effects
 				(font
@@ -10228,7 +10228,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2nH"
+		(property "Value" "2.2nH 2%"
 			(at 239.014 80.772 90)
 			(effects
 				(font

@@ -4790,7 +4790,7 @@
 				)
 			)
 		)
-		(property "Value" "68nH"
+		(property "Value" "68nH 2%"
 			(at 85.344 80.772 90)
 			(effects
 				(font
@@ -5267,7 +5267,7 @@
 			)
 		)
 		(property "Value" "10uF 10V"
-			(at 225.806 43.688 90)
+			(at 226.06 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5466,7 @@
 				)
 			)
 		)
-		(property "Value" "150nH"
+		(property "Value" "150nH 2%"
 			(at 118.364 80.772 90)
 			(effects
 				(font
@@ -5805,7 +5805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270pF"
+		(property "Value" "270pF 1%"
 			(at 220.726 84.328 90)
 			(effects
 				(font
@@ -5873,7 +5873,7 @@
 				)
 			)
 		)
-		(property "Value" "9.1nH"
+		(property "Value" "9.1nH 2%"
 			(at 235.204 80.772 90)
 			(effects
 				(font
@@ -6208,7 +6208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "18pF 1%"
 			(at 63.246 83.566 90)
 			(effects
 				(font
@@ -6416,7 +6416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "12pF 1%"
 			(at 96.266 84.328 90)
 			(effects
 				(font
@@ -6484,7 +6484,7 @@
 				)
 			)
 		)
-		(property "Value" "68nH"
+		(property "Value" "68nH 2%"
 			(at 129.032 87.376 90)
 			(effects
 				(font
@@ -7022,7 +7022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF"
+		(property "Value" "47pF 1%"
 			(at 256.286 84.328 90)
 			(effects
 				(font
@@ -7399,7 +7399,7 @@
 				)
 			)
 		)
-		(property "Value" "82nH"
+		(property "Value" "82nH 2%"
 			(at 82.804 130.302 90)
 			(effects
 				(font
@@ -7880,7 +7880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "33pF 1%"
 			(at 79.756 84.328 90)
 			(effects
 				(font
@@ -8281,7 +8281,7 @@
 				)
 			)
 		)
-		(property "Value" "47nH"
+		(property "Value" "47nH 2%"
 			(at 68.834 80.772 90)
 			(effects
 				(font
@@ -8560,7 +8560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF"
+		(property "Value" "47pF 1%"
 			(at 246.126 84.328 90)
 			(effects
 				(font
@@ -8906,7 +8906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100pF 1%"
 			(at 232.156 84.328 90)
 			(effects
 				(font
@@ -8975,7 +8975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "18pF 1%"
 			(at 75.946 133.096 90)
 			(effects
 				(font
@@ -9044,7 +9044,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "18pF 1%"
 			(at 266.446 84.328 90)
 			(effects
 				(font
@@ -9178,7 +9178,7 @@
 				)
 			)
 		)
-		(property "Value" "350Ω"
+		(property "Value" "350Ω 1%"
 			(at 109.22 87.63 90)
 			(effects
 				(font

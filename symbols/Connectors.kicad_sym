@@ -2325,7 +2325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CON3_1X3_TU_TSW"
+		(property "Footprint" "footprints:CON3_1X3_TU_TSW"
 			(at -1.524 6.096 0)
 			(effects
 				(font
@@ -2352,14 +2352,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "HTSW-103-07-G-S"
