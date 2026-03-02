@@ -2044,6 +2044,291 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Local Passives:0908SQ-23NJLC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.524 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "0908SQ-23NJLC"
+				(at -8.128 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "footprints:IND_0908SQ-23NJLC"
+				(at 0.254 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Coilcraft"
+				(at -1.016 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "2.032mm"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 8.382 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/0908SQ-23NJLC/Coilcraft/view-part/?ref=eda"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0.762 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "12/21/22"
+				(at -1.778 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/0908SQ-23NJLC/Coilcraft/view-part/?ref=snap"
+				(at -0.254 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "0908SQ-23NJLC"
+				(at 0.254 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1604741&manufacturer=Coilcraft&part_name=0908SQ-23NJLC&search_term=0908sq-23njlc"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "RF inductor, air core, 5% tol, SMT, RoHS"
+				(at -0.254 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Coilcraft"
+				(at -0.762 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "0908SQ-23NJLC_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -2965,6 +3250,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 73.66) (xy 207.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bc2f5a-178b-4df0-a71c-3387d9cc5789")
+	)
+	(wire
+		(pts
 			(xy 170.18 55.88) (xy 185.42 55.88)
 		)
 		(stroke
@@ -3032,6 +3327,16 @@
 			(type default)
 		)
 		(uuid "1a410699-1d12-41b1-bc5d-ce1b18aad33a")
+	)
+	(wire
+		(pts
+			(xy 207.01 48.26) (xy 207.01 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4bb790-9fe0-493e-b73d-be7cbccb67b6")
 	)
 	(wire
 		(pts
@@ -3435,16 +3740,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 57.15) (xy 207.01 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57189f89-56cd-4a33-8067-05378f383b8b")
-	)
-	(wire
-		(pts
 			(xy 220.98 60.96) (xy 223.52 60.96)
 		)
 		(stroke
@@ -3532,16 +3827,6 @@
 			(type default)
 		)
 		(uuid "625006e3-ffd6-4624-b058-9515d0e19f1a")
-	)
-	(wire
-		(pts
-			(xy 207.01 64.77) (xy 207.01 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b672da-f6ad-44ff-8a75-ab56ddec888c")
 	)
 	(wire
 		(pts
@@ -5422,8 +5707,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 207.01 60.96 180)
+		(lib_id "Local Passives:0908SQ-23NJLC")
+		(at 207.01 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5431,7 +5716,7 @@
 		(dnp no)
 		(uuid "0e582baa-18ca-40ff-aff9-a5cef2699291")
 		(property "Reference" "L14"
-			(at 204.216 60.96 90)
+			(at 210.566 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,19 +5724,20 @@
 			)
 		)
 		(property "Value" "23nH"
-			(at 209.042 60.706 90)
+			(at 211.328 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 207.01 60.96 0)
+		(property "Footprint" "footprints:IND_0908SQ-23NJLC"
+			(at 191.516 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -5470,6 +5756,126 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Coilcraft"
+			(at 214.63 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.032mm"
+			(at 211.836 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 216.662 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0908SQ-23NJLC/Coilcraft/view-part/?ref=eda"
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 188.214 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "12/21/22"
+			(at 216.662 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0908SQ-23NJLC/Coilcraft/view-part/?ref=snap"
+			(at 199.136 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "0908SQ-23NJLC"
+			(at 185.674 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1604741&manufacturer=Coilcraft&part_name=0908SQ-23NJLC&search_term=0908sq-23njlc"
+			(at 196.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "RF inductor, air core, 5% tol, SMT, RoHS"
+			(at 194.31 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Coilcraft"
+			(at 219.71 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -5506,7 +5912,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000pF"
+		(property "Value" "1nF"
 			(at 238.506 42.418 90)
 			(effects
 				(font
@@ -5708,7 +6114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000pF"
+		(property "Value" "1nF"
 			(at 163.576 42.164 90)
 			(effects
 				(font
@@ -8152,7 +8558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000pF"
+		(property "Value" "1nF"
 			(at 145.796 42.164 90)
 			(effects
 				(font
@@ -8632,7 +9038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 221.2848 41.91 0)
 			(effects
 				(font

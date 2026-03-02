@@ -4931,7 +4931,7 @@
 				)
 			)
 		)
-		(property "Value" "6K 1%"
+		(property "Value" "6.04K 1%"
 			(at 168.91 33.02 90)
 			(effects
 				(font
@@ -5275,7 +5275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 221.2848 41.91 0)
 			(effects
 				(font
@@ -6962,7 +6962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
 			(at 207.01 60.96 0)
 			(effects
 				(font
@@ -7263,7 +7263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000pF"
+		(property "Value" "1nF"
 			(at 163.576 42.164 90)
 			(effects
 				(font
@@ -9178,7 +9178,7 @@
 				)
 			)
 		)
-		(property "Value" "350Ω 1%"
+		(property "Value" "348Ω 1%"
 			(at 109.22 87.63 90)
 			(effects
 				(font
@@ -9695,7 +9695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000pF"
+		(property "Value" "1nF"
 			(at 145.796 42.418 90)
 			(effects
 				(font
@@ -9773,7 +9773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 184.4548 41.91 0)
 			(effects
 				(font

@@ -3444,7 +3444,7 @@
 				)
 			)
 		)
-		(property "Value" "18"
+		(property "Value" "18Ω"
 			(at 207.01 101.6 90)
 			(effects
 				(font
@@ -3578,7 +3578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "39pF"
+		(property "Value" "39pF 1%"
 			(at 223.774 122.936 90)
 			(effects
 				(font
@@ -4326,7 +4326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56pF"
+		(property "Value" "56pF 1%"
 			(at 223.266 98.806 90)
 			(effects
 				(font
@@ -4844,7 +4844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 188.2648 95.25 0)
 			(effects
 				(font
