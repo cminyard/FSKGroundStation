@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.35,
+          "width": 0.675
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|170000000|100879600|31eced57-bf72-4025-9b6d-9ae8dc64c712|5db39840-c62d-4ec0-8f63-6e4615ea066b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|170000000|117620400|31eced57-bf72-4025-9b6d-9ae8dc64c712|d38ff3cf-d8be-4a99-98e6-96d312741b77",
+          ""
+        ],
+        [
+          "silk_edge_clearance|170000000|121379600|31eced57-bf72-4025-9b6d-9ae8dc64c712|1ff16f8b-2bac-43a2-b191-2037a7edaa4c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|170000000|76620400|31eced57-bf72-4025-9b6d-9ae8dc64c712|81a77a1f-7dff-4735-ad64-b7a63a9f272e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|170000000|80379600|31eced57-bf72-4025-9b6d-9ae8dc64c712|7899c977-d7ac-46da-8bb5-f0f3be8b1248",
+          ""
+        ],
+        [
+          "silk_edge_clearance|170000000|97120400|31eced57-bf72-4025-9b6d-9ae8dc64c712|517a72ae-916c-48e4-9294-511aacbb2610",
+          ""
+        ],
+        [
+          "silk_edge_clearance|70026299|111402600|54d039d4-c072-4392-981c-01db0a2f243b|0bbbcc68-556e-4982-adf3-bf14559905fd",
+          ""
+        ],
+        [
+          "silk_edge_clearance|70026299|111402600|54d039d4-c072-4392-981c-01db0a2f243b|0d3a79e2-66af-42c2-8115-b4b6f74ae61b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|70026299|120597400|54d039d4-c072-4392-981c-01db0a2f243b|d34c7760-abf4-4889-b916-44146bbc906c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|70026299|77402500|54d039d4-c072-4392-981c-01db0a2f243b|26e40e47-2f3f-45ff-aca7-1f0a0514177a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|70026299|77402500|54d039d4-c072-4392-981c-01db0a2f243b|6ca91803-6db4-4cb4-9962-033a83a6d4f5",
+          ""
+        ],
+        [
+          "silk_edge_clearance|70026299|86597300|54d039d4-c072-4392-981c-01db0a2f243b|81520409-18fc-43d4-91d4-342befd6f7c9",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -893,6 +942,10 @@
     [
       "02f68d56-1c9b-4a2b-b713-a6f1b66ebbf1",
       "440MHz"
+    ],
+    [
+      "e94932f9-2a30-4def-a8cb-1408b004363c",
+      "Diplexer"
     ]
   ],
   "text_variables": {}

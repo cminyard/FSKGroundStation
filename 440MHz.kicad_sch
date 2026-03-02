@@ -2840,6 +2840,12 @@
 		(uuid "f6ff3e96-6709-4226-98d2-36eca9511003")
 	)
 	(junction
+		(at 243.84 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f900a622-4b20-44a0-a049-edb7a9bc0416")
+	)
+	(junction
 		(at 76.2 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3159,6 +3165,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 161.29) (xy 243.84 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b19eefa-e6e0-4883-b6ab-9013fe9972f8")
+	)
+	(wire
+		(pts
 			(xy 142.24 50.8) (xy 142.24 74.93)
 		)
 		(stroke
@@ -3246,6 +3262,16 @@
 			(type default)
 		)
 		(uuid "4185261d-a01c-40ef-8c96-37798b707b24")
+	)
+	(wire
+		(pts
+			(xy 243.84 142.24) (xy 250.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433187b2-50ca-4be3-b703-060358e766b6")
 	)
 	(wire
 		(pts
@@ -4559,6 +4585,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 161.29) (xy 243.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f2038b-7824-4dcb-9fd1-13458a84ab4f")
+	)
+	(wire
+		(pts
 			(xy 50.8 69.85) (xy 53.34 69.85)
 		)
 		(stroke
@@ -4779,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 142.24) (xy 250.19 142.24)
+			(xy 236.22 142.24) (xy 243.84 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5091,6 +5127,28 @@
 			)
 		)
 	)
+	(global_label "RF_440"
+		(shape input)
+		(at 265.43 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d2ec5a7-3b2d-4644-9b89-9731be50929a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.3699 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "440_PA"
 		(shape input)
 		(at 24.13 78.74 180)
@@ -5211,10 +5269,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e04b2007-debc-4476-9b44-3a6955258509")
+			(uuid "27e92058-4885-4076-bbae-00d511cc3d2a")
 		)
 		(pin "1"
-			(uuid "f6744488-7ff9-4496-8b39-633594498dd8")
+			(uuid "9ae707fd-cd20-4a76-aaa1-7af5fc99c56b")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5280,10 +5338,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "33c7f87a-2f25-4ba0-bd3e-33e79bf14dbd")
+			(uuid "75ef0966-b239-4cec-9bdb-8d341cf24153")
 		)
 		(pin "1"
-			(uuid "ce5b90f1-d0f4-49d8-945a-4f90ef54f2af")
+			(uuid "8476d377-dc48-4b81-b8d9-fe05904af356")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5349,10 +5407,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e2d9a38c-464d-4360-be61-5464ad89f37b")
+			(uuid "3e9e7043-a74a-45c4-9036-ce044d7c9b47")
 		)
 		(pin "1"
-			(uuid "d7e61aa1-c064-4b97-8227-47039dfde6ee")
+			(uuid "e4ab5ba6-90ab-4231-baa6-b9f6f0edc7cc")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5416,10 +5474,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a204a820-9d56-452f-bf6e-58079572b1e9")
+			(uuid "abb5d3b1-00ee-46cd-803a-c30f956a1472")
 		)
 		(pin "2"
-			(uuid "5c9e5a8c-63d1-4962-b25b-cd5df709b9ef")
+			(uuid "f436c901-ad3d-45c1-bbc7-e38c36b5466c")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5485,10 +5543,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "872ad3d9-3a52-4a96-ae87-c16a7d29620d")
+			(uuid "c88f3c0d-1762-4305-9ae1-6fb6928cd1ff")
 		)
 		(pin "1"
-			(uuid "944bd953-71ad-4693-98ac-513509fa071e")
+			(uuid "419e69ce-d020-4dc1-b365-dc5aae7b8303")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5554,7 +5612,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1284574f-6aca-46ee-ab80-e2a42046644d")
+			(uuid "1426cad6-1f29-47fa-8819-ba57d03f578e")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5618,10 +5676,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4347697-04df-4bb2-a5d8-11a0e40376c0")
+			(uuid "7929e079-db7a-4bd9-8293-1046522c35e5")
 		)
 		(pin "2"
-			(uuid "ae5d12c3-0c60-40f2-a438-be2cacec13f8")
+			(uuid "7fb4abb1-c0dc-4e46-b40d-ac8a8171d4bd")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5687,10 +5745,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ae9586d4-5b89-4565-913e-460cbbd50836")
+			(uuid "b9d3b6e5-4e85-43c7-b287-0b8aeeac3e58")
 		)
 		(pin "1"
-			(uuid "26683ae7-9aab-476a-90d5-dd64d9f1fb6b")
+			(uuid "be344199-34c5-4c6c-ae53-ca6c13f0c4e0")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5757,13 +5815,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "2d3a9ed1-4d37-4448-b2d6-fa17de414010")
+			(uuid "a0defbed-1978-4704-b2f1-aacca03637ae")
 		)
 		(pin "1"
-			(uuid "a0658daf-04a9-4bab-826a-549c4884bbb3")
+			(uuid "e6cb57a8-db1f-49d3-8f71-b9e9c26b5a4d")
 		)
 		(pin "3"
-			(uuid "7cbe98d3-c6f2-49c0-8340-e52c9ee32e66")
+			(uuid "880cd7c6-08f2-4f2e-8d55-58b732622e7a")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5829,10 +5887,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "538ee0cf-baa9-4309-8b01-256507ad5c59")
+			(uuid "94f11b7f-d873-4dca-844e-a44f275c8853")
 		)
 		(pin "1"
-			(uuid "ec81bfd8-b4c2-4c6a-a361-e065e4d6d583")
+			(uuid "4daec8b8-3a1c-4851-baef-8df489307b5f")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5898,7 +5956,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d18976ff-abaa-46fa-a84d-ce47ab3918c4")
+			(uuid "58896f75-80f8-4d0b-9d12-73b538132c80")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -5962,55 +6020,55 @@
 			)
 		)
 		(pin "16"
-			(uuid "817cd158-3efc-4445-bdef-1a990427c073")
+			(uuid "f91433f9-00b9-4b60-967f-6e78cf2ae26a")
 		)
 		(pin "5"
-			(uuid "bc36af23-9064-4fbd-b216-da282ecc143f")
+			(uuid "e794c045-7f35-4e2d-9cde-cc7961e21351")
 		)
 		(pin "9"
-			(uuid "a3b2995d-da1f-4ee6-b21a-3f31888cbba9")
+			(uuid "b913f8f4-9d10-47f3-8285-6e30bf3f5058")
 		)
 		(pin "2"
-			(uuid "ed0b1b1c-dd6a-4c02-89b0-47c5f7e1ed77")
+			(uuid "b3743572-7767-4c24-919c-70c4c0ce6e26")
 		)
 		(pin "3"
-			(uuid "639854a7-ebc7-4eb6-9b46-952429738d85")
+			(uuid "8b2673e2-0255-4c66-84e2-f24c854d5b14")
 		)
 		(pin "4"
-			(uuid "48103445-351a-4093-bdc0-a9a684dfb34c")
+			(uuid "2dd865f7-9b52-4e8d-8b23-78b0a1a1d1dc")
 		)
 		(pin "7"
-			(uuid "7d29081f-8ddd-4738-973f-c792785f9547")
+			(uuid "cac22496-f7cd-4789-8180-c0bc86604e4e")
 		)
 		(pin "10"
-			(uuid "f412b727-1424-466a-bcd1-8940a6fa8f2a")
+			(uuid "825481f7-004a-4426-99f1-08aade55fc57")
 		)
 		(pin "6"
-			(uuid "4122d32f-a9d0-4d12-a34b-1e373a6856bc")
+			(uuid "5adeb7ab-8601-4198-8bbd-f26eb4343def")
 		)
 		(pin "14"
-			(uuid "303e64b8-022a-4c3c-af0b-40bd4145960f")
+			(uuid "e9623c0f-87dd-4b5d-b175-df89df53d928")
 		)
 		(pin "11"
-			(uuid "e5f48e08-c82c-48a2-bd10-727c381efe8f")
+			(uuid "26489c3f-e64b-4af3-90e3-55f2e4d97cae")
 		)
 		(pin "17"
-			(uuid "1581db9c-2502-436f-86ae-cbc8d2d980ea")
+			(uuid "69e9d1f7-1fa6-4142-bfa0-7098241ba7d4")
 		)
 		(pin "13"
-			(uuid "f0df0464-bdec-4f54-98db-1bc95386ce00")
+			(uuid "9a6cb763-9d26-4d53-9f2a-a5695eddb2ed")
 		)
 		(pin "1"
-			(uuid "fd52edc6-0a1f-4f34-ad8f-fc3c1eb516a1")
+			(uuid "b091785b-71b6-4933-b9d1-805f816dd135")
 		)
 		(pin "8"
-			(uuid "3cc3c9ff-c3b3-463c-a5f4-31ecd46cc73b")
+			(uuid "5f43ce64-c5f1-4040-aaab-669393b208f4")
 		)
 		(pin "15"
-			(uuid "47ab58af-a601-4ede-8607-a18c83cd7d56")
+			(uuid "fed2b6b2-dc92-4de9-8d68-b7f0817543d1")
 		)
 		(pin "12"
-			(uuid "19ddfcfc-04ec-42ea-a3e4-c0160da380ce")
+			(uuid "57a3197e-4b4d-4a6a-ac2e-8128a334a5c2")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6076,7 +6134,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4323f869-ec03-40db-a609-01bf0e02cf6e")
+			(uuid "3b73a0d8-cd85-4d23-805d-e21a8f1b19aa")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6142,7 +6200,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9eb3872e-e996-4aca-869e-4e0dd65918da")
+			(uuid "a2e6b08d-d0e8-4c5a-b7bc-096c45643d9a")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6208,10 +6266,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a5137fd3-c96c-46f0-975b-dd357c91ecc9")
+			(uuid "e95ecf5a-3333-4ed2-ab93-53660e13f6c3")
 		)
 		(pin "1"
-			(uuid "bccb97a8-fb81-4085-90cf-926a8d2b867e")
+			(uuid "72a667b4-eddb-40c2-98c3-833aadb5508b")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6278,13 +6336,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "6a7b6872-ff1e-4ba9-8afa-29ad8e2f0a49")
+			(uuid "f16cae45-0b2a-40b8-b923-41dedc8ba801")
 		)
 		(pin "1"
-			(uuid "a6079170-0c0b-4c60-9bda-3279152021f0")
+			(uuid "0700af11-07e6-42c4-afdf-1bd1f27c4520")
 		)
 		(pin "3"
-			(uuid "db8bbbf0-c1f9-41b4-9853-4826660420b5")
+			(uuid "13caca68-2727-4828-a9cb-18cbda7158a7")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6349,10 +6407,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7bfa3ccc-a08f-499d-b484-00076f913a97")
+			(uuid "06d2432b-3435-4e6e-8efe-43b76a786596")
 		)
 		(pin "1"
-			(uuid "26d2992c-12b2-448b-acb7-69677482cb2b")
+			(uuid "23c4ce69-6629-4438-bd25-7f7fabc4f4a6")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6418,7 +6476,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf9d9838-c075-4ecb-8471-066ebd8b445d")
+			(uuid "a655c77a-cfff-4b08-a157-f9f5a20d3138")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6485,13 +6543,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "538ae614-6ed7-4159-b59a-35576e2ad398")
+			(uuid "f4311a3f-b539-4e94-8c30-00f05a26c7ee")
 		)
 		(pin "1"
-			(uuid "06a19753-fc12-4dc0-8f08-fdcbcb49a641")
+			(uuid "cd5ef88c-21a5-4f6b-8589-9ff3ad37c036")
 		)
 		(pin "3"
-			(uuid "d85f29d1-d1cf-49b2-b094-f10b0851851f")
+			(uuid "7ea5abb4-d831-4502-9c76-b46943722e90")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6557,10 +6615,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e5d3f6da-d2e9-4638-b1eb-9794dcb10fb8")
+			(uuid "931fc977-557d-4f21-b4d8-f5b92c30b192")
 		)
 		(pin "1"
-			(uuid "70a2c765-08d1-41cb-9d88-700fdeeaecfe")
+			(uuid "e3a64914-6c51-41cd-970e-7b59e22fc9d8")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6627,13 +6685,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "5270912b-63ea-447f-b010-c851acecbce8")
+			(uuid "09cb476a-ac14-443a-96b8-0411ddb13bd2")
 		)
 		(pin "1"
-			(uuid "10a32b9a-e0e6-46a2-9efd-59349a4a47cd")
+			(uuid "9d030c36-751a-4692-b376-913fcff61e2a")
 		)
 		(pin "3"
-			(uuid "23a4f954-518b-4be0-b5f9-4874e2dc2dd0")
+			(uuid "44ca3bbc-800b-4e44-9129-02e1ee839f58")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6699,10 +6757,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c0f0a6fe-4512-4338-9b5d-39b1d2ff35fb")
+			(uuid "63494e34-a5bf-4a43-9e6b-f36a6a93b5df")
 		)
 		(pin "1"
-			(uuid "040c56c1-a72c-43c3-9578-76a43e842b76")
+			(uuid "bce68244-1a87-4b73-b212-4f7d90606354")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6766,10 +6824,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "49a8e253-84dd-4b40-a91f-9a13155c70fa")
+			(uuid "f8ecf728-8289-450a-8998-32d7f75a0f43")
 		)
 		(pin "2"
-			(uuid "53cfb5f5-06dc-433a-9b82-2995f80bc95d")
+			(uuid "d8667804-7b3c-45f3-ba4a-cf4e6b8bc846")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6835,10 +6893,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2169f4b2-6a98-48d7-8ef2-4fd0ac80c5a3")
+			(uuid "f3a0b09c-3bfb-472b-b3b9-a29bfe875569")
 		)
 		(pin "1"
-			(uuid "7c10b373-9df1-4e70-a078-2c8077361fec")
+			(uuid "282372db-0181-469a-9ec6-2f008890ef07")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6904,10 +6962,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3b54a915-c9da-4130-a811-04cb4f81f3ab")
+			(uuid "0d27d940-aaa0-4acb-964f-8531458ff67c")
 		)
 		(pin "1"
-			(uuid "f8de9d71-3f0a-4839-9390-1d4beb2e4c52")
+			(uuid "923f0706-3591-458d-80ef-f1e3b3aeba0b")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -6973,7 +7031,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f662f7f-0688-4826-bad6-ede2ba562549")
+			(uuid "ba943be7-3f2a-4e7e-b949-beb0b4ce3b6d")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7039,10 +7097,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1e40c466-53ce-4f24-ac3c-fef476db2e67")
+			(uuid "2bcd3fba-089a-493c-8bf2-4fb405779eff")
 		)
 		(pin "1"
-			(uuid "02f6294c-f950-4e46-b09a-a1a24cd8d12b")
+			(uuid "189811f1-fda5-4b7a-9fce-1fe2bbb035a6")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7106,10 +7164,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6bd089a-bdcc-4a79-862d-d786b6aaf1f7")
+			(uuid "8b62c482-a0c1-49e7-a129-6d9fb4eb4eed")
 		)
 		(pin "2"
-			(uuid "2e1e27e8-1b0d-43d7-9a15-7e04b62d2868")
+			(uuid "75a4ad7a-469c-48b1-8707-30b053fed03c")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7174,10 +7232,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "02d7a576-1280-4bd9-aeee-ecb9dc4ccd9a")
+			(uuid "2afdb500-de8f-4f69-90ac-7a5ab34c3801")
 		)
 		(pin "1"
-			(uuid "b1685a2d-b509-4a59-aa85-00c36181c855")
+			(uuid "5eca42a7-4088-4054-b418-810d2e9ccbe8")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7241,10 +7299,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "698755d2-51d4-49e1-9c5c-fc509dda7f99")
+			(uuid "87f118b1-1bbe-42a9-8485-0cc510af7d02")
 		)
 		(pin "2"
-			(uuid "2a3dca45-dab8-4640-9836-9888e902d5ac")
+			(uuid "405043bd-a1b4-4755-b718-5cb3e19da4f2")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7310,7 +7368,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4876ef95-8e4f-4a9d-9b76-588bd32ad8d3")
+			(uuid "c67a2e64-75f1-453f-ac37-75bd3aff1d3b")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7377,19 +7435,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "48455558-8f57-44e0-b4eb-92f20d207f12")
+			(uuid "896a041d-df85-47ab-a78b-827dbade87f0")
 		)
 		(pin "2"
-			(uuid "509fa796-246c-4717-b32b-ac8470244316")
+			(uuid "c10197b5-3487-4592-8ae1-b0d9c8962180")
 		)
 		(pin "1"
-			(uuid "6874aa42-ec69-418d-9d6e-820e85b0ec8d")
+			(uuid "4e4f780d-52d0-4d22-ae03-cba70b8115df")
 		)
 		(pin "3"
-			(uuid "329d54f4-d729-437b-8a35-826ff9bea846")
+			(uuid "8d9cae49-ae56-4a9a-b35b-fbf8c90842a7")
 		)
 		(pin "5"
-			(uuid "1beb5d0c-104b-4395-a8cc-497cc922c297")
+			(uuid "a578401c-aa12-4062-b32d-854698c99640")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7453,10 +7511,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3bbcd93-5d7e-4c63-b197-432e259bf7ca")
+			(uuid "705698dc-43ee-43df-84fa-2b13c97a1329")
 		)
 		(pin "2"
-			(uuid "d2506f6b-2fe9-45d0-b0ff-45292270230d")
+			(uuid "3dfe7056-7025-41cc-9dd8-d0542e87df8a")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7522,7 +7580,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3812777e-8381-4f5a-a130-d3bdfb4f9ce3")
+			(uuid "143b60df-9db4-4024-b501-9ed288c95e55")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7588,7 +7646,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f8bfef4-70a9-49bf-b744-63a08863313b")
+			(uuid "7b031030-cb03-41e2-b919-3590b281f998")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7654,10 +7712,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "090c21d2-3478-4d12-9b8a-ebe8d61e164b")
+			(uuid "6d243a27-fc51-4b00-a444-55cbe30aba78")
 		)
 		(pin "1"
-			(uuid "92a3820a-7889-4fac-8c8b-b582692e266b")
+			(uuid "94fd0237-a0a3-4a6f-abb3-e600d1c26fa2")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7724,13 +7782,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "671db338-8c15-49a4-8d73-3ebc0a003c73")
+			(uuid "4ecc6f0b-d6a5-4162-9173-e4675e822974")
 		)
 		(pin "1"
-			(uuid "43c796c1-bd43-4a7b-a610-977dfc5a7f3b")
+			(uuid "5bafd5fe-1dcb-42fa-8de3-df0ebcb9c663")
 		)
 		(pin "3"
-			(uuid "6bed18b5-c043-47ca-8607-80694177292d")
+			(uuid "5f634fb1-51e4-4129-96e1-3b1431f2980a")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7796,7 +7854,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d290295d-5234-4d9e-b865-760eaeac9bbb")
+			(uuid "6508e216-dd55-473e-a552-4fa023f85950")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7862,10 +7920,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9dbc0b9d-6546-48d5-b898-62f81201d312")
+			(uuid "4111217f-8442-4b9e-b78d-ee1bbe4fb624")
 		)
 		(pin "1"
-			(uuid "297c2ea2-82a9-41e5-a158-aa3e8bc50018")
+			(uuid "321310d4-dca3-4f78-bbf6-f58392f09607")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7930,10 +7988,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3352842d-f495-46f9-983f-94fc17f571c3")
+			(uuid "2fc890dd-301f-45d0-ab50-260de4356dfd")
 		)
 		(pin "1"
-			(uuid "43badb4f-b91f-4ee2-9f28-1e46519a2627")
+			(uuid "12c7158f-d667-4023-a613-16f6457ea68e")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -7999,7 +8057,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d82d545d-f3ae-4952-8862-dbc1a55509f7")
+			(uuid "e7ffcd22-c796-43c3-9b7a-9b30d07259c2")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8065,7 +8123,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e56ee32-77b2-491d-b3f9-ef2e40a0abf5")
+			(uuid "786c2582-4265-4eb0-a1dc-030b4f009f85")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8131,10 +8189,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9e2ec381-a8b8-4c91-b7b0-34ff07b394bf")
+			(uuid "0c83f06b-e899-4e03-a919-b51ad367b237")
 		)
 		(pin "1"
-			(uuid "cb9ec8b5-1474-464e-810a-d6e2fe6131ea")
+			(uuid "1a4c1f73-0cfb-44cb-b0ee-755d75f3d70b")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8200,7 +8258,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bab0432e-021a-46bc-8eec-84aa5a34d114")
+			(uuid "43966924-9d3d-4f01-9f23-4e61d1a8cdcc")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8266,10 +8324,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "551c86f0-d898-4586-9a4c-73e3fb0d2e6c")
+			(uuid "86654977-72d4-4b55-85dd-f63417164b93")
 		)
 		(pin "1"
-			(uuid "4777d487-0934-4009-9ecf-44dbf1a01373")
+			(uuid "4ee52a48-2ef9-4f1b-b81c-ee144c98aa3c")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8335,10 +8393,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "48a01e61-1709-43c9-b8a2-ddcfafaa82cf")
+			(uuid "e1bc03d0-0fca-4b1e-a4b3-bbf0bfafcbb7")
 		)
 		(pin "1"
-			(uuid "98eb3b39-63e7-4d99-8ece-6a8d4589c8cb")
+			(uuid "70895baa-c814-4890-b34d-5d93b7458a13")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8404,7 +8462,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a03431f4-8fea-4085-8ba8-8960a789c6c4")
+			(uuid "05b7eb69-8b0b-4732-9ebb-3a1287b08cd9")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8470,7 +8528,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3adaee8b-921a-4f2f-bda2-fdb6bb9ec7c4")
+			(uuid "91431fb8-a379-4335-92dd-631d4d0db5e2")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8536,7 +8594,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2c07758-ae59-43d4-b315-ec4cfe379e75")
+			(uuid "13e30b95-6415-4e5f-b53a-41495aede595")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8574,7 +8632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 221.2848 41.91 0)
 			(effects
 				(font
@@ -8602,10 +8660,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8f7ae062-66c0-4d7b-85b7-111462e65c52")
+			(uuid "b819154d-7af3-4dcb-9799-772f32fd1f30")
 		)
 		(pin "1"
-			(uuid "ff629e8c-684c-436e-a87f-98fce3fc3f4d")
+			(uuid "e2cc45b5-bdeb-4cc6-b86c-3fe7f30d3d30")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8671,10 +8729,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "34a82d75-ae6f-4266-bbdf-ac81d6fe4672")
+			(uuid "29abdcd8-e7c8-41ec-8d38-a080b60b3d14")
 		)
 		(pin "1"
-			(uuid "b875f467-7139-4dd5-8f1b-f43438e28ec6")
+			(uuid "f866e721-4e01-4b6d-bf84-e12251058461")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8740,7 +8798,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "54827327-b517-4413-9285-a1dac32a4792")
+			(uuid "e7d6118b-0b60-46fc-b95b-11416d12448e")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8806,10 +8864,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d2f04445-62c0-4a47-b1b1-dd3ef85e540d")
+			(uuid "05db02f1-c5e6-4ee3-94b3-9a7ae73160b1")
 		)
 		(pin "1"
-			(uuid "6d2004e4-d917-41fa-882c-62f8adc9c0ad")
+			(uuid "6b895fcf-ee10-4ea5-b4dd-a272a3ca6afb")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8875,7 +8933,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b95460ee-85d0-4216-8708-0e022e6d9fb5")
+			(uuid "3b44bb04-0fb3-4085-9d79-03b646d5306d")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -8939,10 +8997,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f44f945-3326-4eb9-a5be-c27bfd8f3b32")
+			(uuid "32e09e40-bccf-4420-9f56-86fda74d6d44")
 		)
 		(pin "2"
-			(uuid "4eaaca77-d209-4765-9511-979aedeba01c")
+			(uuid "141ac826-3a8c-42fd-972b-39db5540f166")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9008,7 +9066,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "efb74063-16f9-4d1b-91b8-0136b096bbb3")
+			(uuid "05f6101d-8585-4338-b46c-60deab9dc93b")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9075,13 +9133,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "baec42d5-5260-484e-8f7a-d04059039294")
+			(uuid "b995019a-e8ed-4f7d-b5e0-9b247536f601")
 		)
 		(pin "1"
-			(uuid "ec01b5f8-9c41-49b0-9805-aacd6174c18f")
+			(uuid "684a89b9-f895-410a-9531-1bc6d8f2541c")
 		)
 		(pin "3"
-			(uuid "71f633b9-20b6-4645-9d07-8ea16790742c")
+			(uuid "2c162623-b565-4293-a9c1-1bc8bd1988ae")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9147,7 +9205,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "866a8d42-9325-406d-9d14-26bd9a19fe1f")
+			(uuid "660c05f5-8b30-4921-b7fc-cb6d9f44741b")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9214,13 +9272,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "04d38660-f76a-4be8-a14d-e21c7c554726")
+			(uuid "41b9d4f0-66b8-425e-a67c-3808d90a460b")
 		)
 		(pin "1"
-			(uuid "7f7a6a41-a1b9-4357-8a77-b1b86aa503ed")
+			(uuid "7281e4d9-3c1b-49e4-863a-a26e597a9607")
 		)
 		(pin "3"
-			(uuid "3e8dc43d-13ce-4a66-a72c-83eed41b69c0")
+			(uuid "af8398fa-3b85-4ca4-ae77-1b9db978c319")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9286,7 +9344,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f979885e-d031-4348-8543-e6048a5e6fad")
+			(uuid "fca693f1-3f4a-4d68-909a-63462af62548")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9352,10 +9410,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e7fb86f0-4666-4117-a454-da97330b5531")
+			(uuid "ab9f2538-0209-4fe6-bfb6-76f47f243bed")
 		)
 		(pin "1"
-			(uuid "0bc0ba5f-8e79-4fb9-a8cb-739cef5ce205")
+			(uuid "22c97c7e-4393-4ca8-ba6a-9c50b9551c42")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9421,7 +9479,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8452afe1-2944-414e-8098-2af11ef821fb")
+			(uuid "252dbf20-535e-4dfd-8734-aeaca7df75dd")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9488,10 +9546,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "34c08c00-b367-4141-bdaf-ab8b60ec8753")
+			(uuid "ea27e7b9-a46b-4d0c-82c3-a2558b379814")
 		)
 		(pin "2"
-			(uuid "27d71f71-4216-45d7-9e39-14230cdb68b5")
+			(uuid "da6b68fb-88ec-4c57-a2a2-2ef8fa03605a")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9557,7 +9615,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c7bd407-09fe-49bf-af67-9b5614d05e82")
+			(uuid "857bb22b-fb48-4134-a405-adafede471c9")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9623,10 +9681,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5e201208-bb4d-4896-b654-15b5a95325f6")
+			(uuid "c3067cfa-3b21-443b-9b7b-8dd6c6c2b0a5")
 		)
 		(pin "1"
-			(uuid "6de26623-fe3c-4413-bb98-6508aeb829b0")
+			(uuid "6909f019-5842-46f4-a12b-6b7786422992")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9692,10 +9750,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "019325b0-e7d3-4ce7-9499-63dbe87920f5")
+			(uuid "e8dad5d0-8af6-48cb-80a0-9e8c87c34ddc")
 		)
 		(pin "1"
-			(uuid "5375ca5e-9776-4b3c-a8c7-8e369df67cb3")
+			(uuid "bc4fc3b4-9a21-4455-ac62-4e184d816c4f")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9759,10 +9817,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d0f1fa8-6891-4f4b-a5e6-1084bcc64c9a")
+			(uuid "ded9c30e-883c-4e9c-a7ed-59753e7d97cd")
 		)
 		(pin "2"
-			(uuid "017a9c9d-2a9a-41f0-b79f-a268c79e6c2b")
+			(uuid "7755291d-c32a-4c55-8f2a-3446e21affb5")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9829,43 +9887,43 @@
 			)
 		)
 		(pin "8"
-			(uuid "2bf3e730-76bc-46f1-94b4-b1d9a92c0067")
+			(uuid "9466507e-61df-4a88-b449-99bba7420386")
 		)
 		(pin "7"
-			(uuid "bb5daa5c-a343-4f11-8637-b43c00cffbe5")
+			(uuid "34b72264-4bbb-47a1-91b4-3bc11f31ed12")
 		)
 		(pin "11"
-			(uuid "399a1539-443d-4333-85ea-fac7b8700330")
+			(uuid "613fa44d-c25d-4652-b0c3-74c58e2c538e")
 		)
 		(pin "9"
-			(uuid "a455f654-f0f5-480d-af4e-bc8a70c41cac")
+			(uuid "89f96cb0-5d6d-456c-be41-db81a3c1befa")
 		)
 		(pin "10"
-			(uuid "c91fb98a-c80b-4694-8d5b-a6efefa4a775")
+			(uuid "92f4842c-b827-496a-a568-f97c1deaed67")
 		)
 		(pin "12"
-			(uuid "8fa61014-0dcf-4416-b61e-eb85673baa0d")
+			(uuid "c57a11ba-f349-4106-b0e9-e1496ec8d8b0")
 		)
 		(pin "2"
-			(uuid "9a480d5a-c02e-4f9e-8848-e9b3b14ee0b8")
+			(uuid "2df3ffbe-d579-46ad-a642-ac2d01476760")
 		)
 		(pin "1"
-			(uuid "a848f459-1c63-4df3-a7f7-be23d25724fc")
+			(uuid "a7bfdf90-6b67-4a95-9dbf-8400f805c29f")
 		)
 		(pin "13"
-			(uuid "6c88a51f-5252-4cfe-86ac-ebafc10b01b4")
+			(uuid "b14a3200-0433-41d0-b354-30bf2d0c9142")
 		)
 		(pin "6"
-			(uuid "1cc45d45-fad7-4dbd-993c-7af2af5443f3")
+			(uuid "39b64d0d-20d0-4fb6-8a36-32f701b5b8fd")
 		)
 		(pin "5"
-			(uuid "e7f130cf-fcc9-4fc2-8566-2520a38db6af")
+			(uuid "4afaaf31-1a43-4583-b676-2df57e622218")
 		)
 		(pin "4"
-			(uuid "ab498b0b-0faf-44f0-9074-6eeb4b9cb2cb")
+			(uuid "9ec9c9ff-24c0-43e7-8613-9d4d9559600d")
 		)
 		(pin "3"
-			(uuid "1d11319b-e18c-4f78-bd30-32f813045558")
+			(uuid "a238744f-3fe9-4b50-8b12-7ec7a27b604a")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9931,7 +9989,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee8f8443-46c5-4376-b0d6-a0f3ff6e783b")
+			(uuid "bd931b61-b4fe-4ecd-a3ab-90d3341fe148")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -9950,10 +10008,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f4adc7ad-2af5-4671-8815-f69ca8283825")
 		(property "Reference" "U10"
-			(at 186.69 123.1198 0)
+			(at 175.006 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +10018,7 @@
 			)
 		)
 		(property "Value" "74LVC1GU04DRL"
-			(at 186.69 125.6598 0)
+			(at 175.006 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,19 +10053,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "017bb3e0-8eae-4169-a19c-520c90566b96")
+			(uuid "9397f65e-9d01-47eb-a920-86036b799a99")
 		)
 		(pin "2"
-			(uuid "c25c6183-07cf-45fc-96ce-b50998aba187")
+			(uuid "cb7ccd9a-ee85-4d28-997a-d1740be9046b")
 		)
 		(pin "1"
-			(uuid "090fd1c1-17b6-41a9-85fb-acaca9f54a99")
+			(uuid "a6d55b91-99be-4540-ac9a-ae6a1ebdf382")
 		)
 		(pin "3"
-			(uuid "bae6d739-6e3e-414b-a3c2-7ecf6dafbe26")
+			(uuid "b1722bda-7c63-4c72-975e-14eadbeacab3")
 		)
 		(pin "5"
-			(uuid "e987f1f2-2568-4d96-b3af-6896ce5aed3d")
+			(uuid "00cfa6ca-ff5b-4882-a9fd-5056c642aaa9")
 		)
 		(instances
 			(project ""
@@ -10074,10 +10131,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e2d502f9-94c1-46e6-b026-33718f963020")
+			(uuid "584fa9c5-f48d-43b3-a876-c280f5000b1a")
 		)
 		(pin "1"
-			(uuid "c94e7601-1fae-4c2e-bf7c-d74f3de4f929")
+			(uuid "884c7ac7-0d24-4364-993d-5d24456dbabb")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -10143,7 +10200,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f93358c-0d7a-4818-9ca7-c4a02d6480ff")
+			(uuid "7824b0f8-b90b-477b-8b22-0e1914414a7b")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -10207,10 +10264,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "59e08a69-a279-4757-9b69-e28d642bdca2")
+			(uuid "940ed714-3266-4707-8876-62e19147b0ea")
 		)
 		(pin "2"
-			(uuid "73c3a138-a490-4f3e-8eb1-8110e4ba0f11")
+			(uuid "926039c4-dff7-4e90-959f-11a1a69821ec")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -10276,7 +10333,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e48ac409-3297-4d86-8992-477a823fecc1")
+			(uuid "72760e7c-9ef2-43f5-ae55-e4be5b51546e")
 		)
 		(instances
 			(project "FSKGroundStation"
@@ -10341,7 +10398,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cfba88b5-f7d0-4aed-afd7-c3bebc197ebd")
+			(uuid "8d2ec490-ffca-45b7-9dd5-bc37dbcb0d25")
 		)
 		(instances
 			(project "FSKGroundStation"

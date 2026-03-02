@@ -3361,144 +3361,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 248.92 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13eae96b-eb17-4a45-ad51-290063b04faa")
-		(property "Reference" "C26"
-			(at 247.396 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47nF"
-			(at 247.396 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 247.9548 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 248.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e021ffd5-f3dc-4f1b-bd1c-6a3e323f1927")
-		)
-		(pin "1"
-			(uuid "355ebbd5-1ae2-4816-8f1a-5cb74d0092a3")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 233.68 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2237ee23-036f-48f3-8ccb-5e631df6f75e")
-		(property "Reference" "C23"
-			(at 232.156 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47nF"
-			(at 232.156 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 232.7148 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 233.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53cd747a-42e9-427c-815b-5e29d5c67ea7")
-		)
-		(pin "1"
-			(uuid "07915396-3028-4926-8e7a-3df5d9e7d41b")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 213.36 57.15 0)
 		(unit 1)
@@ -3627,75 +3489,6 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 243.84 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3658caa4-8d96-4723-8add-e205c8e3db73")
-		(property "Reference" "C25"
-			(at 242.316 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47nF"
-			(at 242.316 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 242.8748 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 243.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e62b387-f3de-4a5a-a39c-efa7ac821ba4")
-		)
-		(pin "1"
-			(uuid "f017da05-ab9c-4167-8be1-4926f0d803db")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3838,15 +3631,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 66.04 180)
+		(at 243.84 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "55005a5e-8790-4b75-a071-8aab351485ae")
-		(property "Reference" "C22"
-			(at 227.076 67.564 90)
+		(uuid "537de932-eb98-4fe3-890a-a57181b0a249")
+		(property "Reference" "C25"
+			(at 242.316 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +3648,7 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 227.076 59.944 90)
+			(at 242.316 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,8 +3656,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 227.6348 62.23 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 242.8748 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 66.04 0)
+			(at 243.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3675,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 228.6 66.04 0)
+			(at 243.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,15 +3684,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d3d7d48d-4005-453b-bcbe-f7e83f957320")
+			(uuid "ef7a3e0a-2139-46f6-85f6-baf535a35823")
 		)
 		(pin "1"
-			(uuid "48aab2c7-2e55-4e59-babf-7743403958ca")
+			(uuid "edc44585-d5cc-40f6-b6eb-2888d62749c9")
 		)
 		(instances
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
-					(reference "C22")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3966,6 +3759,75 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69c3d45e-6ef3-4f7c-8337-47c40b1ca994")
+		(property "Reference" "C22"
+			(at 227.076 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 227.076 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 227.6348 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f2a8c2b-8966-47a7-8877-997142ce5c2c")
+		)
+		(pin "1"
+			(uuid "af8a5a0f-c778-49c7-b141-b81570608d27")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4040,6 +3902,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 223.52 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "768cbc13-7d78-4dd1-99d6-9e2a9c104af4")
+		(property "Reference" "C21"
+			(at 221.996 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 221.996 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 222.5548 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6776b1c8-b84c-4a49-8171-fffeaef772ef")
+		)
+		(pin "1"
+			(uuid "7071fa5e-9a75-4b7a-8d8b-a4be684c10b6")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 68.58 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4065,7 +3996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 67.6148 110.49 0)
 			(effects
 				(font
@@ -4134,7 +4065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 167.9448 120.65 0)
 			(effects
 				(font
@@ -4303,6 +4234,75 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 248.92 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86b51108-4408-4b8d-a38a-3fa1939e934a")
+		(property "Reference" "C26"
+			(at 247.396 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 247.396 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 247.9548 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "196325d1-c25f-4beb-9973-8c3e989ab44f")
+		)
+		(pin "1"
+			(uuid "c0cc2bd6-5e8b-48a1-83b5-d1bb38c7d93b")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4517,75 +4517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 254 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4f97627-22dc-4cab-88a6-f7532dd26a37")
-		(property "Reference" "C27"
-			(at 252.476 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47nF"
-			(at 252.476 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 253.0348 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 254 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed70bbd1-6197-41ea-8009-92b9c53f186d")
-		)
-		(pin "1"
-			(uuid "1e571c2f-cc8a-4156-9e1f-cd28feeaac71")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Local ICs:CC1125RHBR")
 		(at 91.44 74.93 0)
 		(unit 1)
@@ -4775,7 +4706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 212.3948 62.23 0)
 			(effects
 				(font
@@ -4819,15 +4750,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 218.44 66.04 180)
+		(at 238.76 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bfa0080b-c523-46c7-b540-dc7305e8973c")
-		(property "Reference" "C20"
-			(at 216.916 67.564 90)
+		(uuid "baeac2c4-6a2a-4067-946c-8a03a9804545")
+		(property "Reference" "C24"
+			(at 237.236 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +4767,7 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 216.916 59.944 90)
+			(at 237.236 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,8 +4775,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 217.4748 62.23 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 237.7948 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 66.04 0)
+			(at 238.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +4794,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 218.44 66.04 0)
+			(at 238.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,15 +4803,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b6b49112-b182-4355-81b0-d72e19ad6cc9")
+			(uuid "6af395cd-83c4-40cf-9dae-fc7bfc39c7f2")
 		)
 		(pin "1"
-			(uuid "a9ec0a98-1bd7-4f31-9031-f0dd62254797")
+			(uuid "e83c262f-9138-489d-98ae-5f8b0b0567c5")
 		)
 		(instances
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
-					(reference "C20")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5023,75 +4954,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 238.76 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3f51b3b-9b06-4294-a435-0a2a2a08b870")
-		(property "Reference" "C24"
-			(at 237.236 67.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47nF"
-			(at 237.236 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 237.7948 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 238.76 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9edec80-7b1a-4f40-bc24-6dbfa467f5ef")
-		)
-		(pin "1"
-			(uuid "c5eb2ee7-9305-40b0-ba3b-b8bf47249585")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 171.45 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5186,7 +5048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 174.2948 120.65 0)
 			(effects
 				(font
@@ -5230,6 +5092,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 254 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e773f036-92e8-4b88-ae37-4415f6561452")
+		(property "Reference" "C27"
+			(at 252.476 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 252.476 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 253.0348 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 254 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "295a40b7-cf03-43ef-afe0-87537b3ab7b5")
+		)
+		(pin "1"
+			(uuid "bbc709f7-e8df-494a-9364-df2fd0ab3bab")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 181.61 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5255,7 +5186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 180.6448 120.65 0)
 			(effects
 				(font
@@ -5299,15 +5230,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 223.52 66.04 180)
+		(at 218.44 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f38359fa-6f96-4bae-b938-4b85b1337cf0")
-		(property "Reference" "C21"
-			(at 221.996 67.564 90)
+		(uuid "ee0a4b93-2f37-4a67-87b9-719f45d987bd")
+		(property "Reference" "C20"
+			(at 216.916 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5247,7 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 221.996 59.944 90)
+			(at 216.916 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,8 +5255,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 222.5548 62.23 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 217.4748 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 66.04 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5274,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 223.52 66.04 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,15 +5283,84 @@
 			)
 		)
 		(pin "2"
-			(uuid "521baf61-a64c-43cf-86c7-3a113402f54c")
+			(uuid "8005a85c-73ef-4571-a16c-d265f3b7bfc5")
 		)
 		(pin "1"
-			(uuid "9b574e5d-c1f8-4a3e-a9fe-704ac86b6055")
+			(uuid "730a7310-7726-4a1d-9567-afd3fde4a3ea")
 		)
 		(instances
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
-					(reference "C21")
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 233.68 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1fa3cf7-b684-4424-bd83-2649efd127d7")
+		(property "Reference" "C23"
+			(at 232.156 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 232.156 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 232.7148 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33449bf3-278c-47d8-8274-91e2dae80194")
+		)
+		(pin "1"
+			(uuid "2652ab1a-5dcd-4a09-9580-edbca6a176cb")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
+					(reference "C23")
 					(unit 1)
 				)
 			)
