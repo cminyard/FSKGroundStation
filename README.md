@@ -3,13 +3,15 @@
 This is a hardware design for a low-cost PacSat satellite ground
 station, but it is also general two-way FSK commmunication for the 2
 meter and 70 centimeter bands.  It should be possible to build these
-in the US $50 range.
+in the US $50 range.  It can do FSK variants (MSK, GMSK, OOK, ASK).
+Notably, it cannot do AFSK, the normal 1200bps communication used over
+FM radios.
 
 Basically, this is two radios, one for around 136-175MHz, and one for
 around 430-450MHz.  Each of these radios is a simplex two-way radio
-using a basic ISM radio chip.  It then has a PA on the TX side to
-boost the power to the 4-5 watt range and an RF switch after than to
-switch between transmit and receive.
+using a basic ISM radio chip.  It then has an RF power amplifier (PA)
+on the TX side to boost the power to the 4-5 watt range and an RF
+switch after than to switch between transmit and receive.
 
 ## Host Communication
 
@@ -50,6 +52,10 @@ All power connectors must supply at least 3A for transmit.
 ## Heat Dissipation
 
 The PAs produce a lot of heat.  At full power they will be dissipating
+around 4 watts.  The heat mostly comes out through the bottom of the
+board on a 2.5mm square copper pad under each PA..
+
+TBD - determine how to do heat sink.
 
 ## Design Variants
 
@@ -76,3 +82,7 @@ price and allow slight performance improvements in some cases:
   PA (Guerrilla RF GRF5604, 100-600MHz).
 
 * The power connectors that aren't used can be removed.
+
+## TODO list
+
+* Figure out how to handle heat from the PAs.
