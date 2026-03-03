@@ -1947,7 +1947,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "1255AY-6R8M=P3:IND_1255AY-6R8M=P3"
+			(property "Footprint" "footprints:IND_1255AY-6R8M=P3"
 				(at 0 -9.398 0)
 				(effects
 					(font

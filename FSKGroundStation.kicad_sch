@@ -5,6 +5,86 @@
 	(uuid "23e49ab9-97e0-460a-806c-ff6f37958474")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Local Connectors:Fiducial (square)"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial (square)"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:Fiducial_Square_1mm_Mask2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial (square)_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -168,86 +248,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PACSAT_DEV_misc:Fiducial (square)"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "FID"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fiducial (square)"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fiducial marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Fiducial*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fiducial (square)_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.508)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
@@ -314,7 +314,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PACSAT_DEV_misc:Fiducial (square)")
+		(lib_id "Local Connectors:Fiducial (square)")
 		(at 147.32 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -442,7 +442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PACSAT_DEV_misc:Fiducial (square)")
+		(lib_id "Local Connectors:Fiducial (square)")
 		(at 147.32 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -634,7 +634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PACSAT_DEV_misc:Fiducial (square)")
+		(lib_id "Local Connectors:Fiducial (square)")
 		(at 147.32 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -698,7 +698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PACSAT_DEV_misc:Fiducial (square)")
+		(lib_id "Local Connectors:Fiducial (square)")
 		(at 147.32 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -954,7 +954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PACSAT_DEV_misc:Fiducial (square)")
+		(lib_id "Local Connectors:Fiducial (square)")
 		(at 147.32 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1146,7 +1146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PACSAT_DEV_misc:Fiducial (square)")
+		(lib_id "Local Connectors:Fiducial (square)")
 		(at 147.32 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
