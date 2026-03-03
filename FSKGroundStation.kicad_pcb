@@ -50386,7 +50386,7 @@
 	)
 	(gr_line
 		(start 170 140.5)
-		(end 170 58)
+		(end 170 57.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -50396,7 +50396,7 @@
 		(uuid "31eced57-bf72-4025-9b6d-9ae8dc64c712")
 	)
 	(gr_line
-		(start 70 58)
+		(start 70 57.5)
 		(end 70 140.5)
 		(stroke
 			(width 0.15)
@@ -50418,11 +50418,11 @@
 		(uuid "56d4eba1-2d7d-4eb7-8652-7ecb90971888")
 	)
 	(gr_line
-		(start 170 58)
-		(end 70 58)
+		(start 170 57.5)
+		(end 70 57.5)
 		(stroke
 			(width 0.15)
-			(type default)
+			(type solid)
 		)
 		(locked yes)
 		(layer "Edge.Cuts")

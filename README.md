@@ -94,8 +94,9 @@ This was designed to go into a 100mm x 88mm box like:
 	Electronic Enclosure Case for PCB Board DIY, 88x38x100mm (WHL),
 	Black
 
-on Amazon.  The actual board dimensions are 82.5mm x 100mm, it should
-slide into the slots in the chassis.
+on Amazon.  The actual board dimensions are 83mm x 100mm, it should
+slide into the slots in the chassis, which is supposed to be 84mm
+wide.
 
 ## TODO list
 
