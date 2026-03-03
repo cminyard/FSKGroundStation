@@ -49,13 +49,16 @@ must remove the other power jumpers (J8 and J11) to use this.
 
 All power connectors must supply at least 3A for transmit.
 
-## Heat Dissipation
+## Heat Dissipation and Measurement
 
 The PAs produce a lot of heat.  At full power they will be dissipating
 around 4 watts.  The heat mostly comes out through the bottom of the
-board on a 2.5mm square copper pad under each PA..
+board on a 2.5mm square copper pad under each PA.
 
 TBD - determine how to do heat sink.
+
+There are two thermsistors on the board, one mounted by each PA, for
+measuring temperature.
 
 ## Design Variants
 
@@ -83,6 +86,27 @@ price and allow slight performance improvements in some cases:
 
 * The power connectors that aren't used can be removed.
 
+## A Box
+
+This was designed to go into a 100mm x 88mm box like:
+
+    JIUWU Surface Drawing Split Aluminum Enclosure Project Box
+	Electronic Enclosure Case for PCB Board DIY, 88x38x100mm (WHL),
+	Black
+
+on Amazon.  The actual board dimensions are 82mm x 100mm, it should
+slide into the slots in the chassis.
+
 ## TODO list
 
 * Figure out how to handle heat from the PAs.
+
+  * Screw mount on the bottom.  This would probably require putting
+    the external connectors on the bottom of the board to give space
+    in a box.  It would also require ventilation of some type and
+    maybe a fan.
+	
+  * Connect a heat transfer device to an external box.  This would
+    require mounting in a box.  If you use the box referenced above,
+    there is a 5mm gap between the bottom of the circuit board and the
+    inside of the box.  I'm not sure how to conduct the head, though.

@@ -151,6 +151,7 @@ value_to_partnum_xlats_2 = {
     ('150nH',		'0805'): ('LQW2BANR15G00L', 'Murata'),
     ('150nH 2%',	'0805'): ('LQW2BANR15G00L', 'Murata'),
     ('220nH 2%',	'0805'): ('LQW2BASR22G00L', 'Murata'),
+    ('470nH',		'0805'): ('LQW21FTR47M0HL', 'Murata'),
     ('1uH',		'1008'): ('IMSC1008AZER1R0M', 'Vishay Dale'),
     ('6.8uH',		'1210'): ('LQH32PH6R8NNCL', 'Murata'),
     ('6.8uH 3A',	'IND_1255AY-6R8M=P3'): ('1264EY-6R8M=P3', 'Murata'),
@@ -163,6 +164,7 @@ value_to_partnum_xlats_2 = {
     ('5.1K',		'0402'): ('ERJ2RKF5101X', 'Panasonic'),
     ('6.04K 1%',	'0402'): ('ERJ2RKF6041X', 'Panasonic'),
     ('10K',		'0402'): ('ERJ2RKF1002X', 'Panasonic'),
+    ('10K 1%',		'0402'): ('ERJ2RKF1002X', 'Panasonic'),
     ('30K',		'0402'): ('ERJ2RKF3002X', 'Panasonic'),
     ('56K 1%',		'0402'): ('ERJPA2F5602X', 'Panasonic'),
     ('62K',		'0402'): ('ERJ2RKF6202X', 'Panasonic'),
@@ -200,6 +202,8 @@ value_to_partnum_xlats_2 = {
 }
 
 other_components = {
+    ('PJ-063BH', 'PJ-063BH_CUD'): None,
+    ('NTCG103JF103FTDS 10KΩ@25C', '0402'): None,
     ('SKYA21003',               'QFN12_SKYA21003_SKY'): None,
     ('CY7C65215-32LTXI',        'PG-VQFN-32-803'): None,
     ('TPSM861253RDXR',          'RDX0007A-MFG'): None,

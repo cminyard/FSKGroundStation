@@ -2953,10 +2953,6 @@
 		(uuid "1c95183d-efa5-46c8-9f84-5892df245892")
 	)
 	(no_connect
-		(at 78.74 118.11)
-		(uuid "2c57282d-46f8-4aa1-8cd8-4e0ca6e44806")
-	)
-	(no_connect
 		(at 139.7 130.81)
 		(uuid "31a2d027-3427-4e81-868a-c5436b5ccea0")
 	)
@@ -2971,10 +2967,6 @@
 	(no_connect
 		(at 78.74 110.49)
 		(uuid "78579abc-0737-4239-b67e-76ec06c2159d")
-	)
-	(no_connect
-		(at 78.74 120.65)
-		(uuid "817d1107-1ade-4903-8036-6aec81bf9585")
 	)
 	(no_connect
 		(at 139.7 162.56)
@@ -3700,6 +3692,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 120.65) (xy 78.74 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c2eebb-e974-4c89-9165-b966792aac3b")
+	)
+	(wire
+		(pts
 			(xy 212.09 59.69) (xy 245.11 59.69)
 		)
 		(stroke
@@ -3757,6 +3759,16 @@
 			(type default)
 		)
 		(uuid "a154e729-9cf9-47c0-a553-bd4074a9d688")
+	)
+	(wire
+		(pts
+			(xy 62.23 118.11) (xy 78.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18f0c7e-f198-42ae-a575-8d0f6059a9e3")
 	)
 	(wire
 		(pts
@@ -4456,6 +4468,28 @@
 			)
 		)
 	)
+	(global_label "440_PA_TEMP"
+		(shape input)
+		(at 62.23 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3da0bee8-48cf-45a4-8947-d6b637b06ee7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.4845 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RADIO2_RESET_N"
 		(shape input)
 		(at 58.42 100.33 180)
@@ -4733,6 +4767,28 @@
 		(uuid "95f407d7-42dc-4e06-85b4-2233ec551eec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.033 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "144_PA_TEMP"
+		(shape input)
+		(at 62.23 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a26e4a93-a85d-4ddc-83a4-234a1af4d4a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.4845 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
