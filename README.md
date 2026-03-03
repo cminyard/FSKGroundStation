@@ -6,7 +6,7 @@ meter and 70 centimeter bands.  It should be possible to build these
 in the US $50 range.
 
 Basically, this is two radios, one for around 136-175MHz, and one for
-around 420-460MHz.  Each of these radios is a simplex two-way radio
+around 430-450MHz.  Each of these radios is a simplex two-way radio
 using a basic ISM radio chip.  It then has a PA on the TX side to
 boost the power to the 4-5 watt range and an RF switch after than to
 switch between transmit and receive.

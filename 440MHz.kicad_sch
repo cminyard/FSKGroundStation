@@ -8729,7 +8729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8pF 1%"
+		(property "Value" "5.6pF 1%"
 			(at 260.096 84.328 90)
 			(effects
 				(font

@@ -167,11 +167,11 @@ value_to_partnum_xlats_2 = {
     ('56K 1%',		'0402'): ('ERJPA2F5602X', 'Panasonic'),
     ('62K',		'0402'): ('ERJ2RKF6202X', 'Panasonic'),
 
-    ('1.8pF 1%',	'0402'): ('GJM1555C1H1R8BB01D', 'Murata'),
     ('2pF 1%',		'0402'): ('GCM1555C1H2R0BA16D', 'Murata'),
     ('2.2pF 1%',	'0402'): ('GJM1555C1H2R2CB01D', 'Murata'),
     ('5pF ±.1',		'0402'): ('GCM1555C1H5R0FA16D', 'Murata'),
     ('5.1pF 1%',	'0402'): ('GJM1555C1H5R1BB01D', 'Murata'),
+    ('5.6pF 1%',	'0402'): ('GJM1555C1H5R6BB01D', 'Murata'),
     ('10pF 1%',		'0402'): ('GCM1555C1H100FA16D', 'Murata'),
     ('12pF 1%',		'0402'): ('GJM1555C1H120FB01D', 'Murata'),
     ('14pF 1%',		'0402'): ('GJM1555C1H140FB01D', 'Murata'),
