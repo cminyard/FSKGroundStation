@@ -8166,7 +8166,7 @@
 				)
 			)
 		)
-		(property "Value" "2K 1%"
+		(property "Value" "1.96K 1%"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
