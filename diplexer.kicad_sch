@@ -1753,6 +1753,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Inductor to bleed off static build\nup on the antenna."
+		(exclude_from_sim no)
+		(at 48.006 115.57 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "16ddeb9d-e471-419a-b464-818d74c8664b")
+	)
+	(text "Inductor to bleed off static build\nup on the antenna."
+		(exclude_from_sim no)
+		(at 48.006 76.2 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "3c77ba3a-800d-43e7-8873-9185baddde50")
+	)
 	(text "Combined 144/440 antenna\nport.  You lose 1dB using\nthis."
 		(exclude_from_sim no)
 		(at 147.066 76.708 0)
@@ -1763,6 +1783,16 @@
 		)
 		(uuid "552a978e-a96f-4e4d-9e4b-c3c7f3e67120")
 	)
+	(text "Inductor to bleed off static build\nup on the antenna."
+		(exclude_from_sim no)
+		(at 100.076 116.84 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "68da1c78-f2ae-4eb0-bb5e-6ae37a126cd3")
+	)
 	(text "Control output for controlling\nexternal things like amplifiers.\nOpen when receiving, short to\nground when transmitting."
 		(exclude_from_sim no)
 		(at 97.282 139.7 0)
@@ -1772,6 +1802,12 @@
 			)
 		)
 		(uuid "b5e25a28-1faf-4750-9a96-d038e7b31ebc")
+	)
+	(junction
+		(at 121.92 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ac1e15f-66b3-48ca-a828-c41ce1dfb731")
 	)
 	(junction
 		(at 92.71 190.5)
@@ -1798,6 +1834,12 @@
 		(uuid "9409dcdc-8816-49b8-bcf8-50a0847660bf")
 	)
 	(junction
+		(at 69.85 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bea7bd46-1783-40de-b6e7-8fb746a449ab")
+	)
+	(junction
 		(at 162.56 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1814,6 +1856,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e83c3689-5a97-4bbf-9900-591fe4bb9616")
+	)
+	(junction
+		(at 69.85 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edea2cc8-4585-4cf0-99ec-656f3dc9caa8")
 	)
 	(no_connect
 		(at 106.68 151.13)
@@ -1851,6 +1899,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 101.6) (xy 69.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b11d262-f76f-4dbe-8c29-d4dd28a9c70e")
+	)
+	(wire
+		(pts
 			(xy 92.71 184.15) (xy 92.71 190.5)
 		)
 		(stroke
@@ -1871,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 121.92 81.28)
+			(xy 99.06 62.23) (xy 121.92 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1891,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 105.41) (xy 93.98 105.41)
+			(xy 91.44 101.6) (xy 86.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1951,7 +2009,27 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 81.28) (xy 121.92 93.98)
+			(xy 121.92 124.46) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62df37e8-9835-4aa7-91c8-1f57c6a710bf")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 121.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69686c60-da51-4591-9c0c-83c2a11bac95")
+	)
+	(wire
+		(pts
+			(xy 121.92 62.23) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1961,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 105.41) (xy 86.36 105.41)
+			(xy 66.04 101.6) (xy 69.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2011,6 +2089,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 114.3) (xy 69.85 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90149292-078b-4c5b-8598-0d0994c389eb")
+	)
+	(wire
+		(pts
 			(xy 77.47 168.91) (xy 77.47 170.18)
 		)
 		(stroke
@@ -2018,6 +2106,16 @@
 			(type default)
 		)
 		(uuid "9c80cbe2-0586-4eda-accc-f3858311a258")
+	)
+	(wire
+		(pts
+			(xy 69.85 74.93) (xy 69.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e81ced9-7ea4-4c81-ba7a-2efb80176bbe")
 	)
 	(wire
 		(pts
@@ -2031,6 +2129,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 62.23) (xy 78.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1d6133-aa30-4dd4-830f-6f343fd1c49a")
+	)
+	(wire
+		(pts
+			(xy 69.85 101.6) (xy 78.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a515a444-2236-4495-af99-8b24d94c304e")
+	)
+	(wire
+		(pts
 			(xy 83.82 189.23) (xy 83.82 190.5)
 		)
 		(stroke
@@ -2041,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 105.41) (xy 121.92 105.41)
+			(xy 99.06 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2169,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 81.28) (xy 86.36 81.28)
+			(xy 121.92 115.57) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab755493-ff03-47da-8807-08fade01d398")
+	)
+	(wire
+		(pts
+			(xy 66.04 62.23) (xy 69.85 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2239,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 81.28) (xy 99.06 81.28)
+			(xy 86.36 62.23) (xy 91.44 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2131,13 +2259,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 93.98) (xy 121.92 105.41)
+			(xy 121.92 93.98) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d87397ef-853b-4f07-af4c-2bd6bc8cc1ba")
+	)
+	(wire
+		(pts
+			(xy 69.85 62.23) (xy 69.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db75ce77-c173-42ae-a595-d45d1308198d")
 	)
 	(wire
 		(pts
@@ -2161,6 +2299,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 83.82) (xy 69.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93a936f-533a-4b7f-841d-2de98acd090a")
+	)
+	(wire
+		(pts
 			(xy 92.71 153.67) (xy 106.68 153.67)
 		)
 		(stroke
@@ -2168,6 +2316,16 @@
 			(type default)
 		)
 		(uuid "ea6aab15-0f24-4d66-9930-6fe56e6077c6")
+	)
+	(wire
+		(pts
+			(xy 69.85 123.19) (xy 69.85 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed762159-9393-4c79-9f6a-8192afedbb29")
 	)
 	(wire
 		(pts
@@ -2213,7 +2371,7 @@
 	)
 	(global_label "RF_440"
 		(shape input)
-		(at 73.66 81.28 180)
+		(at 66.04 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2223,7 +2381,7 @@
 		)
 		(uuid "5bc66fbc-815c-479b-b54c-549d86ae7dfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7201 81.28 0)
+			(at 56.1001 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2393,7 @@
 	)
 	(global_label "RF_144"
 		(shape input)
-		(at 73.66 105.41 180)
+		(at 66.04 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2245,7 +2403,7 @@
 		)
 		(uuid "644366b2-e355-49f7-b74f-5bb57bd44063")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7201 105.41 0)
+			(at 56.1001 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,6 +2432,74 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "053315d2-e749-4658-86d4-c9eb20d380a1")
+		(property "Reference" "R28"
+			(at 119.634 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 124.333 122.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 123.698 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c76cd37-9aa2-4ce1-b815-a1bf02f7e13f")
+		)
+		(pin "2"
+			(uuid "536b5d60-8397-480e-aebd-99702e22aa0c")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "R28")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2338,6 +2564,72 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 121.92 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b016bb2-7bad-49a8-92ea-e2730702cccd")
+		(property "Reference" "L24"
+			(at 119.888 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470nH"
+			(at 124.968 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21eefce9-96a8-43c0-9bb1-4eed2a5cf3b3")
+		)
+		(pin "2"
+			(uuid "d82c1787-7be5-4b96-87cb-8a6e15fef25b")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "L24")
 					(unit 1)
 				)
 			)
@@ -2411,32 +2703,31 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 102.87 81.28 270)
-		(mirror x)
+		(at 69.85 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7002c278-807e-4e7c-b4d4-a5a106e4ffa9")
-		(property "Reference" "L44"
-			(at 102.616 83.312 90)
+		(uuid "539478c1-8c7f-4b3f-b267-f8fac7a0e763")
+		(property "Reference" "L23"
+			(at 67.818 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "27nH 2%"
-			(at 102.362 78.232 90)
+		(property "Value" "470nH"
+			(at 72.898 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 102.87 81.28 0)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 81.28 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +2745,142 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 81.28 0)
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10b43f80-ee27-4dc6-9999-58f23fadae02")
+		)
+		(pin "2"
+			(uuid "82fedb59-6466-4eff-9653-303dbe3aa350")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "L23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64005f5b-96fe-4c41-b3d1-242b59a309ee")
+		(property "Reference" "R97"
+			(at 67.564 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 72.263 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 71.628 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cf200f2-bb7a-4e25-80ca-065f864e729d")
+		)
+		(pin "2"
+			(uuid "6fae3876-c20b-424d-a3fa-ce8b7c076c89")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "R97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 95.25 62.23 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7002c278-807e-4e7c-b4d4-a5a106e4ffa9")
+		(property "Reference" "L44"
+			(at 94.996 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27nH 2%"
+			(at 94.742 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,6 +2898,74 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
 					(reference "L44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7118785c-435f-40bb-9cd2-c38f2c3d284a")
+		(property "Reference" "R27"
+			(at 67.564 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 72.263 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 71.628 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e5e4140-b715-4f48-87b0-cf2ad783c936")
+		)
+		(pin "2"
+			(uuid "e0125a1a-a9bb-4e2c-b9a1-aa7f0533913b")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2540,6 +3034,71 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81b3cfa2-7b24-45da-b65a-3ced4f6eb26c")
+		(property "Reference" "#PWR0108"
+			(at 121.92 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2492d376-0935-4505-a001-67de937db1dc")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -2798,7 +3357,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 105.41 90)
+		(at 82.55 101.6 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2807,7 +3366,7 @@
 		(dnp no)
 		(uuid "afc9d542-52eb-46c2-8fe3-f3b894345e6a")
 		(property "Reference" "C112"
-			(at 89.916 109.22 90)
+			(at 82.296 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +3374,7 @@
 			)
 		)
 		(property "Value" "5pF ±.1"
-			(at 89.916 111.76 90)
+			(at 82.296 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +3382,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 93.98 106.3752 0)
+			(at 86.36 102.5652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +3391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 105.41 0)
+			(at 82.55 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +3400,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 105.41 0)
+			(at 82.55 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,32 +3488,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 90.17 81.28 270)
+		(lib_id "power:GND")
+		(at 69.85 85.09 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d5352224-2a46-4d16-9e14-21a4651b5cec")
-		(property "Reference" "C129"
-			(at 90.424 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "14pF 1%"
-			(at 90.424 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 86.36 82.2452 0)
+		(uuid "b577faf9-e286-4e8b-ac8a-46a749900b51")
+		(property "Reference" "#PWR0293"
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,8 +3506,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 90.17 81.28 0)
+		(property "Value" "GND"
+			(at 69.85 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +3533,136 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 81.28 0)
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43abf601-4087-48b9-b950-04a8470719a3")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "#PWR0293")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 69.85 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd67f3b1-dec6-42ce-8c64-fc8fe47c2318")
+		(property "Reference" "L40"
+			(at 67.818 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470nH"
+			(at 72.898 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70e59dfa-0489-4a58-9d1d-5b5c463ac64b")
+		)
+		(pin "2"
+			(uuid "4d840750-4ae8-44b4-8218-e01c66b91e80")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "L40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5352224-2a46-4d16-9e14-21a4651b5cec")
+		(property "Reference" "C129"
+			(at 82.804 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "14pF 1%"
+			(at 82.804 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 78.74 63.1952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +3686,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 102.87 105.41 90)
+		(at 95.25 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3004,7 +3694,7 @@
 		(dnp no)
 		(uuid "d9a7a99f-58cc-44ae-88f4-335520161515")
 		(property "Reference" "L35"
-			(at 103.124 107.442 90)
+			(at 95.504 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3702,7 @@
 			)
 		)
 		(property "Value" "220nH 2%"
-			(at 103.378 102.362 90)
+			(at 95.758 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,7 +3710,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
-			(at 102.87 105.41 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +3719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 105.41 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3728,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 105.41 0)
+			(at 95.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,6 +3745,71 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
 					(reference "L35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddcfd870-a0d5-4335-b285-79e3c278feaf")
+		(property "Reference" "#PWR0107"
+			(at 69.85 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e3ccfc9-35df-4f2b-a525-54c7bbcb84d2")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
