@@ -1,4 +1,4 @@
-35447314203704
+44309888720481
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104167,6 +104167,13 @@ BWSMA-KWE-Z001
 5
 5
 footprints
+CUI_SJ-3524-SMT
+
+
+0
+4
+4
+footprints
 CX90B1-24P_HIR
 
 CX90B1-24P 
@@ -104188,6 +104195,27 @@ FTSH-105-01-L-DV-K
 10
 10
 footprints
+Fiducial_Square_1mm_Mask2mm
+Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)
+fiducial
+0
+1
+0
+footprints
+IND_0908SQ-23NJLC
+
+
+0
+2
+2
+footprints
+IND_1255AY-6R8M=P3
+
+
+0
+2
+2
+footprints
 PG-VQFN-32-803
 
 CY7C65215-32LTXI 
@@ -104208,6 +104236,13 @@ CY7C65215-32LTXI
 0
 33
 33
+footprints
+PJ-063BH_CUD
+
+PJ-063BH 
+0
+0
+0
 footprints
 QFN12_SKYA21003_SKY
 
