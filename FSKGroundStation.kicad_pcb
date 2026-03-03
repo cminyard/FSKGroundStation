@@ -50385,11 +50385,11 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 170 140)
+		(start 170 140.5)
 		(end 170 58)
 		(stroke
 			(width 0.15)
-			(type default)
+			(type solid)
 		)
 		(locked yes)
 		(layer "Edge.Cuts")
@@ -50397,18 +50397,18 @@
 	)
 	(gr_line
 		(start 70 58)
-		(end 70 140)
+		(end 70 140.5)
 		(stroke
 			(width 0.15)
-			(type default)
+			(type solid)
 		)
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "54d039d4-c072-4392-981c-01db0a2f243b")
 	)
 	(gr_line
-		(start 70 140)
-		(end 170 140)
+		(start 70 140.5)
+		(end 170 140.5)
 		(stroke
 			(width 0.15)
 			(type default)
