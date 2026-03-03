@@ -2081,6 +2081,16 @@
 		)
 		(uuid "2cf003ff-d704-4604-b13c-092efa9ec288")
 	)
+	(text "Main USB connector.  If the\nconnection is capable of\nsupplying 3A at 5V, you can\nuse this for power by installing\nJ9."
+		(exclude_from_sim no)
+		(at 213.614 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cad25e4c-8c25-4d05-95fd-1879e1a98280")
+	)
 	(junction
 		(at 185.42 97.79)
 		(diameter 0)

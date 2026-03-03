@@ -1629,6 +1629,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Combined 144/440 antenna\nport.  You lose 1dB using\nthis."
+		(exclude_from_sim no)
+		(at 147.066 76.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "552a978e-a96f-4e4d-9e4b-c3c7f3e67120")
+	)
+	(text "Control output for controlling\nexternal things like amplifiers.\nOpen when receiving, short to\nground when transmitting."
+		(exclude_from_sim no)
+		(at 97.282 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5e25a28-1faf-4750-9a96-d038e7b31ebc")
+	)
 	(junction
 		(at 121.92 93.98)
 		(diameter 0)

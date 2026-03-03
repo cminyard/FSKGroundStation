@@ -216,6 +216,8 @@ other_components = {
     ('OW7EL89CENUYO3YLC-40M',   'Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm'): None,
     ('OW7EL89CANUXK7YLC-48M',   'Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm'): None,
     ('BWSMA-KWE-Z001',          'CONN_BWSMA-KWE-Z001_BAT'): None,
+    ('BSS138', 'SOT-23'): None,
+    ('SJ-3524-SMT', 'CUI_SJ-3524-SMT'): None,
     ('', ''): None,
 }
 

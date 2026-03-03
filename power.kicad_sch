@@ -2660,6 +2660,16 @@
 		)
 		(uuid "02256ceb-1eb3-45d0-8049-98b4a07a970a")
 	)
+	(text "Power only USB port,\nyou must install J11\nto use this."
+		(exclude_from_sim no)
+		(at 201.676 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b66be33-9de5-4260-8ea8-3624882cc1f3")
+	)
 	(text "Install this jumper if\nusing power from the\ndata USB connection J3.\nDon't install J11 or J2."
 		(exclude_from_sim no)
 		(at 128.524 43.688 0)
@@ -2680,7 +2690,7 @@
 		)
 		(uuid "966c7344-f04d-4f88-a6d6-39286b5ed7f7")
 	)
-	(text "External 5V power.\nIf using, remove jumpers on\nJ9 and J11."
+	(text "External 5V power.\nIf using, remove jumpers on\nJ9 and J11.  This must\nsupply at least 3A."
 		(exclude_from_sim no)
 		(at 62.484 43.688 0)
 		(effects

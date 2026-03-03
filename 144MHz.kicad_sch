@@ -2614,6 +2614,12 @@
 		(uuid "f4db349e-063b-4404-8082-b57d3a63fdfa")
 	)
 	(junction
+		(at 135.89 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5bc9bf2-64c7-4736-903f-d1f89cc1f80f")
+	)
+	(junction
 		(at 76.2 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2763,6 +2769,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 67.31) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f09885-1f66-4a42-8d24-588c0b99a18e")
+	)
+	(wire
+		(pts
 			(xy 33.02 54.61) (xy 33.02 78.74)
 		)
 		(stroke
@@ -2860,6 +2876,16 @@
 			(type default)
 		)
 		(uuid "26577ee6-70b7-461d-8492-1970a1512115")
+	)
+	(wire
+		(pts
+			(xy 135.89 57.15) (xy 135.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2852a569-074a-44fc-919a-f5ab691702db")
 	)
 	(wire
 		(pts
@@ -3020,6 +3046,16 @@
 			(type default)
 		)
 		(uuid "3ec98d98-2f3a-4eae-abaf-a8193db4abf0")
+	)
+	(wire
+		(pts
+			(xy 135.89 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2ea4e6-063b-4d31-9cae-822917c8163e")
 	)
 	(wire
 		(pts
@@ -4573,7 +4609,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 71.12) (xy 147.32 71.12)
+			(xy 132.08 71.12) (xy 135.89 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4665,7 +4701,7 @@
 	)
 	(global_label "144MHz_TX_ENABLE"
 		(shape input)
-		(at 138.43 71.12 180)
+		(at 132.08 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4675,7 +4711,7 @@
 		)
 		(uuid "0cada4a9-a53d-4163-80f9-d19ca5033351")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.8788 71.12 0)
+			(at 110.5288 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,6 +5613,72 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/09d49814-9bff-4ecc-b3ba-584a511e3f87"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 135.89 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3166eb91-4a2f-48c8-bf2e-a6e008db949d")
+		(property "Reference" "#PWR0105"
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76ca6c2e-d961-4460-a001-6aed8bf9af00")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/09d49814-9bff-4ecc-b3ba-584a511e3f87"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -8537,6 +8639,74 @@
 			(project ""
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/09d49814-9bff-4ecc-b3ba-584a511e3f87"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b845519e-bed1-4dfb-a299-376563d9e273")
+		(property "Reference" "R23"
+			(at 138.684 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 133.35 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.112 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29d3b89d-7d42-43e5-a05d-5424663f89ef")
+		)
+		(pin "1"
+			(uuid "5d3adb38-dcca-4d82-9144-b0b6aa9612d8")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/09d49814-9bff-4ecc-b3ba-584a511e3f87"
+					(reference "R23")
 					(unit 1)
 				)
 			)
