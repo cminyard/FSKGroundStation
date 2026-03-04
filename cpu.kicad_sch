@@ -2806,6 +2806,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This is in case we need\nto reduce the voltage\ninto the oscillator pin."
+		(exclude_from_sim no)
+		(at 186.944 145.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e9de705-4179-48ad-b7b2-2a6b6bc8e2fb")
+	)
 	(text "1.8V clipped output 48MHz TXCO.\nPowered by DIO_30 after power up."
 		(exclude_from_sim no)
 		(at 113.792 168.656 0)
@@ -2845,6 +2855,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2814ebf0-019c-4300-83fa-798f32a46fd6")
+	)
+	(junction
+		(at 162.56 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bec0f88-dd31-4e6b-8409-cf070471ae3c")
 	)
 	(junction
 		(at 161.29 35.56)
@@ -3096,7 +3112,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 133.35) (xy 162.56 162.56)
+			(xy 162.56 133.35) (xy 162.56 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3306,6 +3322,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 144.78) (xy 171.45 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a6bcb3-7543-44a7-a207-d91c215e0ae1")
+	)
+	(wire
+		(pts
 			(xy 147.32 171.45) (xy 147.32 172.72)
 		)
 		(stroke
@@ -3313,6 +3339,16 @@
 			(type default)
 		)
 		(uuid "482649fe-7f36-446f-b8f5-9eb2920553e5")
+	)
+	(wire
+		(pts
+			(xy 162.56 147.32) (xy 162.56 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488a78ab-c8a2-46c7-a461-acc27db5944c")
 	)
 	(wire
 		(pts
@@ -3563,6 +3599,16 @@
 			(type default)
 		)
 		(uuid "7f1d37bd-2ec9-4b2d-8209-7f023bea9e80")
+	)
+	(wire
+		(pts
+			(xy 162.56 135.89) (xy 162.56 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802b39dd-8819-4257-9db6-12425bd1d0e4")
 	)
 	(wire
 		(pts
@@ -3833,6 +3879,16 @@
 			(type default)
 		)
 		(uuid "ad93909d-9a41-4e53-a4fe-ff2b1a9bd121")
+	)
+	(wire
+		(pts
+			(xy 171.45 135.89) (xy 162.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0d8632-4bd1-4a3d-a9da-ce553fbb07e9")
 	)
 	(wire
 		(pts
@@ -4153,6 +4209,16 @@
 			(type default)
 		)
 		(uuid "fb0864f7-27b0-47da-a87f-3fce234a2cd2")
+	)
+	(wire
+		(pts
+			(xy 171.45 137.16) (xy 171.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe68044f-f8c8-4362-8f01-ac9deb5e45d3")
 	)
 	(wire
 		(pts
@@ -4974,6 +5040,74 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/f1de8cbf-f219-47ea-9542-15169289ddba"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 140.97 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0619fa24-beea-4f18-83b8-c0134c7b411c")
+		(property "Reference" "R34"
+			(at 174.244 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 168.91 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 169.672 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad1babc4-ecb7-4ba0-a05e-de30826570d1")
+		)
+		(pin "1"
+			(uuid "067fd28e-3ab3-464f-bc88-c0cb8e841c5f")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/f1de8cbf-f219-47ea-9542-15169289ddba"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -5818,6 +5952,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 171.45 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7122d9f8-ec22-4fe2-a9dc-00205e4ebe4d")
+		(property "Reference" "#PWR0114"
+			(at 171.45 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "878e7102-c1e7-45c7-9631-779a56afee85")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/f1de8cbf-f219-47ea-9542-15169289ddba"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 248.92 62.23 90)
 		(mirror x)
@@ -6149,6 +6349,74 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/f1de8cbf-f219-47ea-9542-15169289ddba"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 143.51 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d611f553-d78b-4ff7-88ca-e87695d34887")
+		(property "Reference" "R32"
+			(at 165.354 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 160.02 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.782 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1e4d686-5a28-47c5-be30-8294622cfda5")
+		)
+		(pin "1"
+			(uuid "a1383f6b-593c-4d93-8303-51bc7cee94b5")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/f1de8cbf-f219-47ea-9542-15169289ddba"
+					(reference "R32")
 					(unit 1)
 				)
 			)

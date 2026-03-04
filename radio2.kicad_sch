@@ -1672,6 +1672,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "This is in case we need\nto reduce the voltage\ninto the oscillator pin."
+		(exclude_from_sim no)
+		(at 204.47 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "059326e0-7593-4e8a-9c27-a2425d3b1192")
+	)
 	(text "Decoupling, place one by each power pin."
 		(exclude_from_sim no)
 		(at 230.632 78.232 0)
@@ -1731,6 +1741,12 @@
 		(uuid "386b09f1-1250-4420-b18f-00847aa8278d")
 	)
 	(junction
+		(at 186.69 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "543ba6b0-0f03-47d9-b71c-46c8b713649c")
+	)
+	(junction
 		(at 248.92 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1783,6 +1799,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "808ca3c1-e581-465f-81cf-ab5783a1c088")
+	)
+	(junction
+		(at 163.83 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80a95dd8-38e9-4c47-92f8-027b6bbb2c19")
 	)
 	(junction
 		(at 161.29 90.17)
@@ -1877,10 +1899,6 @@
 	(no_connect
 		(at 157.48 80.01)
 		(uuid "05bd6a7c-efc9-43c9-b39f-0a97ad921cdb")
-	)
-	(no_connect
-		(at 157.48 82.55)
-		(uuid "6a552809-1e9f-4d42-b1ee-83fe6aaf2e54")
 	)
 	(no_connect
 		(at 91.44 97.79)
@@ -2113,6 +2131,16 @@
 			(type default)
 		)
 		(uuid "2f61ad33-23a2-4421-80a4-15f39fe306e1")
+	)
+	(wire
+		(pts
+			(xy 186.69 40.64) (xy 186.69 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32113927-f969-4091-90bf-17f281e44cd9")
 	)
 	(wire
 		(pts
@@ -2426,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 74.93) (xy 163.83 130.81)
+			(xy 163.83 74.93) (xy 163.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2526,6 +2554,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 49.53) (xy 186.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b69672-1983-4b7f-881b-a36a0464ec6f")
+	)
+	(wire
+		(pts
 			(xy 243.84 73.66) (xy 248.92 73.66)
 		)
 		(stroke
@@ -2596,6 +2634,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 58.42) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f578e08-d265-4d1f-8647-897dd0c8f8d1")
+	)
+	(wire
+		(pts
 			(xy 196.85 119.38) (xy 214.63 119.38)
 		)
 		(stroke
@@ -2643,6 +2691,16 @@
 			(type default)
 		)
 		(uuid "899943c9-f0a0-47d1-827a-6836f57c257c")
+	)
+	(wire
+		(pts
+			(xy 191.77 49.53) (xy 186.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c450e3-6560-4bf0-b86a-55088375a605")
 	)
 	(wire
 		(pts
@@ -2726,6 +2784,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 82.55) (xy 163.83 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fb78fe-9fe6-4590-a6cc-9fd76f9ad628")
+	)
+	(wire
+		(pts
 			(xy 59.69 95.25) (xy 91.44 95.25)
 		)
 		(stroke
@@ -2796,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 77.47) (xy 186.69 36.83)
+			(xy 186.69 77.47) (xy 186.69 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2853,6 +2921,16 @@
 			(type default)
 		)
 		(uuid "ab220a28-3be8-483e-baf1-9f6c79116ef2")
+	)
+	(wire
+		(pts
+			(xy 157.48 82.55) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf4dc71-7ffb-4488-b141-3ad09a90818f")
 	)
 	(wire
 		(pts
@@ -3053,6 +3131,16 @@
 			(type default)
 		)
 		(uuid "eee82437-419b-4b80-bcf2-1c5a003b1be8")
+	)
+	(wire
+		(pts
+			(xy 191.77 50.8) (xy 191.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef002b50-b48d-4feb-a824-338bc8d9d852")
 	)
 	(wire
 		(pts
@@ -3664,6 +3752,72 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4931cd76-eacc-42d3-9b79-d58163f7f9cf")
+		(property "Reference" "#PWR0113"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad0af865-dda2-4ab5-a089-51d3abba1112")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -4855,6 +5009,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 191.77 54.61 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "aeffc968-fa16-43b3-85e3-128546d97c05")
+		(property "Reference" "R31"
+			(at 194.564 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 189.23 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 189.992 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62ba7dfd-0bed-4ffc-bd9d-191d6f0907a4")
+		)
+		(pin "1"
+			(uuid "3dd1ad1f-c9b2-4c48-a17e-a28e5721d48d")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 213.36 66.04 180)
 		(unit 1)
@@ -5122,6 +5344,74 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.69 44.45 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4b62531-a10a-4400-8f86-52105ade67f0")
+		(property "Reference" "R14"
+			(at 189.484 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 184.15 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 184.912 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 186.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22f32c5d-54a4-4087-95fb-0884ea4964b5")
+		)
+		(pin "1"
+			(uuid "9cb9c57c-dfb7-4689-b11f-5092e13686c9")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/cf3ac92b-a340-4acf-be56-0f2a6ee7b165"
+					(reference "R14")
 					(unit 1)
 				)
 			)
