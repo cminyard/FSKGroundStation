@@ -127,3 +127,6 @@ wide.
 
   * The edges of the board could be plated, allowing heat transfer out
     of the edges of the board into the chassis.
+
+* The 2m connection to the CC1312R is actually for 169MHz.  A proper
+  design for 145MHz needs to be found, or it will need to be tweaked.
