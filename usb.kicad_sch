@@ -2298,10 +2298,6 @@
 		(uuid "30d1d327-aefd-4034-89fd-6a63aeeb83cc")
 	)
 	(no_connect
-		(at 55.88 120.65)
-		(uuid "325e6a31-61a4-4856-913c-5faedc54bc45")
-	)
-	(no_connect
 		(at 194.31 62.23)
 		(uuid "3293f4e1-6706-41c9-a2b9-c66ddbef2252")
 	)
@@ -2342,6 +2338,10 @@
 		(uuid "c6df93c5-6d43-43a0-b708-982ef5878358")
 	)
 	(no_connect
+		(at 35.56 118.11)
+		(uuid "c948565c-19be-4a75-9f33-febc4a89ca56")
+	)
+	(no_connect
 		(at 137.16 115.57)
 		(uuid "d0acf2af-bb31-4de9-ace5-db6cdc25063a")
 	)
@@ -2358,8 +2358,8 @@
 		(uuid "e5e479f0-bdf8-4ae4-8d1e-9f1779f490d3")
 	)
 	(no_connect
-		(at 55.88 118.11)
-		(uuid "ed495a60-7473-4672-b3df-a6ce0352d5c7")
+		(at 35.56 120.65)
+		(uuid "f4c5d3df-37ae-467a-a494-c4dd3834a6e6")
 	)
 	(no_connect
 		(at 194.31 85.09)
@@ -2941,6 +2941,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 120.65) (xy 55.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7320f1b0-b0f2-492a-8c46-b5fe0b58a938")
+	)
+	(wire
+		(pts
 			(xy 46.99 115.57) (xy 55.88 115.57)
 		)
 		(stroke
@@ -2958,6 +2968,16 @@
 			(type default)
 		)
 		(uuid "83c1c457-5a2f-4364-adfd-1c11f0869e6e")
+	)
+	(wire
+		(pts
+			(xy 43.18 118.11) (xy 55.88 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88465f39-823e-49b3-b87a-73276bb35f8c")
 	)
 	(wire
 		(pts
@@ -4964,6 +4984,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 39.37 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8d841827-be41-497a-ae06-fd5004c7a474")
+		(property "Reference" "R41"
+			(at 34.544 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 43.688 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 39.37 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43a70fcd-b491-436a-8cce-e263dc391074")
+		)
+		(pin "1"
+			(uuid "80a7ae11-c053-4c4c-aade-0aff5b86f8a8")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 83.82 0)
 		(unit 1)
@@ -5990,6 +6077,73 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 39.37 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f8bf58bb-0c60-43bb-b926-c77026944b8e")
+		(property "Reference" "R42"
+			(at 34.544 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 43.688 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 39.37 118.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f6223fa-bc78-41d1-b5e9-8987a0068e18")
+		)
+		(pin "1"
+			(uuid "63385b5d-dad1-4ca8-b293-bbc537694175")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
+					(reference "R42")
 					(unit 1)
 				)
 			)
