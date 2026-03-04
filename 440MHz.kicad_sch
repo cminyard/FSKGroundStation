@@ -5,202 +5,6 @@
 	(uuid "b2069714-7441-4c70-8626-7a113d19dd37")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xGxx:74LVC1GU04DRL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LVC1GU04DRL"
-				(at 17.78 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf"
-				(at -3.81 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Inverter Gate, SOT-553"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inverter cmos"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT*553*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LVC1GU04DRL_0_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end -5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -7.62) (xy 10.16 0) (xy -5.08 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 11.43 0)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74LVC1GU04DRL_1_1"
-				(pin input line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 0 180)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3258,12 +3062,6 @@
 		(uuid "94832c26-72f1-4e89-91cc-44202a0eceb7")
 	)
 	(junction
-		(at 165.1 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "965e020d-26b9-4760-ab95-3230477f3e8d")
-	)
-	(junction
 		(at 193.04 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3330,12 +3128,6 @@
 		(uuid "cdf8ba5e-7ac6-4612-bf90-1ddfeb46084d")
 	)
 	(junction
-		(at 193.04 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf9ee37c-7880-4f2b-835b-c9304f73838e")
-	)
-	(junction
 		(at 54.61 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3364,12 +3156,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e47b1103-52e8-4a73-b7b0-33927bd14afa")
-	)
-	(junction
-		(at 146.05 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e48da0c5-f2ca-4210-ab2e-4bb29bdff1c0")
 	)
 	(junction
 		(at 144.78 78.74)
@@ -3436,6 +3222,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc3dd681-534d-422d-8679-7b4c5c48a55e")
+	)
+	(junction
+		(at 76.2 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe094cf4-0aa2-4456-8622-5749a8ca8167")
 	)
 	(wire
 		(pts
@@ -3506,16 +3298,6 @@
 			(type default)
 		)
 		(uuid "0993bc6d-5203-4096-b017-766087ec73e8")
-	)
-	(wire
-		(pts
-			(xy 193.04 115.57) (xy 193.04 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09c51b8f-770a-4a54-8a03-80744898c701")
 	)
 	(wire
 		(pts
@@ -3919,16 +3701,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 129.54) (xy 154.94 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4583fd44-daf0-414b-844a-9b0bb9462c5f")
-	)
-	(wire
-		(pts
 			(xy 26.67 78.74) (xy 27.94 78.74)
 		)
 		(stroke
@@ -3996,16 +3768,6 @@
 			(type default)
 		)
 		(uuid "4cf43e78-0917-43d2-9b6a-96e955da0a08")
-	)
-	(wire
-		(pts
-			(xy 146.05 115.57) (xy 165.1 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da7bffb-2054-4a2e-a0a1-f56507f1744a")
 	)
 	(wire
 		(pts
@@ -4189,16 +3951,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 115.57) (xy 193.04 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64d49ffe-2d34-4c5f-be20-1828e2e064d6")
-	)
-	(wire
-		(pts
 			(xy 247.65 134.62) (xy 236.22 134.62)
 		)
 		(stroke
@@ -4206,16 +3958,6 @@
 			(type default)
 		)
 		(uuid "66537fe6-57d9-435e-b58a-88bd391eb9f0")
-	)
-	(wire
-		(pts
-			(xy 146.05 127) (xy 146.05 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "666d1805-b410-4b10-83d9-964ecea418e7")
 	)
 	(wire
 		(pts
@@ -4449,16 +4191,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 119.38) (xy 146.05 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba11f32-07df-4b2b-8091-a13eb51f8158")
-	)
-	(wire
-		(pts
 			(xy 198.12 25.4) (xy 198.12 58.42)
 		)
 		(stroke
@@ -4679,6 +4411,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 57.15) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6c5ab4-4001-4a0f-a912-9e1e79d8b4b3")
+	)
+	(wire
+		(pts
 			(xy 53.34 78.74) (xy 58.42 78.74)
 		)
 		(stroke
@@ -4849,7 +4591,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 114.3) (xy 193.04 115.57)
+			(xy 193.04 114.3) (xy 193.04 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5199,16 +4941,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 115.57) (xy 165.1 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf3ed4a2-889e-4e38-8b45-7de5064b53d4")
-	)
-	(wire
-		(pts
 			(xy 256.54 78.74) (xy 259.08 78.74)
 		)
 		(stroke
@@ -5389,7 +5121,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 129.54) (xy 146.05 129.54)
+			(xy 57.15 57.15) (xy 64.77 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5526,16 +5258,6 @@
 			(type default)
 		)
 		(uuid "ed676b8b-19d3-4563-bb8f-7755fbb3ce11")
-	)
-	(wire
-		(pts
-			(xy 165.1 139.7) (xy 165.1 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee9e872b-97da-478d-8942-71e71a57366b")
 	)
 	(wire
 		(pts
@@ -5679,6 +5401,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 57.15) (xy 76.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe896f77-3d44-4f20-a8ad-7ba69cf432e2")
+	)
+	(wire
+		(pts
 			(xy 240.03 139.7) (xy 240.03 144.78)
 		)
 		(stroke
@@ -5740,6 +5472,28 @@
 		(uuid "0fd932f1-3210-4613-a86c-6e2691bf7ae7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.3388 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "440_SWITCH"
+		(shape input)
+		(at 182.88 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39c019e3-6586-4516-9dcc-2a832a1e4dd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.4649 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5593,7 @@
 	)
 	(global_label "440_TRX_SW"
 		(shape input)
-		(at 138.43 129.54 180)
+		(at 57.15 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5849,7 +5603,7 @@
 		)
 		(uuid "e0249579-88dd-46b0-8cc9-9854f6e4ef58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.7731 129.54 0)
+			(at 42.4931 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,33 +7027,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 146.05 123.19 0)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 68.58 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
-		(uuid "3a4e3579-86a2-4019-8931-87b1244a0638")
-		(property "Reference" "R14"
-			(at 148.844 123.19 90)
+		(dnp yes)
+		(uuid "3bda8b6a-39b0-4f06-b20e-d72b4fb4f8dc")
+		(property "Reference" "C54"
+			(at 70.358 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 143.51 123.19 90)
+		(property "Value" "0"
+			(at 71.374 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 144.272 123.19 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 72.39 56.1848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +7063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 123.19 0)
+			(at 68.58 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,8 +7071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 146.05 123.19 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,15 +7081,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "06d2432b-3435-4e6e-8efe-43b76a786596")
+			(uuid "9c3a8c76-53fe-411b-8886-9490d3786b21")
 		)
 		(pin "1"
-			(uuid "23c4ce69-6629-4438-bd25-7f7fabc4f4a6")
+			(uuid "d52a2055-388a-40d6-9fa8-371371e8f21d")
 		)
 		(instances
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/02f68d56-1c9b-4a2b-b713-a6f1b66ebbf1"
-					(reference "R14")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -9525,72 +9280,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a89418ad-9fad-4439-b159-fe1b58f410ee")
-		(property "Reference" "#PWR096"
-			(at 165.1 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13e30b95-6415-4e5f-b53a-41495aede595")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/02f68d56-1c9b-4a2b-b713-a6f1b66ebbf1"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 222.25 45.72 180)
 		(unit 1)
@@ -11181,82 +10870,6 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/02f68d56-1c9b-4a2b-b713-a6f1b66ebbf1"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xGxx:74LVC1GU04DRL")
-		(at 165.1 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4adc7ad-2af5-4671-8815-f69ca8283825")
-		(property "Reference" "U10"
-			(at 175.006 121.158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1GU04DRL"
-			(at 175.006 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf"
-			(at 161.29 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Inverter Gate, SOT-553"
-			(at 165.1 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9397f65e-9d01-47eb-a920-86036b799a99")
-		)
-		(pin "2"
-			(uuid "cb7ccd9a-ee85-4d28-997a-d1740be9046b")
-		)
-		(pin "1"
-			(uuid "a6d55b91-99be-4540-ac9a-ae6a1ebdf382")
-		)
-		(pin "3"
-			(uuid "b1722bda-7c63-4c72-975e-14eadbeacab3")
-		)
-		(pin "5"
-			(uuid "00cfa6ca-ff5b-4882-a9fd-5056c642aaa9")
-		)
-		(instances
-			(project ""
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/02f68d56-1c9b-4a2b-b713-a6f1b66ebbf1"
-					(reference "U10")
 					(unit 1)
 				)
 			)
