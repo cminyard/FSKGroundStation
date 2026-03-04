@@ -37,11 +37,11 @@ ok, but it's pushing things on the heat side.
 
 ## Powering the Board
 
-Two USB connectors on the board can both supply power to the board.
-To use the host connector (J3), install the jumper on J8.  A second
-USB connector J10 is a power-only USB connector that can be used to
-power the board if the host connection cannot supply enough current.
-To use that install the J11 jumper.
+You can use either of the two USB connectors on the board to supply
+power.  To use the host connector (J3), install the jumper on J8.  A
+second USB connector J10 is a power-only USB connector that can be
+used to power the board if the host connection cannot supply enough
+current.  To use that install the J11 jumper.
 
 There is also J25, a standard 6.0mm OD 2.5mm ID barrel connector on
 the board, center pin is +5V and the outside is ground, as usual.  You
@@ -107,7 +107,23 @@ wide.
     in a box.  It would also require ventilation of some type and
     maybe a fan.
 	
-  * Connect a heat transfer device to an external box.  This would
+  * Connect a heat transfer device to the box surface.  This would
     require mounting in a box.  If you use the box referenced above,
-    there is a 5mm gap between the bottom of the circuit board and the
+    there is a 5.2mm gap between the bottom of the circuit board and the
     inside of the box.  I'm not sure how to conduct the head, though.
+
+  * Wurth has some "Graphite Foam Gaskets" that have high thermal
+    conductivity and are not electrically conductive, from what I can
+    tell (1KV/mm dialectric strength), and not too expensive.  Laird
+    has "Thermal Transfer Gaskets," which look similar.  Also
+    Bergquist thermally conductive gap pads.  You could put that
+    between the PA pad and the chassis.  I can't find one that's the
+    right height, though, it needs to be 5.2mm.  Maybe it can be cut?
+    The custom make them, but that would be expensive.
+
+  * It would be possible to use 2oz copper on the inner and/or outer
+    layers.  This will conduct a lot more heat, but limits the board
+    stacks that can be used and requires some impedance adjustments.
+
+  * The edges of the board could be plated, allowing heat transfer out
+    of the edges of the board into the chassis.
