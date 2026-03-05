@@ -55,7 +55,14 @@ The PAs produce a lot of heat.  At full power they will be dissipating
 around 4 watts.  The heat mostly comes out through the bottom of the
 board on a 2.5mm square copper pad under each PA.
 
-TBD - determine how to do heat sink.
+There are a bunch of vias on the edge of the board and three
+unobstructed ground planes between these vias and the PAs.  With edge
+plating, this should be able to move heat from the ground planes into
+the chassis from the edge.  This is experimental.
+
+In case the edge vias and plating don't work, the 2.5mm square copper
+pad under the PAs is left bare.  That way a thermally conductive pad
+or a heat sink can be put on that to move heat away.
 
 There are two thermsistors on the board, one mounted by each PA, for
 measuring temperature.
