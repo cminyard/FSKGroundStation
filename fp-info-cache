@@ -1,4 +1,4 @@
-44310182455856
+47855896273198
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104286,6 +104286,13 @@ CC1312R1F3RGZR
 49
 49
 footprints
+RHA40_4P5X4P5
+
+CC2540TF256RHAT 
+0
+41
+41
+footprints
 RHB32_3P45X3P45_TEX
 
 CC1125RHBR 
@@ -104313,3 +104320,10 @@ SKYA21002
 0
 9
 9
+footprints
+UCBGA36_LAT
+
+ICE40LP1K-CM36 
+0
+36
+36

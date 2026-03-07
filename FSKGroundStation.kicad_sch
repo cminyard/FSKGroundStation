@@ -251,7 +251,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 113.03 163.83 0)
+		(at 233.68 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -260,7 +260,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e33c073-9cad-4cc6-a7fb-83c45c524fd0")
 		(property "Reference" "FID3"
-			(at 115.57 162.5599 0)
+			(at 236.22 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +269,7 @@
 			)
 		)
 		(property "Value" "Fiducial (round)"
-			(at 115.57 165.0999 0)
+			(at 236.22 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,7 +278,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 113.03 163.83 0)
+			(at 233.68 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,7 +287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 163.83 0)
+			(at 233.68 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,7 +296,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 113.03 163.83 0)
+			(at 233.68 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +315,7 @@
 	)
 	(symbol
 		(lib_id "Local Connectors:Fiducial (square)")
-		(at 147.32 163.83 0)
+		(at 267.97 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -324,7 +324,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c209a85-2666-4fbe-a45c-5ce776f5ba4f")
 		(property "Reference" "FID9"
-			(at 149.86 162.5599 0)
+			(at 270.51 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,7 +333,7 @@
 			)
 		)
 		(property "Value" "Fiducial (square)"
-			(at 149.86 165.0999 0)
+			(at 270.51 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,7 +342,7 @@
 			)
 		)
 		(property "Footprint" "footprints:Fiducial_Square_1mm_Mask2mm"
-			(at 147.32 163.83 0)
+			(at 267.97 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,7 +351,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 163.83 0)
+			(at 267.97 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,7 +360,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 147.32 163.83 0)
+			(at 267.97 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -379,7 +379,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 113.03 176.53 0)
+		(at 233.68 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -388,7 +388,7 @@
 		(fields_autoplaced yes)
 		(uuid "359f9948-c4bf-4d71-b50a-828514c26435")
 		(property "Reference" "FID5"
-			(at 115.57 175.2599 0)
+			(at 236.22 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,7 +397,7 @@
 			)
 		)
 		(property "Value" "Fiducial (round)"
-			(at 115.57 177.7999 0)
+			(at 236.22 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +406,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 113.03 176.53 0)
+			(at 233.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 176.53 0)
+			(at 233.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -424,7 +424,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 113.03 176.53 0)
+			(at 233.68 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +443,7 @@
 	)
 	(symbol
 		(lib_id "Local Connectors:Fiducial (square)")
-		(at 147.32 151.13 0)
+		(at 267.97 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -452,7 +452,7 @@
 		(fields_autoplaced yes)
 		(uuid "403b2758-b6c2-410f-89b2-715f4a93ac0c")
 		(property "Reference" "FID7"
-			(at 149.86 149.8599 0)
+			(at 270.51 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -461,7 +461,7 @@
 			)
 		)
 		(property "Value" "Fiducial (square)"
-			(at 149.86 152.3999 0)
+			(at 270.51 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +470,7 @@
 			)
 		)
 		(property "Footprint" "footprints:Fiducial_Square_1mm_Mask2mm"
-			(at 147.32 151.13 0)
+			(at 267.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 151.13 0)
+			(at 267.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -488,7 +488,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 147.32 151.13 0)
+			(at 267.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -507,7 +507,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 113.03 151.13 0)
+		(at 233.68 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -516,7 +516,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a4e2a74-a9f5-406c-b569-0fc08f761ae4")
 		(property "Reference" "FID1"
-			(at 115.57 149.8599 0)
+			(at 236.22 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,7 +525,7 @@
 			)
 		)
 		(property "Value" "Fiducial (round)"
-			(at 115.57 152.3999 0)
+			(at 236.22 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -534,7 +534,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 113.03 151.13 0)
+			(at 233.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -543,7 +543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 151.13 0)
+			(at 233.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,7 +552,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 113.03 151.13 0)
+			(at 233.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,7 +571,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 113.03 157.48 0)
+		(at 233.68 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -580,7 +580,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f90a928-7f0d-4404-9661-d3dfd14b6534")
 		(property "Reference" "FID2"
-			(at 115.57 156.2099 0)
+			(at 236.22 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,7 +589,7 @@
 			)
 		)
 		(property "Value" "Fiducial (round)"
-			(at 115.57 158.7499 0)
+			(at 236.22 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,7 +598,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 113.03 157.48 0)
+			(at 233.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 157.48 0)
+			(at 233.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +616,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 113.03 157.48 0)
+			(at 233.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,7 +635,7 @@
 	)
 	(symbol
 		(lib_id "Local Connectors:Fiducial (square)")
-		(at 147.32 170.18 0)
+		(at 267.97 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -644,7 +644,7 @@
 		(fields_autoplaced yes)
 		(uuid "74867281-b5c3-401f-a61f-fd65650905d6")
 		(property "Reference" "FID10"
-			(at 149.86 168.9099 0)
+			(at 270.51 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +653,7 @@
 			)
 		)
 		(property "Value" "Fiducial (square)"
-			(at 149.86 171.4499 0)
+			(at 270.51 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +662,7 @@
 			)
 		)
 		(property "Footprint" "footprints:Fiducial_Square_1mm_Mask2mm"
-			(at 147.32 170.18 0)
+			(at 267.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,7 +671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 170.18 0)
+			(at 267.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,7 +680,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 147.32 170.18 0)
+			(at 267.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -699,7 +699,7 @@
 	)
 	(symbol
 		(lib_id "Local Connectors:Fiducial (square)")
-		(at 147.32 182.88 0)
+		(at 267.97 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -708,7 +708,7 @@
 		(fields_autoplaced yes)
 		(uuid "74ad8183-7c1a-4fc9-a05c-015bc611903c")
 		(property "Reference" "FID12"
-			(at 149.86 181.6099 0)
+			(at 270.51 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,7 +717,7 @@
 			)
 		)
 		(property "Value" "Fiducial (square)"
-			(at 149.86 184.1499 0)
+			(at 270.51 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +726,7 @@
 			)
 		)
 		(property "Footprint" "footprints:Fiducial_Square_1mm_Mask2mm"
-			(at 147.32 182.88 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 182.88 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +744,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 147.32 182.88 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +763,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 34.29 165.1 0)
+		(at 237.49 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -772,7 +772,7 @@
 		(fields_autoplaced yes)
 		(uuid "896fa6d0-d14f-448a-a16e-f7a1970dd306")
 		(property "Reference" "H1"
-			(at 36.83 163.8299 0)
+			(at 240.03 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -781,7 +781,7 @@
 			)
 		)
 		(property "Value" "M3 Mount (MTS-14 and  97790503111)"
-			(at 36.83 166.3699 0)
+			(at 240.03 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +790,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 34.29 165.1 0)
+			(at 237.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -799,7 +799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 165.1 0)
+			(at 237.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +808,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 34.29 165.1 0)
+			(at 237.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,7 +827,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 34.29 171.45 0)
+		(at 237.49 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -836,7 +836,7 @@
 		(fields_autoplaced yes)
 		(uuid "a25a3ae3-d622-498b-a801-336a6ecc683e")
 		(property "Reference" "H2"
-			(at 36.83 170.1799 0)
+			(at 240.03 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +845,7 @@
 			)
 		)
 		(property "Value" "M3 Mount (MTS-14 and  97790503111)"
-			(at 36.83 172.7199 0)
+			(at 240.03 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +854,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 34.29 171.45 0)
+			(at 237.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 171.45 0)
+			(at 237.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +872,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 34.29 171.45 0)
+			(at 237.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +891,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 113.03 170.18 0)
+		(at 233.68 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -900,7 +900,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2912f61-8128-454d-ab61-c69edb2ba987")
 		(property "Reference" "FID4"
-			(at 115.57 168.9099 0)
+			(at 236.22 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +909,7 @@
 			)
 		)
 		(property "Value" "Fiducial (round)"
-			(at 115.57 171.4499 0)
+			(at 236.22 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,7 +918,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 113.03 170.18 0)
+			(at 233.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 170.18 0)
+			(at 233.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,7 +936,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 113.03 170.18 0)
+			(at 233.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +955,7 @@
 	)
 	(symbol
 		(lib_id "Local Connectors:Fiducial (square)")
-		(at 147.32 176.53 0)
+		(at 267.97 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -964,7 +964,7 @@
 		(fields_autoplaced yes)
 		(uuid "bafa1f3a-98b2-4f8b-9a9c-e47184fff0ed")
 		(property "Reference" "FID11"
-			(at 149.86 175.2599 0)
+			(at 270.51 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,7 +973,7 @@
 			)
 		)
 		(property "Value" "Fiducial (square)"
-			(at 149.86 177.7999 0)
+			(at 270.51 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +982,7 @@
 			)
 		)
 		(property "Footprint" "footprints:Fiducial_Square_1mm_Mask2mm"
-			(at 147.32 176.53 0)
+			(at 267.97 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 176.53 0)
+			(at 267.97 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1000,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 147.32 176.53 0)
+			(at 267.97 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1019,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 34.29 177.8 0)
+		(at 237.49 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1028,7 +1028,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9f6609a-7fbd-46c3-98f7-85cc48b5d2ae")
 		(property "Reference" "H3"
-			(at 36.83 176.5299 0)
+			(at 240.03 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +1037,7 @@
 			)
 		)
 		(property "Value" "M3 Mount (MTS-14 and  97790503111)"
-			(at 36.83 179.0699 0)
+			(at 240.03 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1046,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 34.29 177.8 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 177.8 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1064,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 34.29 177.8 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,7 +1083,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 113.03 182.88 0)
+		(at 233.68 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1092,7 +1092,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9d19684-be70-4b18-9b10-cf9281ba0165")
 		(property "Reference" "FID6"
-			(at 115.57 181.6099 0)
+			(at 236.22 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1101,7 @@
 			)
 		)
 		(property "Value" "Fiducial (round)"
-			(at 115.57 184.1499 0)
+			(at 236.22 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1110,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 113.03 182.88 0)
+			(at 233.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,7 +1119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 182.88 0)
+			(at 233.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +1128,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 113.03 182.88 0)
+			(at 233.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +1147,7 @@
 	)
 	(symbol
 		(lib_id "Local Connectors:Fiducial (square)")
-		(at 147.32 157.48 0)
+		(at 267.97 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1156,7 +1156,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa334256-373d-455a-8554-d50e9e6a0313")
 		(property "Reference" "FID8"
-			(at 149.86 156.2099 0)
+			(at 270.51 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,7 +1165,7 @@
 			)
 		)
 		(property "Value" "Fiducial (square)"
-			(at 149.86 158.7499 0)
+			(at 270.51 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +1174,7 @@
 			)
 		)
 		(property "Footprint" "footprints:Fiducial_Square_1mm_Mask2mm"
-			(at 147.32 157.48 0)
+			(at 267.97 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 157.48 0)
+			(at 267.97 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1192,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 147.32 157.48 0)
+			(at 267.97 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1211,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 34.29 184.15 0)
+		(at 237.49 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1220,7 +1220,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe4889f4-8203-4eb6-9c40-e5bb4c03b816")
 		(property "Reference" "H4"
-			(at 36.83 182.8799 0)
+			(at 240.03 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 			)
 		)
 		(property "Value" "M3 Mount (MTS-14 and  97790503111)"
-			(at 36.83 185.4199 0)
+			(at 240.03 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1238,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 34.29 184.15 0)
+			(at 237.49 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 184.15 0)
+			(at 237.49 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1256,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 34.29 184.15 0)
+			(at 237.49 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1274,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 55.88)
+		(at 106.68 127)
 		(size 59.69 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1290,7 +1290,7 @@
 		)
 		(uuid "02f68d56-1c9b-4a2b-b713-a6f1b66ebbf1")
 		(property "Sheetname" "440MHz"
-			(at 109.22 55.1684 0)
+			(at 106.68 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1299,7 @@
 			)
 		)
 		(property "Sheetfile" "440MHz.kicad_sch"
-			(at 109.22 83.1346 0)
+			(at 106.68 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,13 +1310,13 @@
 		(instances
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474"
-					(page "7")
+					(page "9")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 109.22 21.59)
+		(at 106.68 91.44)
 		(size 59.69 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1332,7 +1332,7 @@
 		)
 		(uuid "09d49814-9bff-4ecc-b3ba-584a511e3f87")
 		(property "Sheetname" "144MHz"
-			(at 109.22 20.8784 0)
+			(at 106.68 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1341,99 @@
 			)
 		)
 		(property "Sheetfile" "144MHz.kicad_sch"
-			(at 109.22 48.8446 0)
+			(at 106.68 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 21.59)
+		(size 59.69 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2106b5bd-c125-4e23-a1f9-3e31557537d4")
+		(property "Sheetname" "2.4G"
+			(at 105.41 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_4g.kicad_sch"
+			(at 105.41 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 105.41 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 127)
+		(size 59.69 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41dd90e6-0341-4e70-9679-5988385865bd")
+		(property "Sheetname" "Radio1"
+			(at 25.4 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio1.kicad_sch"
+			(at 25.4 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1534,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 127)
+		(at 106.68 55.88)
 		(size 59.69 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1456,9 +1548,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "cf3ac92b-a340-4acf-be56-0f2a6ee7b165")
-		(property "Sheetname" "Radio2"
-			(at 26.67 126.2884 0)
+		(uuid "a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d")
+		(property "Sheetname" "FPGA"
+			(at 106.68 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,8 +1558,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "radio2.kicad_sch"
-			(at 26.67 154.2546 0)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 106.68 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1576,49 @@
 		)
 	)
 	(sheet
-		(at 109.22 91.44)
+		(at 25.4 162.56)
+		(size 59.69 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf3ac92b-a340-4acf-be56-0f2a6ee7b165")
+		(property "Sheetname" "Radio2"
+			(at 25.4 161.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio2.kicad_sch"
+			(at 25.4 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 162.56)
 		(size 59.69 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1500,7 +1634,7 @@
 		)
 		(uuid "e94932f9-2a30-4def-a8cb-1408b004363c")
 		(property "Sheetname" "Diplexer"
-			(at 109.22 90.7284 0)
+			(at 106.68 161.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,7 +1643,7 @@
 			)
 		)
 		(property "Sheetfile" "diplexer.kicad_sch"
-			(at 109.22 118.6946 0)
+			(at 106.68 189.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1654,7 @@
 		(instances
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474"
-					(page "8")
+					(page "10")
 				)
 			)
 		)
