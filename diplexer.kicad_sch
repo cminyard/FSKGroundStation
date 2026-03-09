@@ -3202,6 +3202,14 @@
 		(pin "1"
 			(uuid "40d5eebe-caaa-472c-ae8b-cc404c801a10")
 		)
+		(instances
+			(project ""
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
@@ -3269,6 +3277,14 @@
 		)
 		(pin "2"
 			(uuid "eca3d42b-4694-44f1-bb9a-e77d51cc3e4e")
+		)
+		(instances
+			(project ""
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/e94932f9-2a30-4def-a8cb-1408b004363c"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol

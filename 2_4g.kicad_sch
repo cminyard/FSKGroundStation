@@ -1157,6 +1157,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 78.74 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0163153c-6982-4860-8836-9f812d0233f7")
+		(property "Reference" "L30"
+			(at 80.772 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1nH 2%"
+			(at 75.692 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7993455d-fe5f-425b-91d5-f39eaa2a7d22")
+		)
+		(pin "2"
+			(uuid "6bacc386-788f-4caa-a400-d4fb3d340470")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/2106b5bd-c125-4e23-a1f9-3e31557537d4"
+					(reference "L30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Local Connectors:BWSMA-KWE-Z001")
 		(at 160.02 93.98 0)
 		(unit 1)
@@ -1574,7 +1640,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "afc9d542-52eb-46c2-8fe3-f3b894345e6a")
+		(uuid "c8f6f300-da4a-4231-a18d-6c6bb849ead0")
 		(property "Reference" "C117"
 			(at 82.55 110.744 90)
 			(effects
@@ -1627,72 +1693,6 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/2106b5bd-c125-4e23-a1f9-3e31557537d4"
 					(reference "C117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 78.74 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9a7a99f-58cc-44ae-88f4-335520161515")
-		(property "Reference" "L30"
-			(at 80.772 120.396 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.1nH 2%"
-			(at 75.692 120.142 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
-			(at 78.74 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7993455d-fe5f-425b-91d5-f39eaa2a7d22")
-		)
-		(pin "2"
-			(uuid "6bacc386-788f-4caa-a400-d4fb3d340470")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/2106b5bd-c125-4e23-a1f9-3e31557537d4"
-					(reference "L30")
 					(unit 1)
 				)
 			)
