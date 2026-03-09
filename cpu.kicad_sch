@@ -1523,7 +1523,7 @@
 				(pin bidirectional line
 					(at 63.5 -22.86 180)
 					(length 7.62)
-					(name "DIO6"
+					(name "DIO7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1541,7 +1541,7 @@
 				(pin bidirectional line
 					(at 63.5 -25.4 180)
 					(length 7.62)
-					(name "DIO7"
+					(name "DIO9_SWDIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1559,7 +1559,7 @@
 				(pin bidirectional line
 					(at 63.5 -27.94 180)
 					(length 7.62)
-					(name "DIO9_SWDIO"
+					(name "DIO10_SWDCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1577,7 +1577,7 @@
 				(pin bidirectional line
 					(at 63.5 -30.48 180)
 					(length 7.62)
-					(name "DIO10_SWDCK"
+					(name "DIO11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1595,7 +1595,7 @@
 				(pin bidirectional line
 					(at 63.5 -33.02 180)
 					(length 7.62)
-					(name "DIO11"
+					(name "DIO12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1613,7 +1613,7 @@
 				(pin bidirectional line
 					(at 63.5 -35.56 180)
 					(length 7.62)
-					(name "DIO12"
+					(name "DIO15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1631,7 +1631,7 @@
 				(pin bidirectional line
 					(at 63.5 -38.1 180)
 					(length 7.62)
-					(name "DIO13"
+					(name "DIO16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3669,6 +3669,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 118.11) (xy 173.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7211154f-d81a-4dfc-b6ff-b7bf493ad548")
+	)
+	(wire
+		(pts
 			(xy 233.68 30.48) (xy 233.68 25.4)
 		)
 		(stroke
@@ -3809,6 +3819,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80cf1017-0ec3-4741-9a3d-7300882e1340")
+	)
+	(wire
+		(pts
 			(xy 86.36 102.87) (xy 93.98 102.87)
 		)
 		(stroke
@@ -3826,16 +3846,6 @@
 			(type default)
 		)
 		(uuid "881ddad9-8e28-469e-921e-c51674fa88fc")
-	)
-	(wire
-		(pts
-			(xy 157.48 123.19) (xy 173.99 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b3538c0-e187-4350-a7fa-d3b4e57661cc")
 	)
 	(wire
 		(pts
@@ -4006,16 +4016,6 @@
 			(type default)
 		)
 		(uuid "a3d0b57a-1a35-457d-8f8f-5d2f72716813")
-	)
-	(wire
-		(pts
-			(xy 173.99 118.11) (xy 157.48 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f61283-1f85-4a87-9c87-156dc599e9cf")
 	)
 	(wire
 		(pts
@@ -4289,16 +4289,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 115.57) (xy 157.48 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6cb9276-2c7b-4fa3-9c58-49abd99bb08a")
-	)
-	(wire
-		(pts
 			(xy 36.83 143.51) (xy 36.83 161.29)
 		)
 		(stroke
@@ -4499,6 +4489,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 123.19) (xy 157.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe004fb-3ae7-4dc0-95de-54b48f6ae128")
+	)
+	(wire
+		(pts
 			(xy 181.61 82.55) (xy 181.61 83.82)
 		)
 		(stroke
@@ -4622,28 +4622,6 @@
 		(uuid "09b5f666-5cbf-491e-a7fe-281399d539bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.2684 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_SUSPEND"
-		(shape input)
-		(at 173.99 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19358dde-cc72-4e94-9d97-d4a4db191559")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5218 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,6 +4829,28 @@
 			)
 		)
 	)
+	(global_label "USB_SUSPEND"
+		(shape input)
+		(at 173.99 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68db8c51-891f-4f1b-95ae-87e84b8d30eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5218 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RESET_N"
 		(shape input)
 		(at 187.96 95.25 0)
@@ -5005,28 +5005,6 @@
 			)
 		)
 	)
-	(global_label "USB_SPI_SSEL"
-		(shape input)
-		(at 173.99 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2d43103-1ce6-4552-8b84-665c71a6a354")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4008 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_RX"
 		(shape input)
 		(at 173.99 102.87 0)
@@ -5040,28 +5018,6 @@
 		(uuid "dcd8cd43-2141-4355-8e94-66a8792093c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.2323 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SWDCK"
-		(shape input)
-		(at 173.99 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0068d01-56b4-4652-8e9b-e7e482dc87fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.4461 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,6 +5093,28 @@
 			)
 		)
 	)
+	(global_label "SWDCK"
+		(shape input)
+		(at 173.99 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea1a1caf-3c04-48db-9e10-d5c0a8a29c74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.4461 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "2.4G_ANT"
 		(shape input)
 		(at 157.48 90.17 0)
@@ -5150,6 +5128,28 @@
 		(uuid "ec28400d-aeb9-403b-abc0-5cf3a5eaf75b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.1133 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SPI_SSEL"
+		(shape input)
+		(at 173.99 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3faeff7-4c11-400b-a980-2ab6c3cd4547")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.4008 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
