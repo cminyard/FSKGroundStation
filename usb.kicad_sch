@@ -2314,6 +2314,10 @@
 		(uuid "6ac8e43b-7749-40c4-9f7d-7cdcd06cc5a4")
 	)
 	(no_connect
+		(at 137.16 133.35)
+		(uuid "6d61cacc-e859-4252-838d-a887ff53b9a3")
+	)
+	(no_connect
 		(at 234.95 69.85)
 		(uuid "73ead5a2-7de4-402f-863b-d63d97a05d27")
 	)
@@ -3581,16 +3585,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 133.35) (xy 151.13 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4056c05-03fb-4013-90fe-7ecf3e8431fb")
-	)
-	(wire
-		(pts
 			(xy 190.5 86.36) (xy 190.5 87.63)
 		)
 		(stroke
@@ -3787,28 +3781,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_SPI_DATA_READY"
-		(shape input)
-		(at 151.13 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6f06b480-fa99-4cd6-9581-0f94e2cebc9c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.1933 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

@@ -3235,12 +3235,16 @@
 		(uuid "10053323-34b4-4b73-ac1e-f94debc96189")
 	)
 	(no_connect
-		(at 187.96 49.53)
-		(uuid "2d423ceb-93be-4002-8868-1987e8d66bb1")
-	)
-	(no_connect
 		(at 187.96 90.17)
 		(uuid "3adcc8d6-eab8-47d2-98cc-d6611c7ea4e7")
+	)
+	(no_connect
+		(at 240.03 95.25)
+		(uuid "470bc405-0fcc-4ff6-9974-251108ba45b0")
+	)
+	(no_connect
+		(at 240.03 49.53)
+		(uuid "49c4fbf5-a68d-41c0-86d5-efb65147e4ce")
 	)
 	(no_connect
 		(at 187.96 64.77)
@@ -3253,10 +3257,6 @@
 	(no_connect
 		(at 96.52 44.45)
 		(uuid "b864317f-b8ec-4332-87ed-3492b0de8d7f")
-	)
-	(no_connect
-		(at 187.96 95.25)
-		(uuid "faeded71-c006-4250-8d83-65bd6ba7e1df")
 	)
 	(wire
 		(pts
@@ -3410,6 +3410,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 49.53) (xy 232.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8f3454-c19d-4801-96f8-95751ca6c311")
+	)
+	(wire
+		(pts
 			(xy 187.96 57.15) (xy 208.28 57.15)
 		)
 		(stroke
@@ -3437,6 +3447,16 @@
 			(type default)
 		)
 		(uuid "3311eb97-a24d-478e-84c9-efd4f9e545fd")
+	)
+	(wire
+		(pts
+			(xy 187.96 95.25) (xy 232.41 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cd215b-6272-4d2f-9575-1aa0dc459442")
 	)
 	(wire
 		(pts
@@ -5103,6 +5123,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 236.22 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "2d41e2bc-65ec-4de0-9e73-aa9cc44a0c67")
+		(property "Reference" "R38"
+			(at 241.046 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 232.156 50.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 236.22 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 236.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84030c74-2a99-4781-a23e-365739322ccb")
+		)
+		(pin "1"
+			(uuid "04236f50-7ccf-43a4-946d-dd18d6809341")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Local ICs:TLV775 3.3V")
 		(at 45.72 100.33 0)
 		(unit 1)
@@ -5465,7 +5552,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "483787a5-7c9a-4c2a-962d-e8eb542342b8")
 		(property "Reference" "#PWR0147"
 			(at 236.22 92.71 0)
@@ -5477,7 +5563,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 91.44 0)
+			(at 236.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,6 +5604,73 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
 					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 236.22 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "514c6408-c9d7-47a8-bbc1-0945857b5df4")
+		(property "Reference" "R37"
+			(at 236.474 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 236.22 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 236.22 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "405f7a4e-fd41-4929-af04-decf99886c21")
+		)
+		(pin "1"
+			(uuid "5cf4c955-5ae9-4cff-bedd-91e87bb80cc1")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
+					(reference "R37")
 					(unit 1)
 				)
 			)
