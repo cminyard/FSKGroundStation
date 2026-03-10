@@ -3,7 +3,7 @@
 This is a hardware design for a low-cost PacSat satellite ground
 station, but it is also general two-way FSK commmunication for the 2
 meter and 70 centimeter bands.  It should be possible to build these
-in the US $50 range.  It can do FSK variants (MSK, GMSK, OOK, ASK).
+in the US $60 range.  It can do FSK variants ([G]MSK, [G]FSK, OOK, ASK).
 Notably, it cannot do AFSK, the normal 1200bps communication used over
 FM radios.
 
@@ -17,6 +17,8 @@ switch after than to switch between transmit and receive.
 
 Communication with the host is through a SPI/UART to USB converter on
 J3.
+
+There is also a 2.4GHz radio, so a bluetooth connection could be done.
 
 ## RF Connections
 
