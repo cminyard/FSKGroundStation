@@ -135,8 +135,8 @@ value_to_partnum_xlats_1b = {
 # General passive parts.
 value_to_partnum_xlats_2 = {
     ('1.1nH 2%',        '0805'): ('LQW15AN11NG80D', 'Murata'),
-
     ('2.2nH 2%',	'0402'): ('LQW15AN2N2G80D', 'Murata'),
+    ('3.4nH 2%',	'0402'): ('LQW15AN3N4G80D', 'Murata'),
     ('9.1nH 2%',	'0402'): ('LQW15AN9N1G00D', 'Murata'),
     ('10nH 2%',		'0402'): ('LQW15AN10NG00D', 'Murata'),
     ('15nH 2%',		'0402'): ('LQW15AN15NG00D', 'Murata'),
