@@ -167,6 +167,7 @@ value_to_partnum_xlats_2 = {
     ('22Ω',             '0402'): ('ERJ2RKF22R0X', 'Panasonic'),
     ('348Ω 1%',		'0402'): ('ERJ2RKF3480X', 'Panasonic'),
     ('1.96K 1%',	'0402'): ('ERJ2RKF1961X', 'Panasonic'),
+    ('3KΩ',             '0603'): ('ERJ-UP3F3001V', 'Panasonic'),
     ('5.1K',		'0402'): ('ERJ2RKF5101X', 'Panasonic'),
     ('6.04K 1%',	'0402'): ('ERJ2RKF6041X', 'Panasonic'),
     ('10K',		'0402'): ('ERJ2RKF1002X', 'Panasonic'),
@@ -211,6 +212,10 @@ value_to_partnum_xlats_2 = {
     ('10uF 10V',	'1206'): ('CL31A106KBHNNNE', 'Samsung'),
     ('10uF',		'1206'): ('CL31A106KBHNNNE', 'Samsung'),
     ('22uF',		'1206'): ('CL31A226KAHNNNE', 'Samsung'),
+
+    ('RED LED', '0603'):         ('CSL0902UT1C', 'Rohm'),
+    ('YELLOW LED', '0603'):      ('CSL0901YT1C', 'Rohm'),
+    ('GREEN LED', '0603'):       ('CSL0902ET1C', 'Rohm'),
 
     ('',	''): ('',	''),
 }

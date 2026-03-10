@@ -492,7 +492,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
+			(property "ki_fp_filters" "R_* RV_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8839,7 +8839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NTCG103JF103FTDS 10KΩ@25C"
+		(property "Value" "Thermistor_NTC"
 			(at 149.606 181.864 90)
 			(effects
 				(font
@@ -8857,7 +8857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "NCU15XH103F60RC"
+		(property "Datasheet" "~"
 			(at 142.24 172.72 0)
 			(effects
 				(font
