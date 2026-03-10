@@ -8839,8 +8839,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
-			(at 149.606 181.864 90)
+		(property "Value" "NTCG103JF103FTDS 10KΩ@25C"
+			(at 147.574 183.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)

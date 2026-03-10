@@ -6262,15 +6262,15 @@
 		(dnp no)
 		(uuid "45489504-81ae-4a71-b6c6-24b6329d4661")
 		(property "Reference" "Y2"
-			(at 185.42 140.462 0)
+			(at 185.42 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
-			(at 185.42 143.002 0)
+		(property "Value" "48MHZ 7PF 20ppm"
+			(at 185.42 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
