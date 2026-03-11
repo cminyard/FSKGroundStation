@@ -9,12 +9,14 @@ some point.
 
 # TODO
 
+When a smaller version of the MSPM0G5187 comes out, switch to it.
+
+# Done
+
 Possibly replace the USB chip with a MSPM0G5187.  It's a
 microprocessor with a USB interface, and it's actually cheaper than
 the CY7C65215-32LTXI and it frees us from using lousy libraries from
 the vendor and proprietary programming tools.
-
-# Done
 
 # Not going to do
 
@@ -129,3 +131,9 @@ coding, so that will have to be accounted for in the FPGA, too.
 ## 2026-03-11
 
 Change the voltage regulator to a diode for 2.5V to the FPGA.
+
+Switch to a CPU with a USB interface for the USB connection The part
+that was picked had proprietary tools and configuration and it didn't
+support interrupts.  The CPU is cheaper and more capable.
+Unfortunately it's a lot bigger.  A newer smaller part may come out at
+some time, switch then.
