@@ -4823,9 +4823,9 @@
 			)
 		)
 	)
-	(global_label "RADIO1_SPI_SSEL"
+	(global_label "FPGA_SPI_SSEL"
 		(shape input)
-		(at 73.66 138.43 180)
+		(at 73.66 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4833,9 +4833,9 @@
 			)
 			(justify right)
 		)
-		(uuid "27b1a4f4-f55b-418e-90a2-672498064ff8")
+		(uuid "1bb6ad84-472f-48ac-8ace-18480d9e1380")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.2858 138.43 0)
+			(at 56.342 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,9 +4999,9 @@
 			)
 		)
 	)
-	(global_label "USB_SUSPEND"
+	(global_label "USB_WAKEUP"
 		(shape input)
-		(at 73.66 130.81 180)
+		(at 73.66 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5009,9 +5009,31 @@
 			)
 			(justify right)
 		)
-		(uuid "680db201-a08f-4907-aa54-e0f84adf2781")
+		(uuid "6c91ef61-0515-4e38-9414-aecce875a9ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.1282 130.81 0)
+			(at 58.3377 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_SUSPEND"
+		(shape input)
+		(at 73.66 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f770f2d-3d7a-4e25-b76c-2b25b984577d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.1282 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +5197,7 @@
 			)
 		)
 	)
-	(global_label "USB_WAKEUP"
+	(global_label "RADIO1_SPI_SSEL"
 		(shape input)
 		(at 73.66 133.35 180)
 		(fields_autoplaced yes)
@@ -5185,9 +5207,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c14db618-4f65-4fb1-bd30-4c9aa987c349")
+		(uuid "c2010e95-ec50-42d5-b799-58495b44fbe5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.3377 133.35 0)
+			(at 54.2858 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,28 +5259,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FPGA_SPI_SSEL"
-		(shape input)
-		(at 73.66 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4d1314e-ab73-4412-b804-0a347dd230a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.342 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
