@@ -60,11 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|101445000|93825000|82b9279f-382f-469b-8a9f-cdf928632218|97ceca5f-eff3-4e21-9089-8e8960f9df1d",
-          ""
-        ],
-        [
-          "clearance|101560000|93940000|82b9279f-382f-469b-8a9f-cdf928632218|cbaddd82-c4eb-4f24-9306-d8ee9c3c288d",
+          "clearance|101790000|94570000|98ecb2c0-2f84-4743-b8d7-8ff23df9527b|f1d4f5b4-c02a-4266-82d4-f986abc8d2f6",
           ""
         ],
         [
@@ -727,7 +723,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.06,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,

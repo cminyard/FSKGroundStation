@@ -118,3 +118,7 @@ Still two GRF5604 PAs and a CY7C65215-32LTXI host interface.
 ## 2026-03-10
 
 Finished the rework for two radio chips and the FPGA.
+
+## 2026-03-11
+
+Change the voltage regulator to a diode for 2.5V to the FPGA.

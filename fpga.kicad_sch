@@ -3364,12 +3364,12 @@
 		(uuid "f479e623-a27c-478d-abe6-cafe098cf28c")
 	)
 	(no_connect
-		(at 187.96 52.07)
-		(uuid "10053323-34b4-4b73-ac1e-f94debc96189")
-	)
-	(no_connect
 		(at 187.96 90.17)
 		(uuid "3adcc8d6-eab8-47d2-98cc-d6611c7ea4e7")
+	)
+	(no_connect
+		(at 214.63 52.07)
+		(uuid "682a2225-c836-4e7c-b2e3-9608a40a2e7f")
 	)
 	(no_connect
 		(at 187.96 64.77)
@@ -3452,6 +3452,16 @@
 			(type default)
 		)
 		(uuid "1618a1ab-a4f7-4d51-acc0-fde08d88d67b")
+	)
+	(wire
+		(pts
+			(xy 187.96 52.07) (xy 207.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169c5d76-823b-4307-8cf2-f0149ca092b8")
 	)
 	(wire
 		(pts
@@ -6243,6 +6253,73 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
 					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bb5c325-8b71-4331-9fb2-1d7245ff01e1")
+		(property "Reference" "R33"
+			(at 215.646 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 206.756 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 210.82 50.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c2e2f84-aa8e-4f6a-9623-1e564c736247")
+		)
+		(pin "1"
+			(uuid "3665ee7f-a7dd-4348-a021-96b690c09a14")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
+					(reference "R33")
 					(unit 1)
 				)
 			)
