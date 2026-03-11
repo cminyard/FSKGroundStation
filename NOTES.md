@@ -9,6 +9,11 @@ some point.
 
 # TODO
 
+Possibly replace the USB chip with a MSPM0G5187.  It's a
+microprocessor with a USB interface, and it's actually cheaper than
+the CY7C65215-32LTXI and it frees us from using lousy libraries from
+the vendor and proprietary programming tools.
+
 # Done
 
 # Not going to do
@@ -47,7 +52,9 @@ They are on the expensive side, though.
 
 Infineon has some chips, too, and CY7C65215-32LTXI looks good.  It has
 a dual interface that can do UART, SPI, and I2C.  The plan is to do
-UART and SPI for the host interface.
+UART and SPI for the host interface.  One problem is that the various
+chips (from FTDI, Microchip, Infineon) have very poor documentation on
+how to program them; they expect you to use their libraries
 
 If we use the CC1352R, it can also do Bluetooth, which might be nice
 for a host interface.  It doesn't cost a lot more than the CC1312R.
@@ -60,7 +67,7 @@ buy the CC1312R or CC1352R than just a plain Cortex-M4 from TI.
 And the radio chips have more flash and RAM.
 
 But even better, the TI CC2755 chips are cheaper and have even more
-FLASH and RAM.
+FLASH and RAM.  And they can do bluetooth.
 
 # History
 
@@ -107,3 +114,7 @@ I have some open questions out to TI on this, but it looks doable.
 So looking at a redesign, it's the CC2755R10 chip for the main
 processor, two CC1125 chips for radios, and an iCE40 LP1K for an FPGA.
 Still two GRF5604 PAs and a CY7C65215-32LTXI host interface.
+
+## 2026-03-10
+
+Finished the rework for two radio chips and the FPGA.

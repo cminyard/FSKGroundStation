@@ -451,6 +451,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N5819WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5819WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5819WS_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5819WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Local ICs:ICE40LP1K-CM36"
 			(pin_names
 				(offset 0.254)
@@ -2597,182 +2747,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Local ICs:TLV775 2.5V"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV77525PDBVR"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/product/TLV775"
-				(at 0 10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2.5V LDO 500ma"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LDO regulator linear  SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV775 2.5V_0_1"
-				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 4.445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV775 2.5V_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "ON/~{OFF}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Local ICs:TLV775 3.3V"
 			(pin_names
 				(offset 0.254)
@@ -3301,9 +3275,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "The FPGA has strict power\nsequencing requirements,\nVCC (1.2V) must be at\nleast .5V before VCC_SPI (3.3V),\nand and then VPP_2.5V.\n\nVCCIO can be done any time after\nVCC, and it's 3.3V, so we can\nshare that with VCC_SPI.\n\nWe use the output of the previous\nstage to drive the enable of the\nnext stage, which must reach .9V\nto enable.  There's a pull down\non the enable inputs to avoid\nthem floating."
+	(text "The FPGA has strict power\nsequencing requirements,\nVCC (1.2V) must be at\nleast .5V before VCC_SPI (3.3V),\nand and then VPP_2.5V.\n\nVCCIO can be done any time after\nVCC, and it's 3.3V, so we can\nshare that with VCC_SPI.\n\nWe use the output of the previous\nstage to drive the enable of the\nnext stage, which must reach .9V\nto enable.  There's a pull down\non the enable inputs to avoid\nthem floating.\n\nThe diode provides a .5V drop\nfrom 3.3V, putting it into the\nrange required by VPP_2V5, and\ndelaying the power until after\nFPGA_3.3V reaches .5V."
 		(exclude_from_sim no)
-		(at 53.086 176.784 0)
+		(at 51.816 165.608 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3318,22 +3292,10 @@
 		(uuid "06303601-dcc1-4c94-b1bd-5327665a826a")
 	)
 	(junction
-		(at 20.32 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b3ea592-385f-4050-abd8-585080c69322")
-	)
-	(junction
 		(at 236.22 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32d3185d-a5c3-4197-91d2-ad8081dbd37c")
-	)
-	(junction
-		(at 27.94 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "547cd5e4-83cf-4f5c-aac8-809be510d7d8")
 	)
 	(junction
 		(at 236.22 46.99)
@@ -3384,22 +3346,10 @@
 		(uuid "b6ce2544-1099-412a-bb3b-69ea3a198dab")
 	)
 	(junction
-		(at 64.77 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6adb655-219c-4fb5-9c41-5f40864afe46")
-	)
-	(junction
 		(at 27.94 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2bead35-1a73-4589-92fe-941eac4a3b72")
-	)
-	(junction
-		(at 34.29 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da655644-655d-4c0b-87d8-3e655923a88c")
 	)
 	(junction
 		(at 191.77 82.55)
@@ -3492,6 +3442,16 @@
 			(type default)
 		)
 		(uuid "159a279c-0538-42f5-a75e-b5037ed1a4c5")
+	)
+	(wire
+		(pts
+			(xy 34.29 128.27) (xy 34.29 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1618a1ab-a4f7-4d51-acc0-fde08d88d67b")
 	)
 	(wire
 		(pts
@@ -3605,26 +3565,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 147.32) (xy 46.99 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c61fc93-b543-4fbf-bde0-058a2bc1940e")
-	)
-	(wire
-		(pts
-			(xy 20.32 67.31) (xy 20.32 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3311eb97-a24d-478e-84c9-efd4f9e545fd")
-	)
-	(wire
-		(pts
 			(xy 187.96 95.25) (xy 232.41 95.25)
 		)
 		(stroke
@@ -3665,16 +3605,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 128.27) (xy 34.29 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3de8683c-91da-492a-b213-83a9e4bd9dee")
-	)
-	(wire
-		(pts
 			(xy 187.96 80.01) (xy 191.77 80.01)
 		)
 		(stroke
@@ -3695,7 +3625,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 137.16) (xy 64.77 137.16)
+			(xy 57.15 137.16) (xy 71.12 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3722,36 +3652,6 @@
 			(type default)
 		)
 		(uuid "4aa054fa-5f6c-46f9-a92d-1939f9ff6cfb")
-	)
-	(wire
-		(pts
-			(xy 64.77 147.32) (xy 64.77 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae0e9b8-54b7-4ec9-8b22-d9b29c64e06b")
-	)
-	(wire
-		(pts
-			(xy 27.94 147.32) (xy 27.94 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bd888c6-4590-43f8-afb2-1a9acb5ba0af")
-	)
-	(wire
-		(pts
-			(xy 27.94 137.16) (xy 36.83 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4be38827-98ef-4af6-b7d2-b4a9f9c3ff29")
 	)
 	(wire
 		(pts
@@ -3822,16 +3722,6 @@
 			(type default)
 		)
 		(uuid "60fec744-c072-4e3c-b8ba-feedb161a8de")
-	)
-	(wire
-		(pts
-			(xy 34.29 139.7) (xy 34.29 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a01881-e1fa-4679-b51e-2d145127defa")
 	)
 	(wire
 		(pts
@@ -3925,16 +3815,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 139.7) (xy 27.94 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72202894-cf6b-4160-b37b-81a3f02e4298")
-	)
-	(wire
-		(pts
 			(xy 64.77 67.31) (xy 64.77 69.85)
 		)
 		(stroke
@@ -4012,16 +3892,6 @@
 			(type default)
 		)
 		(uuid "80d6d55d-bc4d-4725-89e5-1fc7df8b281c")
-	)
-	(wire
-		(pts
-			(xy 64.77 139.7) (xy 64.77 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813ba330-d108-47de-a457-13013d6654f5")
 	)
 	(wire
 		(pts
@@ -4145,16 +4015,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 137.16) (xy 27.94 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac625875-131e-4181-bf11-ae1ec0d4bebe")
-	)
-	(wire
-		(pts
 			(xy 252.73 95.25) (xy 260.35 95.25)
 		)
 		(stroke
@@ -4212,6 +4072,16 @@
 			(type default)
 		)
 		(uuid "c98a5c73-fe79-47fd-8fb2-8ebb0fb86c51")
+	)
+	(wire
+		(pts
+			(xy 34.29 137.16) (xy 49.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5a9b6e-605d-4eb0-9b56-cf5e61250c54")
 	)
 	(wire
 		(pts
@@ -4285,16 +4155,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 156.21) (xy 34.29 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e50b93f7-ac17-4ff5-bff7-71c4663be713")
-	)
-	(wire
-		(pts
 			(xy 71.12 128.27) (xy 34.29 128.27)
 		)
 		(stroke
@@ -4322,16 +4182,6 @@
 			(type default)
 		)
 		(uuid "e9977a5a-447c-4065-b9ff-73122104d1f9")
-	)
-	(wire
-		(pts
-			(xy 34.29 139.7) (xy 36.83 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec0d9aca-6703-440c-b58c-3d36d395a3ed")
 	)
 	(wire
 		(pts
@@ -4392,16 +4242,6 @@
 			(type default)
 		)
 		(uuid "fb0ffe1d-b2b9-4ddf-8281-d6ccbeef013f")
-	)
-	(wire
-		(pts
-			(xy 64.77 137.16) (xy 71.12 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca9e36a-b9ac-47c3-b072-71b15f72de5e")
 	)
 	(wire
 		(pts
@@ -5197,72 +5037,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 27.94 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e6c3c4f-8b2c-4ef3-a9ab-a5d1152a750d")
-		(property "Reference" "#PWR0137"
-			(at 27.94 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 27.94 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fec433b-c7cf-415e-9039-b7f5e29c3290")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
-					(reference "#PWR0137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 236.22 40.64 180)
 		(unit 1)
@@ -5390,75 +5164,6 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 64.77 143.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2307efc0-bea6-4fe6-9d9b-c7e73a1ac339")
-		(property "Reference" "C122"
-			(at 63.246 145.034 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 63.246 137.922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 63.8048 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 64.77 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b932c672-b9d5-4172-8de7-d3a722fdf2dc")
-		)
-		(pin "1"
-			(uuid "3811d315-0507-4b23-8fc9-d30210e45524")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
-					(reference "C122")
 					(unit 1)
 				)
 			)
@@ -5735,149 +5440,6 @@
 			(project ""
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
 					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35e1070c-eaca-4495-b254-55d7426dfcf5")
-		(property "Reference" "#PWR0138"
-			(at 64.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39e941ea-f643-4df2-8c4e-1c3cb28021fb")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
-					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Local ICs:TLV775 2.5V")
-		(at 46.99 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36df8ffa-e57d-4492-974a-1fdfe0be6a6e")
-		(property "Reference" "U12"
-			(at 46.99 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV77525PDBVR"
-			(at 46.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 46.99 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/product/TLV775"
-			(at 46.99 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.5V LDO 500ma"
-			(at 46.99 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "71871d7b-0112-41a9-9252-2242ac958614")
-		)
-		(pin "4"
-			(uuid "93428200-770f-4842-bf77-bacada0c7ba7")
-		)
-		(pin "2"
-			(uuid "1c1d58e8-4872-450e-8393-2ea611b3c775")
-		)
-		(pin "1"
-			(uuid "8d9ef26c-857a-4556-b78f-d5e900c995c8")
-		)
-		(pin "3"
-			(uuid "350601a1-cdfc-4929-a825-031f11e90ba5")
-		)
-		(instances
-			(project ""
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
-					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -6621,73 +6183,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 34.29 152.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "749b98e2-4c4b-425b-956a-4fbc28d0d53d")
-		(property "Reference" "R33"
-			(at 31.496 152.654 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 36.83 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 36.068 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 34.29 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b86e33af-2f76-49c0-a412-db483a800b0a")
-		)
-		(pin "1"
-			(uuid "84f744da-754d-4a7a-85b2-2398c950637c")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 20.32 64.77 0)
 		(unit 1)
@@ -6949,141 +6444,6 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
 					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 27.94 143.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "998b34e2-7b91-4134-a6fe-6449ddc8c43c")
-		(property "Reference" "C121"
-			(at 26.416 145.034 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 26.416 137.922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 26.9748 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 27.94 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e98be26-6387-4610-8ca8-d6f27c038380")
-		)
-		(pin "1"
-			(uuid "2a2a1704-bc8c-4e24-9922-1abc39786581")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
-					(reference "C121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cec6c28-55c6-4af6-bb78-8bc2f413fb0c")
-		(property "Reference" "#PWR0145"
-			(at 34.29 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa4ebcfe-6a2e-4678-a19b-b2e7aa48ea3e")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
-					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -7406,72 +6766,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1ef0829-ba38-4ff2-891c-8770e8a3cc12")
-		(property "Reference" "#PWR0142"
-			(at 46.99 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2643242e-c774-487d-b1a8-888f27fe2c54")
-		)
-		(instances
-			(project "FSKGroundStation"
-				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
-					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 34.29 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7531,6 +6825,74 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
 					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 53.34 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbcc7bea-44ba-42c5-a4b4-198649839fab")
+		(property "Reference" "D1"
+			(at 53.6575 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 53.6575 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 53.34 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 53.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 53.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdeec8f0-02c1-44d6-98ba-f96d0ef662df")
+		)
+		(pin "2"
+			(uuid "4e069a33-8b31-4a29-a4f1-d36d065a2960")
+		)
+		(instances
+			(project ""
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
+					(reference "D1")
 					(unit 1)
 				)
 			)
