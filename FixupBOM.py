@@ -175,6 +175,7 @@ value_to_partnum_xlats_2 = {
     ('30K',		'0402'): ('ERJ2RKF3002X', 'Panasonic'),
     ('56K 1%',		'0402'): ('ERJPA2F5602X', 'Panasonic'),
     ('62K',		'0402'): ('ERJ2RKF6202X', 'Panasonic'),
+    ('100KΩ 0.1%',      '0402'): ('ERA-3AEB104V', 'Panasonic'),
 
     ('.82pF',           '0402'): ('GJM1555C1HR82WB01D', 'Murata'),
     ('1.2pF',           '0402'): ('GCM1555C1H1R2BA16D', 'Murata'),
@@ -208,6 +209,7 @@ value_to_partnum_xlats_2 = {
     ('47nF',		'0402'): ('GCM155R71H473KE02D', 'Murata'),
     ('100nF',		'0402'): ('GCM155R71C104KA55D', 'Murata'),
     ('220nF',		'0402'): ('CL05B224KO5NNNC', 'Samsung'),
+    ('.47uF',           '0603'): ('CL10B474KA8NFNC', 'Samsung'),
     ('1uF',		'0603'): ('CL10A105KB8NNNC', 'Samsung'),
     ('10uF 10V',	'1206'): ('CL31A106KBHNNNE', 'Samsung'),
     ('10uF',		'1206'): ('CL31A106KBHNNNE', 'Samsung'),
@@ -236,7 +238,7 @@ other_components = {
     ('CC1312R1F3RGZR',          'RGZ0048A'): None,
     ('FTSH-105-01-L-DV-K',      'FTSH-105-01-L-DV-K'): None,
     ('OW2EL89CENUXK7YLC-40M',   'Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm'): None,
-    ('32.768KHz 7pF 20ppm', 'Crystal_SMD_2012-2Pin_2.0x1.2mm'): None,
+    ('32.768KHz 12.5pF 20ppm', 'Crystal_SMD_2012-2Pin_2.0x1.2mm'): None,
     ('48MHZ 7PF 20ppm', 'Crystal_SMD_2016-4Pin_2.0x1.6mm'): None,
     ('BWSMA-KWE-Z001',          'CONN_BWSMA-KWE-Z001_BAT'): None,
     ('ICE40LP1K-CM36', 'UCBGA36_LAT'): None,
@@ -246,6 +248,8 @@ other_components = {
     ('TLV77525PDBVR', 'SOT-23-5'): None,
     ('TLV77512PDBVR', 'SOT-23-5'): None,
     ('CC2755P105E0WRHAR', 'RHA40_4P5X4P5'): None,
+    ('MSPM0G5187SPMR', 'PM0064A-IPC_A'): None,
+    ('1N5819WS', 'D_SOD-323'): None,
 
     ('', ''): None,
 }

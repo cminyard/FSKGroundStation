@@ -56,6 +56,9 @@ UART and SPI for the host interface.  One problem is that the various
 chips (from FTDI, Microchip, Infineon) have very poor documentation on
 how to program them; they expect you to use their libraries
 
+TI and some others make a chip with USB that could be used, too.  It's
+cheaper, and it doesn't tie us to proprietary tools.
+
 If we use the CC1352R, it can also do Bluetooth, which might be nice
 for a host interface.  It doesn't cost a lot more than the CC1312R.
 
@@ -118,6 +121,10 @@ Still two GRF5604 PAs and a CY7C65215-32LTXI host interface.
 ## 2026-03-10
 
 Finished the rework for two radio chips and the FPGA.
+
+TI confirmed that the synchronous output of the CC115 can be used to
+provide our own whitening and HDLC.  The chip does not do differential
+coding, so that will have to be accounted for in the FPGA, too.
 
 ## 2026-03-11
 

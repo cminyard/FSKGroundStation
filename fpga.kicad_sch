@@ -3274,6 +3274,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "The FPGA has strict power\nsequencing requirements,\nVCC (1.2V) must be at\nleast .5V before VCC_SPI (3.3V),\nand and then VPP_2.5V.\n\nVCCIO can be done any time after\nVCC, and it's 3.3V, so we can\nshare that with VCC_SPI.\n\nWe use the output of the previous\nstage to drive the enable of the\nnext stage, which must reach .9V\nto enable.  There's a pull down\non the enable inputs to avoid\nthem floating.\n\nThe diode provides a .5V drop\nfrom 3.3V, putting it into the\nrange required by VPP_2V5, and\ndelaying the power until after\nFPGA_3.3V reaches .5V."
 		(exclude_from_sim no)
@@ -3338,6 +3439,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a58250cf-402c-4f80-9203-50c03b1e9f49")
+	)
+	(junction
+		(at 60.96 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7a4580b-2258-453a-8ae6-687067b7fd74")
 	)
 	(junction
 		(at 191.77 80.01)
@@ -3635,7 +3742,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 137.16) (xy 71.12 137.16)
+			(xy 57.15 137.16) (xy 60.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4132,6 +4239,26 @@
 			(type default)
 		)
 		(uuid "d6523d2d-b2ce-4925-bc8d-b0641675fc50")
+	)
+	(wire
+		(pts
+			(xy 60.96 137.16) (xy 71.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b11a28-7ccd-4ea4-98c7-ce8c2b95055c")
+	)
+	(wire
+		(pts
+			(xy 60.96 132.08) (xy 60.96 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8054c4b-216e-4164-a41e-8d8a5412b088")
 	)
 	(wire
 		(pts
@@ -6053,6 +6180,72 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
 					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 60.96 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69234a97-e48a-4577-ac58-3a0ce047eef4")
+		(property "Reference" "#FLG05"
+			(at 60.96 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58b0a48f-611a-4caa-aa85-12110beb74f9")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a7d34897-eb3f-4db7-9b4e-9397ce1d9e5d"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
