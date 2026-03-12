@@ -52,6 +52,7 @@
 			)
 		)
 	)
+	(clearance 0.12)
 	(fp_line
 		(start -4.5974 -1.826623)
 		(end -4.5974 0.185222)
@@ -266,7 +267,7 @@
 		(at 3.6059 -1.341699)
 		(size 0.508 0.508)
 		(drill oval 0.85 0.508)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "df4b2128-2233-43ff-90d2-bd1425af2477")
 	)
 	(pad "25" thru_hole oval
