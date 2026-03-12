@@ -2948,6 +2948,16 @@
 		)
 		(uuid "a7f6ca0b-2dfd-416b-b0aa-dbfc0bd34d4a")
 	)
+	(text "The USB interface provides a\n32.768KHz clock, we use that\nhere."
+		(exclude_from_sim no)
+		(at 44.45 144.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f46549d4-da55-40ef-ad4e-9f24735d6c2f")
+	)
 	(junction
 		(at 227.33 25.4)
 		(diameter 0)

@@ -137,3 +137,8 @@ that was picked had proprietary tools and configuration and it didn't
 support interrupts.  The CPU is cheaper and more capable.
 Unfortunately it's a lot bigger.  A newer smaller part may come out at
 some time, switch then.
+
+## 2026-03-12
+
+Add a clock line from the USB chip to the FPGA so the FPGA can have a
+clock.

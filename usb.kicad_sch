@@ -3475,10 +3475,6 @@
 		(uuid "83639225-b6fe-478f-ab63-ca6f13739591")
 	)
 	(no_connect
-		(at 95.25 154.94)
-		(uuid "843197d8-12dd-4eae-8e2d-7ef29f72b631")
-	)
-	(no_connect
 		(at 95.25 58.42)
 		(uuid "87d299cd-0765-47d7-83e8-85c9192db121")
 	)
@@ -4022,6 +4018,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 154.94) (xy 74.93 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1e1e88-deb6-40ca-9e42-e019b5bc05cd")
+	)
+	(wire
+		(pts
 			(xy 238.76 85.09) (xy 257.81 85.09)
 		)
 		(stroke
@@ -4279,6 +4285,16 @@
 			(type default)
 		)
 		(uuid "99e6265a-cfe5-4195-bb2c-2a8b3ef8afd2")
+	)
+	(wire
+		(pts
+			(xy 82.55 154.94) (xy 95.25 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fd9bdd-e8a9-469b-8a17-a098438aa86a")
 	)
 	(wire
 		(pts
@@ -5238,6 +5254,28 @@
 			)
 		)
 	)
+	(global_label "FPGA_CLK"
+		(shape input)
+		(at 69.85 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2b2de84-2e4c-493b-ba59-fe4b121d680e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.6119 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_VBUS"
 		(shape input)
 		(at 210.82 40.64 180)
@@ -5573,6 +5611,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "footprints:FTSH-105-01-L-DV-K"
@@ -6507,6 +6546,73 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
 					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bb5c325-8b71-4331-9fb2-1d7245ff01e1")
+		(property "Reference" "R33"
+			(at 83.566 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 74.676 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 78.74 153.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c2e2f84-aa8e-4f6a-9623-1e564c736247")
+		)
+		(pin "1"
+			(uuid "3665ee7f-a7dd-4348-a021-96b690c09a14")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
+					(reference "R33")
 					(unit 1)
 				)
 			)
