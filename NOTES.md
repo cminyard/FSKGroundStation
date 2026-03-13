@@ -142,3 +142,7 @@ some time, switch then.
 
 Add a clock line from the USB chip to the FPGA so the FPGA can have a
 clock.
+
+Split the reset lines so that the USB chips controls the main CPUs
+reset line.  This way they don't share the same reset, which should
+simplify things.
