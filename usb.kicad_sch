@@ -3435,6 +3435,10 @@
 		(uuid "352344ba-3d3f-4d72-b00e-f52c7ea2a193")
 	)
 	(no_connect
+		(at 95.25 154.94)
+		(uuid "39623f61-e2c2-4a96-b82f-698ea616df10")
+	)
+	(no_connect
 		(at 95.25 160.02)
 		(uuid "48269d7e-48a6-4855-b97f-3f6a5a792dc8")
 	)
@@ -3513,10 +3517,6 @@
 	(no_connect
 		(at 74.93 175.26)
 		(uuid "c46e5c8b-2f78-494e-a886-8a9e99b53ad3")
-	)
-	(no_connect
-		(at 95.25 149.86)
-		(uuid "cc6ee1fe-1d07-4c16-b52a-7555a076cf89")
 	)
 	(no_connect
 		(at 95.25 137.16)
@@ -3681,6 +3681,16 @@
 			(type default)
 		)
 		(uuid "0c4d4ce7-8e0c-4b34-b8ac-894b67bb14f2")
+	)
+	(wire
+		(pts
+			(xy 82.55 149.86) (xy 95.25 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e57d17d-97aa-4521-928f-0cb8810ba287")
 	)
 	(wire
 		(pts
@@ -4024,16 +4034,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 154.94) (xy 74.93 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b1e1e88-deb6-40ca-9e42-e019b5bc05cd")
-	)
-	(wire
-		(pts
 			(xy 238.76 85.09) (xy 257.81 85.09)
 		)
 		(stroke
@@ -4151,6 +4151,16 @@
 			(type default)
 		)
 		(uuid "82b4579a-1b54-469f-9a1a-8f2eaee40ac4")
+	)
+	(wire
+		(pts
+			(xy 69.85 149.86) (xy 74.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832aa56b-34e3-4f70-863a-6e7712b333f5")
 	)
 	(wire
 		(pts
@@ -4291,16 +4301,6 @@
 			(type default)
 		)
 		(uuid "99e6265a-cfe5-4195-bb2c-2a8b3ef8afd2")
-	)
-	(wire
-		(pts
-			(xy 82.55 154.94) (xy 95.25 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99fd9bdd-e8a9-469b-8a17-a098438aa86a")
 	)
 	(wire
 		(pts
@@ -5282,28 +5282,6 @@
 			)
 		)
 	)
-	(global_label "FPGA_CLK"
-		(shape input)
-		(at 69.85 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2b2de84-2e4c-493b-ba59-fe4b121d680e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.6119 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_VBUS"
 		(shape input)
 		(at 210.82 40.64 180)
@@ -5339,6 +5317,28 @@
 		(uuid "ed5ab116-bac8-4144-ba35-a73337679487")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.0786 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA_CLK"
+		(shape input)
+		(at 69.85 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6249bf7-8c83-4e98-bd30-7d749d0f1a0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.6119 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6581,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 154.94 270)
+		(at 78.74 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6589,7 +6589,7 @@
 		(dnp no)
 		(uuid "8bb5c325-8b71-4331-9fb2-1d7245ff01e1")
 		(property "Reference" "R33"
-			(at 83.566 156.464 90)
+			(at 83.566 151.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6597,7 @@
 			)
 		)
 		(property "Value" "22Ω"
-			(at 74.676 155.956 90)
+			(at 74.676 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,7 +6605,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 78.74 153.162 90)
+			(at 78.74 148.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 154.94 0)
+			(at 78.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +6623,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 78.74 154.94 0)
+			(at 78.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
