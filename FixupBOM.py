@@ -14,6 +14,7 @@ infn = None
 outfn = None
 do_stage2_xlat = False
 use_murata = False
+value_in_comment = False
 
 unknown_components = []
 
@@ -26,6 +27,8 @@ for i in sys.argv[1:]:
             do_stage2_xlat = True
         elif i == '-murata':
             use_murata = True
+        elif i == '-value-in-comment':
+            value_in_comment = True
         else:
             sys.stderr.write("Unknown flag: " + i)
             sys.exit(1)
@@ -134,90 +137,90 @@ value_to_partnum_xlats_1b = {
 
 # General passive parts.
 value_to_partnum_xlats_2 = {
-    ('1.1nH 2%',        '0402'): ('LQW15AN11NG80D', 'Murata'),
-    ('2.2nH 2%',	'0402'): ('LQW15AN2N2G80D', 'Murata'),
-    ('3.4nH 2%',	'0402'): ('LQW15AN3N4G80D', 'Murata'),
-    ('9.1nH 2%',	'0402'): ('LQW15AN9N1G00D', 'Murata'),
-    ('10nH 2%',		'0402'): ('LQW15AN10NG00D', 'Murata'),
-    ('15nH 2%',		'0402'): ('LQW15AN15NG00D', 'Murata'),
-    ('18nH 2%',         '0402'): ('', 'Murata'),
-    ('20nH',		'0402'): ('LQW15AN20NG00D', 'Murata'),
-    ('22nH 2%',		'0402'): ('LQG15HN22NG02D', 'Murata'),
-    ('23nH',		'IND_0908SQ-23NJLC'): ('0908SQ-23NJLC',  'Coilcraft'),
-    ('27nH 2%',		'0402'): ('LQW15AN27NG00D', 'Murata'),
-    ('27nH 2%',		'0603'): ('LQW18AN27NG00D', 'Murata'),
-    ('39nH 2%',         '0402'): ('', 'Murata'),
-    ('43nH 2%',		'0402'): ('LQW15AN43NG00D', 'Murata'),
-    ('47nH 2%',		'0603'): ('LQW18AN47NG00D', 'Murata'),
-    ('56nH',		'0603'): ('LQW18AN56NG00D', 'Murata'),
-    ('68nH 2%',		'0603'): ('LQW18AN68NG00D', 'Murata'),
-    ('82nH 2%',		'0603'): ('LQW18AN82NG00D', 'Murata'),
-    ('100nH 2%',        '0603'): ('LQW18ASR10G0ZD', 'Murata'),
-    ('150nH',		'0805'): ('LQW2BANR15G00L', 'Murata'),
-    ('150nH 2%',	'0805'): ('LQW2BANR15G00L', 'Murata'),
-    ('220nH',   	'0805'): ('LQW2BASR22G00L', 'Murata'),
-    ('220nH 2%',	'0805'): ('LQW2BASR22G00L', 'Murata'),
-    ('470nH',		'0805'): ('LQW21FTR47M0HL', 'Murata'),
-    ('1uH',		'1008'): ('IMSC1008AZER1R0M', 'Vishay Dale'),
-    ('6.8uH',		'1210'): ('LQH32PH6R8NNCL', 'Murata'),
-    ('6.8uH 3A',	'IND_1255AY-6R8M=P3'): ('1264EY-6R8M=P3', 'Murata'),
+    ('1.1nH 2%',        '0402'): ('Murata', 'LQW15AN11NG80D'),
+    ('2.2nH 2%',	'0402'): ('Murata', 'LQW15AN2N2G80D'),
+    ('3.4nH 2%',	'0402'): ('Murata', 'LQW15AN3N4G80D'),
+    ('9.1nH 2%',	'0402'): ('Murata', 'LQW15AN9N1G00D'),
+    ('10nH 2%',		'0402'): ('Murata', 'LQW15AN10NG00D'),
+    ('15nH 2%',		'0402'): ('Murata', 'LQW15AN15NG00D'),
+    ('18nH 2%',         '0402'): ('Murata', 'LQW15AN18NG00D'),
+    ('20nH',		'0402'): ('Murata', 'LQW15AN20NG00D'),
+    ('22nH 2%',		'0402'): ('Murata', 'LQG15HN22NG02D'),
+    ('23nH',		'IND_0908SQ-23NJLC'): ( 'Coilcraft', '0908SQ-23NJLC'),
+    ('27nH 2%',		'0402'): ('Murata', 'LQW15AN27NG00D'),
+    ('27nH 2%',		'0603'): ('Murata', 'LQW18AN27NG00D'),
+    ('39nH 2%',         '0402'): ('Murata', 'LQW15AN39NG00D'),
+    ('43nH 2%',		'0402'): ('Murata', 'LQW15AN43NG00D'),
+    ('47nH 2%',		'0603'): ('Murata', 'LQW18AN47NG00D'),
+    ('56nH',		'0603'): ('Murata', 'LQW18AN56NG00D'),
+    ('68nH 2%',		'0603'): ('Murata', 'LQW18AN68NG00D'),
+    ('82nH 2%',		'0603'): ('Murata', 'LQW18AN82NG00D'),
+    ('100nH 2%',        '0603'): ('Murata', 'LQW18ASR10G0ZD'),
+    ('150nH',		'0805'): ('Murata', 'LQW2BANR15G00L'),
+    ('150nH 2%',	'0805'): ('Murata', 'LQW2BANR15G00L'),
+    ('220nH',   	'0805'): ('Murata', 'LQW2BASR22G00L'),
+    ('220nH 2%',	'0805'): ('Murata', 'LQW2BASR22G00L'),
+    ('470nH',		'0805'): ('Murata', 'LQW21FTR47M0HL'),
+    ('1uH',		'1008'): ('Vishay Dale', 'IMSC1008AZER1R0M'),
+    ('6.8uH',		'1210'): ('Murata', 'LQH32PH6R8NNCL'),
+    ('6.8uH 3A',	'IND_1255AY-6R8M=P3'): ('Murata', '1264EY-6R8M=P3'),
 
-    ('0Ω',		'0402'): ('ERJ2GE0R00X', 'Panasonic'),
-    ('18Ω',		'0402'): ('ERJ2RKF18R0X', 'Panasonic'),
-    ('22Ω',             '0402'): ('ERJ2RKF22R0X', 'Panasonic'),
-    ('348Ω 1%',		'0402'): ('ERJ2RKF3480X', 'Panasonic'),
-    ('1.96K 1%',	'0402'): ('ERJ2RKF1961X', 'Panasonic'),
-    ('3KΩ',             '0603'): ('ERJ-UP3F3001V', 'Panasonic'),
-    ('5.1K',		'0402'): ('ERJ2RKF5101X', 'Panasonic'),
-    ('6.04K 1%',	'0402'): ('ERJ2RKF6041X', 'Panasonic'),
-    ('10K',		'0402'): ('ERJ2RKF1002X', 'Panasonic'),
-    ('10K 1%',		'0402'): ('ERJ2RKF1002X', 'Panasonic'),
-    ('30K',		'0402'): ('ERJ2RKF3002X', 'Panasonic'),
-    ('56K 1%',		'0402'): ('ERJPA2F5602X', 'Panasonic'),
-    ('62K',		'0402'): ('ERJ2RKF6202X', 'Panasonic'),
-    ('100KΩ 0.1%',      '0402'): ('ERA-3AEB104V', 'Panasonic'),
+    ('0Ω',		'0402'): ('Panasonic', 'ERJ2GE0R00X'),
+    ('18Ω',		'0402'): ('Panasonic', 'ERJ2RKF18R0X'),
+    ('22Ω',             '0402'): ('Panasonic', 'ERJ2RKF22R0X'),
+    ('348Ω 1%',		'0402'): ('Panasonic', 'ERJ2RKF3480X'),
+    ('1.96K 1%',	'0402'): ('Panasonic', 'ERJ2RKF1961X'),
+    ('3KΩ',             '0603'): ('Panasonic', 'ERJ-UP3F3001V'),
+    ('5.1K',		'0402'): ('Panasonic', 'ERJ2RKF5101X'),
+    ('6.04K 1%',	'0402'): ('Panasonic', 'ERJ2RKF6041X'),
+    ('10K',		'0402'): ('Panasonic', 'ERJ2RKF1002X'),
+    ('10K 1%',		'0402'): ('Panasonic', 'ERJ2RKF1002X'),
+    ('30K',		'0402'): ('Panasonic', 'ERJ2RKF3002X'),
+    ('56K 1%',		'0402'): ('Panasonic', 'ERJPA2F5602X'),
+    ('62K',		'0402'): ('Panasonic', 'ERJ2RKF6202X'),
+    ('100KΩ 0.1%',      '0402'): ('Panasonic', 'ERA-3AEB104V'),
 
-    ('.82pF',           '0402'): ('GJM1555C1HR82WB01D', 'Murata'),
-    ('1.2pF',           '0402'): ('GCM1555C1H1R2BA16D', 'Murata'),
-    ('2pF 1%',		'0402'): ('GCM1555C1H2R0BA16D', 'Murata'),
-    ('2.2pF 1%',	'0402'): ('GJM1555C1H2R2CB01D', 'Murata'),
-    ('5pF ±.1',		'0402'): ('GCM1555C1H5R0FA16D', 'Murata'),
-    ('5.1pF 1%',	'0402'): ('GJM1555C1H5R1BB01D', 'Murata'),
-    ('5.6pF 1%',	'0402'): ('GJM1555C1H5R6BB01D', 'Murata'),
-    ('6.2pF 1%',	'0402'): ('GJM1555C1H6R2BB01D', 'Murata'),
-    ('10pF 1%',		'0402'): ('GCM1555C1H100FA16D', 'Murata'),
-    ('12pF',		'0402'): ('GJM1555C1H120FB01D', 'Murata'),
-    ('12pF 1%',		'0402'): ('GJM1555C1H120FB01D', 'Murata'),
-    ('14pF 1%',		'0402'): ('GJM1555C1H140FB01D', 'Murata'),
-    ('15pF',		'0402'): ('GRM1555C1H150FA01D', 'Murata'),
-    ('15pF 1%',		'0402'): ('GRM1555C1H150FA01D', 'Murata'),
-    ('18pF 1%',         '0402'): ('GRM1555C1H180FA01D', 'Murata'),
-    ('27pF 1%',		'0402'): ('GJM1555C1H270FB01D', 'Murata'),
-    ('33pF 1%',		'0402'): ('GRT1555C1H330FA02D', 'Murata'),
-    ('39pF 1%',		'0402'): ('GCM1555C1H390FA16D', 'Murata'),
-    ('47pF 1%',         '0402'): ('GJM1555C1H470FB01D', 'Murata'),
-    ('56pF 1%',		'0402'): ('GRM1555C1H560FA01D', 'Murata'),
-    ('82pF 1%',         '0402'): ('GRM1555C1H820FA01D', 'Murata'),
-    ('100pF 1%',	'0402'): ('GCM1555C1H101FA16D', 'Murata'),
-    ('100pF',		'0402'): ('GCM1555C1H101FA16D', 'Murata'),
-    ('220pF',           '0402'): ('GRM1555C1H221JA01D', 'Murata'),
-    ('270pF 1%',	'0402'): ('GCM1555C1H271FA16D', 'Murata'),
-    ('680pF',		'0402'): ('GCM1555C1H681JA16D', 'Murata'),
-    ('1nF',		'0402'): ('GCM1555C1H102JA16D', 'Murata'),
-    ('2.2nF',		'0402'): ('GRM1555C1H222JA01J', 'Murata'),
-    ('10nF',		'0402'): ('GCM155R71E103KA37D', 'Murata'),
-    ('47nF',		'0402'): ('GCM155R71H473KE02D', 'Murata'),
-    ('100nF',		'0402'): ('GCM155R71C104KA55D', 'Murata'),
-    ('220nF',		'0402'): ('CL05B224KO5NNNC', 'Samsung'),
-    ('.47uF',           '0603'): ('CL10B474KA8NFNC', 'Samsung'),
-    ('1uF',		'0603'): ('CL10A105KB8NNNC', 'Samsung'),
-    ('10uF 10V',	'1206'): ('CL31A106KBHNNNE', 'Samsung'),
-    ('10uF',		'1206'): ('CL31A106KBHNNNE', 'Samsung'),
-    ('22uF',		'1206'): ('CL31A226KAHNNNE', 'Samsung'),
+    ('.82pF',           '0402'): ('Murata', 'GJM1555C1HR82WB01D'),
+    ('1.2pF',           '0402'): ('Murata', 'GCM1555C1H1R2BA16D'),
+    ('2pF 1%',		'0402'): ('Murata', 'GCM1555C1H2R0BA16D'),
+    ('2.2pF 1%',	'0402'): ('Murata', 'GJM1555C1H2R2CB01D'),
+    ('5pF ±.1',		'0402'): ('Murata', 'GCM1555C1H5R0FA16D'),
+    ('5.1pF 1%',	'0402'): ('Murata', 'GJM1555C1H5R1BB01D'),
+    ('5.6pF 1%',	'0402'): ('Murata', 'GJM1555C1H5R6BB01D'),
+    ('6.2pF 1%',	'0402'): ('Murata', 'GJM1555C1H6R2BB01D'),
+    ('10pF 1%',		'0402'): ('Murata', 'GCM1555C1H100FA16D'),
+    ('12pF',		'0402'): ('Murata', 'GJM1555C1H120FB01D'),
+    ('12pF 1%',		'0402'): ('Murata', 'GJM1555C1H120FB01D'),
+    ('14pF 1%',		'0402'): ('Murata', 'GJM1555C1H140FB01D'),
+    ('15pF',		'0402'): ('Murata', 'GRM1555C1H150FA01D'),
+    ('15pF 1%',		'0402'): ('Murata', 'GRM1555C1H150FA01D'),
+    ('18pF 1%',         '0402'): ('Murata', 'GRM1555C1H180FA01D'),
+    ('27pF 1%',		'0402'): ('Murata', 'GJM1555C1H270FB01D'),
+    ('33pF 1%',		'0402'): ('Murata', 'GRT1555C1H330FA02D'),
+    ('39pF 1%',		'0402'): ('Murata', 'GCM1555C1H390FA16D'),
+    ('47pF 1%',         '0402'): ('Murata', 'GJM1555C1H470FB01D'),
+    ('56pF 1%',		'0402'): ('Murata', 'GRM1555C1H560FA01D'),
+    ('82pF 1%',         '0402'): ('Murata', 'GRM1555C1H820FA01D'),
+    ('100pF 1%',	'0402'): ('Murata', 'GCM1555C1H101FA16D'),
+    ('100pF',		'0402'): ('Murata', 'GCM1555C1H101FA16D'),
+    ('220pF',           '0402'): ('Murata', 'GRM1555C1H221JA01D'),
+    ('270pF 1%',	'0402'): ('Murata', 'GCM1555C1H271FA16D'),
+    ('680pF',		'0402'): ('Murata', 'GCM1555C1H681JA16D'),
+    ('1nF',		'0402'): ('Murata', 'GCM1555C1H102JA16D'),
+    ('2.2nF',		'0402'): ('Murata', 'GRM1555C1H222JA01J'),
+    ('10nF',		'0402'): ('Murata', 'GCM155R71E103KA37D'),
+    ('47nF',		'0402'): ('Murata', 'GCM155R71H473KE02D'),
+    ('100nF',		'0402'): ('Murata', 'GCM155R71C104KA55D'),
+    ('220nF',		'0402'): ('Samsung', 'CL05B224KO5NNNC'),
+    ('.47uF',           '0603'): ('Samsung', 'CL10B474KA8NFNC'),
+    ('1uF',		'0603'): ('Samsung', 'CL10A105KB8NNNC'),
+    ('10uF 10V',	'1206'): ('Samsung', 'CL31A106KBHNNNE'),
+    ('10uF',		'1206'): ('Samsung', 'CL31A106KBHNNNE'),
+    ('22uF',		'1206'): ('Samsung', 'CL31A226KAHNNNE'),
 
-    ('RED LED', '0603'):         ('CSL0902UT1C', 'Rohm'),
-    ('YELLOW LED', '0603'):      ('CSL0901YT1C', 'Rohm'),
-    ('GREEN LED', '0603'):       ('CSL0902ET1C', 'Rohm'),
+    ('RED LED', '0603'):         ('Rohm', 'CSL0902UT1C'),
+    ('YELLOW LED', '0603'):      ('Rohm', 'CSL0901YT1C'),
+    ('GREEN LED', '0603'):       ('Rohm', 'CSL0902ET1C'),
 
     ('',	''): ('',	''),
 }
@@ -257,14 +260,23 @@ other_components = {
 def xlat_value_to_partnum(s, footprint):
     v = (s, footprint)
     if use_murata and v in value_to_partnum_xlats_1b:
-        return value_to_partnum_xlats_1b[v]
-    if v in value_to_partnum_xlats_1:
-        return value_to_partnum_xlats_1[v]
-    if do_stage2_xlat and v in value_to_partnum_xlats_2:
-        return value_to_partnum_xlats_2[v]
-    if v not in value_to_partnum_xlats_2 and v not in other_components:
-        unknown_components.append(s + "; " + footprint)
-    return ('', s)
+        v = value_to_partnum_xlats_1b[v]
+    elif v in value_to_partnum_xlats_1:
+        v = value_to_partnum_xlats_1[v]
+    elif do_stage2_xlat and v in value_to_partnum_xlats_2:
+        v = value_to_partnum_xlats_2[v]
+    else:
+        if v not in other_components:
+            unknown_components.append("('" + s + "', '" + footprint + "'): ('', '')")
+            pass
+        v = ('', s)
+        pass
+    v = [v[0], v[1]]
+    if value_in_comment:
+        v[1] = v[1] + " " + s
+        pass
+    v[1] = v[1].replace(' ', ',')
+    return v
 
 if do_xls:
     # Output in Excel format
@@ -287,17 +299,12 @@ if do_xls:
             pass
         designator = line[1]
         footprint = xlat_footprint(line[2]).strip('"')
-        (partnum, mfg) = xlat_value_to_partnum(line[4], footprint)
-        if partnum == "":
-            partnum = line[4]
-        else:
-            partnum = partnum + " " + line[4]
-            pass
-        partnum = partnum.replace(' ', ',')
+        (mfg, partnum) = xlat_value_to_partnum(line[4], footprint)
         ws.cell(lineno, 1, partnum)
         ws.cell(lineno, 2, designator)
         ws.cell(lineno, 3, footprint)
         ws.cell(lineno, 4, line[4])
+        ws.cell(lineno, 5, mfg)
         pass
 
     wb.save(outfn)
@@ -318,13 +325,7 @@ else:
             pass
         designator = line[1]
         footprint = xlat_footprint(line[2]).strip('"')
-        (partnum, mfg) = xlat_value_to_partnum(line[4], footprint)
-        if partnum == "":
-            partnum = line[4]
-        else:
-            partnum = partnum + " " + line[4]
-            pass
-        partnum = partnum.replace(' ', ',')
+        (mfg, partnum) = xlat_value_to_partnum(line[4], footprint)
         #comment = comment.replace('Ω', 'ohm')
         ocf.writerow((partnum, designator, footprint, line[4], mfg))
         pass

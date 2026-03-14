@@ -1,4 +1,4 @@
-54949095560830
+60270037357807
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105251,6 +105251,27 @@ CX90B1-24P
 0
 30
 28
+footprints
+DCK5
+
+SN74AHC1G00QDCKRQ1 
+0
+5
+5
+footprints
+DCK5-L
+
+SN74AHC1G00QDCKRQ1 
+0
+5
+5
+footprints
+DCK5-M
+
+SN74AHC1G00QDCKRQ1 
+0
+5
+5
 footprints
 DRY6
 
