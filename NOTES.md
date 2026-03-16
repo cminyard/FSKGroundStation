@@ -146,3 +146,7 @@ clock.
 Split the reset lines so that the USB chips controls the main CPUs
 reset line.  This way they don't share the same reset, which should
 simplify things.
+
+## 2026-03-15
+
+Add DNP resistors on the unused pins of the CPU and the USB chip.

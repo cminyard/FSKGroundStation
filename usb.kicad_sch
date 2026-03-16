@@ -3387,8 +3387,16 @@
 		(uuid "ff9bd6c0-e932-4874-8dbd-743251365c59")
 	)
 	(no_connect
+		(at 74.93 144.78)
+		(uuid "057c83ad-aceb-48d2-918b-aee9a3667c6c")
+	)
+	(no_connect
 		(at 95.25 127)
 		(uuid "0c205059-b8bb-4625-9f65-b5ff610a1d13")
+	)
+	(no_connect
+		(at 74.93 139.7)
+		(uuid "0f60daa2-e262-40d2-a250-990b80b71d7d")
 	)
 	(no_connect
 		(at 95.25 142.24)
@@ -3397,6 +3405,10 @@
 	(no_connect
 		(at 95.25 134.62)
 		(uuid "12acb046-727a-4646-a965-aef09842a0a6")
+	)
+	(no_connect
+		(at 74.93 157.48)
+		(uuid "179509da-c25f-47ef-acc7-7c3d2e2e269f")
 	)
 	(no_connect
 		(at 194.31 87.63)
@@ -3423,10 +3435,6 @@
 		(uuid "29d012f1-fade-484e-b1b2-0fc8a4b51f7a")
 	)
 	(no_connect
-		(at 95.25 157.48)
-		(uuid "2a70bc9b-a13a-4407-a778-17998b95f43a")
-	)
-	(no_connect
 		(at 194.31 62.23)
 		(uuid "3293f4e1-6706-41c9-a2b9-c66ddbef2252")
 	)
@@ -3447,6 +3455,10 @@
 		(uuid "48311873-a06c-41c0-b2e1-146d36276720")
 	)
 	(no_connect
+		(at 74.93 162.56)
+		(uuid "49ff75d5-8bf5-45c5-b238-554646c654ad")
+	)
+	(no_connect
 		(at 95.25 78.74)
 		(uuid "4b726960-e090-4feb-a873-849277452800")
 	)
@@ -3459,8 +3471,8 @@
 		(uuid "53a2f148-0d20-4e16-b1c3-7ba44559edd3")
 	)
 	(no_connect
-		(at 95.25 139.7)
-		(uuid "59421480-3499-490a-8041-02bfe71a10c9")
+		(at 74.93 81.28)
+		(uuid "63352aef-cc56-4d39-a0c7-a6c726b7de38")
 	)
 	(no_connect
 		(at 95.25 86.36)
@@ -3485,10 +3497,6 @@
 	(no_connect
 		(at 95.25 152.4)
 		(uuid "9a8a44a5-9f84-4198-9c81-0960cef7ffde")
-	)
-	(no_connect
-		(at 95.25 144.78)
-		(uuid "9aa6ebac-348b-419d-bbb2-ac058f4e7d0a")
 	)
 	(no_connect
 		(at 95.25 104.14)
@@ -3539,10 +3547,6 @@
 		(uuid "dfd48d88-af3e-4f95-a338-29b373c8d157")
 	)
 	(no_connect
-		(at 95.25 162.56)
-		(uuid "e0f54969-ba6c-4ec6-9754-903bca27e4af")
-	)
-	(no_connect
 		(at 95.25 96.52)
 		(uuid "e25310d5-a5c2-434a-b7ac-14d2e2727719")
 	)
@@ -3561,14 +3565,6 @@
 	(no_connect
 		(at 95.25 165.1)
 		(uuid "e6f734b6-a8a6-45bd-a58e-005dca09c454")
-	)
-	(no_connect
-		(at 95.25 81.28)
-		(uuid "e9902205-06d6-47bb-bc52-76996ce2281d")
-	)
-	(no_connect
-		(at 95.25 71.12)
-		(uuid "ea8865c6-42f4-4700-9fd0-2392e58d1bd2")
 	)
 	(no_connect
 		(at 95.25 55.88)
@@ -3601,6 +3597,10 @@
 	(no_connect
 		(at 95.25 182.88)
 		(uuid "ffc9e4cd-daed-46ff-918e-aff58c31bcaa")
+	)
+	(no_connect
+		(at 80.01 71.12)
+		(uuid "fffe3f70-fc44-480d-9597-f39786ab1ab8")
 	)
 	(wire
 		(pts
@@ -3834,6 +3834,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 162.56) (xy 95.25 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355c8af0-c33c-4ac9-8f4d-f56888ec28e3")
+	)
+	(wire
+		(pts
 			(xy 252.73 124.46) (xy 252.73 100.33)
 		)
 		(stroke
@@ -3871,6 +3881,16 @@
 			(type default)
 		)
 		(uuid "3f6adff1-5af8-4d57-a5d7-d3deabd0adba")
+	)
+	(wire
+		(pts
+			(xy 82.55 81.28) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409e3048-b2cd-4259-bdcc-70916c0deecf")
 	)
 	(wire
 		(pts
@@ -3951,6 +3971,16 @@
 			(type default)
 		)
 		(uuid "4f369a39-c43f-4c9c-af2d-a1e93b946883")
+	)
+	(wire
+		(pts
+			(xy 82.55 139.7) (xy 95.25 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51398243-6475-4467-9b29-1271f1bd5f16")
 	)
 	(wire
 		(pts
@@ -4211,6 +4241,16 @@
 			(type default)
 		)
 		(uuid "8de46f66-387c-49aa-bd1e-75a17da322a6")
+	)
+	(wire
+		(pts
+			(xy 82.55 157.48) (xy 95.25 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f122d75-2167-4744-8c12-572b5b538aff")
 	)
 	(wire
 		(pts
@@ -4524,6 +4564,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 144.78) (xy 95.25 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4366625-0792-40f8-a8aa-04b125389bfa")
+	)
+	(wire
+		(pts
 			(xy 95.25 30.48) (xy 64.77 30.48)
 		)
 		(stroke
@@ -4671,6 +4721,16 @@
 			(type default)
 		)
 		(uuid "c60137a4-4d10-43d9-a476-5f3f5535a959")
+	)
+	(wire
+		(pts
+			(xy 87.63 71.12) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79ee075-a59e-4cbd-8c9a-44a43282b223")
 	)
 	(wire
 		(pts
@@ -5476,6 +5536,140 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "107d2e6a-11d4-4828-b99a-4b859b03d817")
+		(property "Reference" "R50"
+			(at 73.914 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 83.058 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 78.74 160.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92b16613-2574-45fc-b692-25ed346667fb")
+		)
+		(pin "1"
+			(uuid "92af5366-6249-45df-a1a4-79461f89f4a5")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "12de362e-df87-4ce8-b497-dae87b186eb4")
+		(property "Reference" "R51"
+			(at 73.914 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 83.058 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 78.74 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d04cb862-efb1-40ec-9100-6d1ddfa670cb")
+		)
+		(pin "1"
+			(uuid "8dc782f1-0873-4d13-a77a-806ed6942bfb")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -6446,6 +6640,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 78.74 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "6cbd8e27-739a-438a-a29c-4ef0fcfd714e")
+		(property "Reference" "R54"
+			(at 73.914 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 83.058 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 78.74 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5bd5f0a-142b-4c63-870c-82eb04377d1c")
+		)
+		(pin "1"
+			(uuid "3bdc9dc1-63d5-45c5-8b38-e890b54b89a0")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 83.82 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6574,6 +6835,73 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
 					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8b708e57-0c7f-4519-bac6-8f8b9a78c6eb")
+		(property "Reference" "R55"
+			(at 91.44 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 88.138 69.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 83.82 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cabfaf97-a8e9-416f-8bcc-62b358418c50")
+		)
+		(pin "1"
+			(uuid "2b1505b4-410c-4fcf-a009-07c52a7a896b")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -6910,6 +7238,73 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a2608b0a-2825-49e3-bd18-ed64f1b0ec7d")
+		(property "Reference" "R53"
+			(at 73.914 138.176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 83.058 138.176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 78.74 137.922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e7b4b6f-9aea-4708-b291-5e2a98d70e9a")
+		)
+		(pin "1"
+			(uuid "ec2508ea-3f23-4a23-87db-fa59e751800e")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -7648,6 +8043,73 @@
 			(project "FSKGroundStation"
 				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c95718c2-ec9a-4b84-aeb5-7905abca5830")
+		(property "Reference" "R52"
+			(at 73.914 143.256 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 83.058 143.256 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 78.74 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16aaa8cb-7547-40a2-9bd5-0ab6c4ed049d")
+		)
+		(pin "1"
+			(uuid "e19f8ffc-51fd-488e-a97f-bc6390ce96ca")
+		)
+		(instances
+			(project "FSKGroundStation"
+				(path "/23e49ab9-97e0-460a-806c-ff6f37958474/a401ed87-a6b2-451c-b983-d48d83161fe4"
+					(reference "R52")
 					(unit 1)
 				)
 			)

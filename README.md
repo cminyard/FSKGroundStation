@@ -3,9 +3,9 @@
 This is a hardware design for a low-cost PacSat satellite ground
 station, but it is also general two-way FSK commmunication for the 2
 meter and 70 centimeter bands.  It should be possible to build these
-in the US $60 range.  It can do FSK variants ([G]MSK, [G]FSK, OOK, ASK).
-Notably, it cannot do AFSK, the normal 1200bps communication used over
-FM radios.
+in the US $60 range in quantity.  It can do FSK variants ([G]MSK,
+[G]FSK, OOK, ASK).  Notably, it cannot do AFSK, the normal 1200bps
+communication used over FM radios.
 
 Basically, this is two radios, one for around 136-175MHz, and one for
 around 430-450MHz.  Each of these radios is a simplex two-way radio
@@ -13,12 +13,21 @@ using a basic ISM radio chip.  It then has an RF power amplifier (PA)
 on the TX side to boost the power to the 4-5 watt range and an RF
 switch after than to switch between transmit and receive.
 
+The radios are TI CC1125 chips.  These are standard ISM radio chips.
+However, those chips are not able to do HDLC or G3RUH 9600 as used in
+standard amateur radio communication.  For that, the CC1125 can
+send/receive raw FSK data out a GPIO port.  A Lattice ICE40LP1K FPGA
+processes the FSK to be able to do HDLC and whitening per G3RUH.
+
+These chips are controlled by a TI CC27x5 processor over SPI.
+
 ## Host Communication
 
-Communication with the host is through a SPI/UART to USB converter on
-J3.
+Communication with the host is through a MSPM0G5187 processor that has
+USB.  It has a SPI connection to the main processor.
 
-There is also a 2.4GHz radio, so a bluetooth connection could be done.
+There is also a 2.4GHz radio on the CC27x5 processor, so a bluetooth
+connection could be done.
 
 ## RF Connections
 
