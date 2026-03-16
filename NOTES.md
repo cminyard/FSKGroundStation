@@ -150,3 +150,8 @@ simplify things.
 ## 2026-03-15
 
 Add DNP resistors on the unused pins of the CPU and the USB chip.
+
+## 2026-03-16
+
+Move the diplexer parts close to the sources so there's not a big stub
+when not using the diplexer.
