@@ -19,7 +19,10 @@ standard amateur radio communication.  For that, the CC1125 can
 send/receive raw FSK data out a GPIO port.  A Lattice ICE40LP1K FPGA
 processes the FSK to be able to do HDLC and whitening per G3RUH.
 
-These chips are controlled by a TI CC27x5 processor over SPI.
+These chips are controlled by a TI CC27x5 processor over SPI.  Also,
+this is designed to have enough capability to run as a stand-alone
+application, like for a balloon, fox, control device, or something of
+that nature.
 
 ## Host Communication
 
@@ -59,6 +62,21 @@ the board, center pin is +5V and the outside is ground, as usual.  You
 must remove the other power jumpers (J8 and J11) to use this.
 
 All power connectors must supply at least 3A for transmit.
+
+## Clocks
+
+The MSPM0G5187 has a 32.768kHz clock with enough precision to handle
+the USB connection.  In addition, it's internal oscillator has a high
+precision resistor, so it should be good.
+
+The 32.768kHz oscillator is output and send to the CC27x5 processor.
+The CC27x5 processor has it's own 48MHz oscillator with 20ppm
+precision.
+
+The MSPM0G5187 also outputs a basic clock that is used to clock the
+FPGA.
+
+The CC1125 chips each have their own 40MHz 20ppm TXCO.
 
 ## Heat Dissipation and Measurement
 

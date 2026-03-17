@@ -9,7 +9,15 @@ some point.
 
 # TODO
 
-When a smaller version of the MSPM0G5187 comes out, switch to it.
+When a smaller version of the MSPM0G5187 comes out, switch to it.  The
+64-pin LQFP takes up a lot of space and has tons more pins than this
+needs.
+
+It is unfortunate that two CPU chips are required for this.  But the
+existing USB chips have proprietary elements and very poor
+documentation if you are doing anything but a serial port.  Plus they
+are more expensive than the MSPM0G5187.  But I couldn't find a chip
+that had enough FLASH and RAM, bluetooth, and USB.
 
 # Done
 
