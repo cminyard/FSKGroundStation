@@ -8484,7 +8484,7 @@
 				)
 			)
 		)
-		(property "Value" "100KΩ  .1%"
+		(property "Value" "100KΩ 0.1%"
 			(at 88.138 43.688 90)
 			(effects
 				(font

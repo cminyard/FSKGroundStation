@@ -170,6 +170,7 @@ value_to_partnum_xlats_2 = {
     ('22Ω',             '0402'): ('Panasonic', 'ERJ2RKF22R0X'),
     ('348Ω 1%',		'0402'): ('Panasonic', 'ERJ2RKF3480X'),
     ('1.96K 1%',	'0402'): ('Panasonic', 'ERJ2RKF1961X'),
+    ('2.4KΩ',           '0603'): ('Panasonic', 'ERJPA3D2401V'),
     ('3KΩ',             '0603'): ('Panasonic', 'ERJ-UP3F3001V'),
     ('5.1K',		'0402'): ('Panasonic', 'ERJ2RKF5101X'),
     ('6.04K 1%',	'0402'): ('Panasonic', 'ERJ2RKF6041X'),
@@ -178,7 +179,7 @@ value_to_partnum_xlats_2 = {
     ('30K',		'0402'): ('Panasonic', 'ERJ2RKF3002X'),
     ('56K 1%',		'0402'): ('Panasonic', 'ERJPA2F5602X'),
     ('62K',		'0402'): ('Panasonic', 'ERJ2RKF6202X'),
-    ('100KΩ 0.1%',      '0402'): ('Panasonic', 'ERA-3AEB104V'),
+    ('100KΩ 0.1%',      '0402'): ('Panasonic', 'ERA2AEB104X'),
 
     ('.82pF',           '0402'): ('Murata', 'GJM1555C1HR82WB01D'),
     ('1.2pF',           '0402'): ('Murata', 'GCM1555C1H1R2BA16D'),
@@ -221,6 +222,7 @@ value_to_partnum_xlats_2 = {
     ('RED LED', '0603'):         ('Rohm', 'CSL0902UT1C'),
     ('YELLOW LED', '0603'):      ('Rohm', 'CSL0901YT1C'),
     ('GREEN LED', '0603'):       ('Rohm', 'CSL0902ET1C'),
+    ('BLUE LED', '0603'):        ('Rohm', 'SMLD12BN1WT86C'),
 
     ('',	''): ('',	''),
 }
@@ -253,6 +255,7 @@ other_components = {
     ('CC2755P105E0WRHAR', 'RHA40_4P5X4P5'): None,
     ('MSPM0G5187SPMR', 'PM0064A-IPC_A'): None,
     ('1N5819WS', 'D_SOD-323'): None,
+    ('SN74AHC1G09QDCKRQ1', 'DCK5'): None,
 
     ('', ''): None,
 }
