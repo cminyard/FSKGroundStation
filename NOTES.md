@@ -163,3 +163,10 @@ Add DNP resistors on the unused pins of the CPU and the USB chip.
 
 Move the diplexer parts close to the sources so there's not a big stub
 when not using the diplexer.
+
+## 2026-04-06
+
+Replace the FPGA with a QFP one.  It has more pins, which might be
+useful, and it's easier to work with than the BGA.  It also has a
+built-in SPI.  It's currently an ICE40UP5K, but the ICE5LP[124]K chips
+are pin compatible and cheaper.
