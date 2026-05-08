@@ -9,6 +9,19 @@ some point.
 
 # TODO
 
+I discovered that the CC1125 lets you have direct control over the TX
+output and direct read access to the RX frequency offset.  See "5.2.4
+Custom Frequency Modulation(CFM)/Analog FM" in the manual.  It appears
+you can set up the chip to continuously read/write these values
+through the SPI interface.  With this, we have the possibility of
+directly modulating and just using the CC1125 as an RF front-end.  You
+could probably do AFSK with this.  You could get certainty information
+on bits for doing soft decoding of FEC.  This will require some
+redesign.  To use this requires a dedicated SPI interface for each
+radio.  This would require a new CPU or using the FPGA to do the SPI
+interfaces to the radios.  It would also require doing signal
+processing somewhere for AFSK.
+
 When a smaller version of the MSPM0G5187 comes out, switch to it.  The
 64-pin LQFP takes up a lot of space and has tons more pins than this
 needs.
